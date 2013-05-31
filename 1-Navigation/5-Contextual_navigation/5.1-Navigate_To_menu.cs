@@ -32,6 +32,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //    c) Implementation navigates to the implementations of BaseClass - deriving symbols
     //    d) Overriding members highlights all members that override from BaseClass
     //       Escape clears the highlight
+    //       Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
     //       Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
     public class DerivedClass2 : BaseClass
     {
@@ -49,6 +50,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //    a) as above
     //    b) Implementing Members highlights all members of the interface
     //       Escape clears the highlight
+    //       Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
     //       Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
     public class SimpleClass : ISimpleInterface
     {
@@ -88,6 +90,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     {
         // a) Member overloads highlights overloads of the method
         //    Escape clears the highlight
+        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
         //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
         public bool Do()
         {
@@ -96,6 +99,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
         // b) Function exit(s) highlights return statements
         //    Escape clears the highlight
+        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
         //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
         public bool Do(string arg1)
         {
