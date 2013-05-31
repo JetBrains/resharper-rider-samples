@@ -34,6 +34,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -65,9 +66,6 @@
     <Compile Include="6-Find_usages\6.2-Find_usages.cs" />
     <Compile Include="6-Find_usages\6.3-Find_usages_advanced.cs" />
     <Compile Include="6-Find_usages\6.4-Quick_find_usages.cs" />
-    <Compile Include="6-Find_usages\6.2-FindUsagesExample.xaml.cs">
-      <DependentUpon>6.2-FindUsagesExample.xaml</DependentUpon>
-    </Compile>
     <Compile Include="7-File_structure_window\7.1-File_structure_window.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />

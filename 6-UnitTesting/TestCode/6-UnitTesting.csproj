@@ -50,6 +50,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\6-UnitTesting-ProductionCode\6-UnitTesting-ProductionCode.csproj">
+      <Project>{95f7a295-7515-4046-b044-64e7ef134892}</Project>
+      <Name>6-UnitTesting-ProductionCode</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
