@@ -9,6 +9,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
     // (No shortcut defined in VS)
     // Ctrl+Shift+V (IntelliJ)
 
+    // TODO: Clipboard ring
     public class ClipboardRing
     {
     }
