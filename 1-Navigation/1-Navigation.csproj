@@ -49,6 +49,10 @@
     <Compile Include="2-Navigate_to_definition\2.1-Go_to_definition.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.1-Navigate_back.cs" />
+    <Content Include="3-Navigate_to_somewhere_youve_already_been\3.2-Recent_files.txt" />
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.3-Recent-edits.cs" />
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.4-Bookmarks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />
     <Content Include="1-Navigate_to_something_you_know\ExampleCode\Example_code.js" />

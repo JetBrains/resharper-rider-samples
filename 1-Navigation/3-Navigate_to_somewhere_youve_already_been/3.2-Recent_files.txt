@@ -1,0 +1,12 @@
+﻿Show Recent Files
+
+Shows list of recently opened files, in order of most recently opened
+
+Very useful when using Visual Studio 2012's Preview Tab. The file might
+not be open, so you can't tab to it, but you can use Recent Files to get
+back there
+
+Ctrl+, (VS)
+Ctrl+E (IntelliJ)
+
+1. Filter list by typing - middle matching, wildcards and CamelHumps
