@@ -61,6 +61,13 @@
     <Compile Include="4-Navigate_class_hierarchies\4.3-Go_to_base_symbols.cs" />
     <Compile Include="4-Navigate_class_hierarchies\ExampleCode\ICustomer.cs" />
     <Compile Include="5-Contextual_navigation\5.1-Navigate_To_menu.cs" />
+    <Compile Include="6-Find_usages\6.1-Highlight_usages_in_file.cs" />
+    <Compile Include="6-Find_usages\6.2-Find_usages.cs" />
+    <Compile Include="6-Find_usages\6.3-Find_usages_advanced.cs" />
+    <Compile Include="6-Find_usages\6.4-Quick_find_usages.cs" />
+    <Compile Include="6-Find_usages\6.2-FindUsagesExample.xaml.cs">
+      <DependentUpon>6.2-FindUsagesExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="7-File_structure_window\7.1-File_structure_window.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />
@@ -71,6 +78,10 @@
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="6-Find_usages\6.2-FindUsagesExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="7-File_structure_window\7.1-File_structure_window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
