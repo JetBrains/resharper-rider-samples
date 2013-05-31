@@ -1,0 +1,35 @@
+﻿Go To Type
+
+Navigate to type by type name
+
+Ctrl+T, Ctrl+T (VS)
+Ctrl+N, Ctrl+N (IntelliJ)
+
+Go to type is invoked by first invoking Go to Everything, then hitting the
+keyboard shortcut again. It's a means of narrowing the search to just types
+
+1. Navigate to the Person type - type "Person" in popup
+
+2. Navigate to the DocumentViewModel type - type "DocumentViewModel" in popup
+
+3. Use "CamelHumps" to navigate to DocumentViewModel - type "DVM" in popup
+
+4. Mix "CamelHumps" and naming to navigate to SettingsViewModel
+   Type "SVM" in popup
+   Shows "SettingsViewManager" and "SettingsViewModel"
+   Continue typing to narrow search - "SVMod" filters to "SettingsViewModel"
+
+5. Navigate to any view model with middle matching - type "view" in popup
+   Matches the middle of the symbol name - also works with CamelHumps
+
+6. Navigate to DocumentViewModel using wildcard mathing - type "D*M" in popup
+
+7. Navigate to library types when type not defined in current project
+   type "Console" in popup
+
+8. Include library types in search when type matches
+   Navigate to System.Data.DataViewManager
+   Type "DVM" in popup, then hit Alt+N to include library types
+
+9. Navigate to type with namespace
+   Type "System.Data.DataViewManager"

@@ -1,0 +1,15 @@
+﻿<!--
+  Go to File Member in xml files
+  
+  Alt+\ (VS)
+  Ctrl+F12 (IntelliJ)
+
+  1. Filter for element - type "person" in popup
+  2. Special support for attributes called "name"
+     Change the "named" attribute to "name"
+     Show popup, can now filter by "Dave" or "Angela"
+-->
+<people>
+  <person named="Dave" age="32" />
+  <person named="Angela" age="31" />
+</people>
