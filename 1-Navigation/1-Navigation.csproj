@@ -30,6 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -37,6 +39,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="1-Navigate_to_something_you_know\1.1-Go_to_everything.txt" />
@@ -58,14 +61,21 @@
     <Compile Include="4-Navigate_class_hierarchies\4.3-Go_to_base_symbols.cs" />
     <Compile Include="4-Navigate_class_hierarchies\ExampleCode\ICustomer.cs" />
     <Compile Include="5-Contextual_navigation\5.1-Navigate_To_menu.cs" />
+    <Compile Include="7-File_structure_window\7.1-File_structure_window.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />
     <Content Include="1-Navigate_to_something_you_know\ExampleCode\Example_code.js" />
+    <None Include="7-File_structure_window\7.1-File_structure_window.web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Page Include="7-File_structure_window\7.1-File_structure_window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
