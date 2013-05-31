@@ -46,6 +46,9 @@
     <Content Include="1-Navigate_to_something_you_know\1.2-Go_to_type.txt" />
     <Content Include="1-Navigate_to_something_you_know\1.6-Go_to_tips.txt" />
     <Compile Include="1-Navigate_to_something_you_know\ExampleCode\ExampleCode.cs" />
+    <Compile Include="2-Navigate_to_definition\2.1-Go_to_definition.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />
     <Content Include="1-Navigate_to_something_you_know\ExampleCode\Example_code.js" />
