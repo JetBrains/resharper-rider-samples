@@ -42,19 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1-LiveTemplates\1.1-LiveTemplates.cs" />
-    <Compile Include="2-SurroundTemplates\2-SurroundTemplates.cs" />
+    <Compile Include="1-LiveTemplates\1.1-Live_templates.cs" />
+    <Compile Include="2-SurroundTemplates\2-Surround_templates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1-LiveTemplates\1.2-LiveTemplatesHtml.html" />
-    <Content Include="1-LiveTemplates\1.3-LiveTemplatesHtmlLike.aspx">
+    <Content Include="1-LiveTemplates\1.2-Html_templates.html" />
+    <Content Include="1-LiveTemplates\1.3-Html_like_templates.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
-    <Content Include="3-FileTemplates\3-FileTemplates.txt" />
+    <Content Include="3-FileTemplates\3-File_templates.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="1-LiveTemplates\1.3-LiveTemplatesHtmlLike.cshtml" />
+    <None Include="1-LiveTemplates\1.3-Html_like_templates.cshtml" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
