@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-UnitTesting-ProductionCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Tools", "9-Tools\9-Tools.csproj", "{0416D33B-B7AF-433A-A990-C594C87E30CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-StructuralSearchAndReplace", "8-StructuralSearchAndReplace\8-StructuralSearchAndReplace.csproj", "{969392EF-35A5-4C65-AB3A-D0DF76119EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{0416D33B-B7AF-433A-A990-C594C87E30CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0416D33B-B7AF-433A-A990-C594C87E30CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0416D33B-B7AF-433A-A990-C594C87E30CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969392EF-35A5-4C65-AB3A-D0DF76119EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969392EF-35A5-4C65-AB3A-D0DF76119EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969392EF-35A5-4C65-AB3A-D0DF76119EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969392EF-35A5-4C65-AB3A-D0DF76119EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
