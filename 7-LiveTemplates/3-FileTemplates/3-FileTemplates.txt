@@ -1,0 +1,81 @@
+﻿File Templates
+
+Generate a new file, based on a live template
+
+Generate From File
+
+Ctrl+Alt+Ins (VS + IntelliJ)
+
+Generate (when focus is on Solution Explorer)
+
+Alt+Ins (VS + IntelliJ)
+
+
+1. Add Class, Interface, Struct or Enum
+   Invoke Generate From File, or select Solution Explorer and invoke Generate
+   Because this project is a C# project, you see a Generate menu with Class,
+     Interface, Struct, Enum
+   Web projects also include options for web forms, MVC forms, controls, etc
+
+2. Add Folder
+   Select a folder or project in the Solution Explore and invoke Generate
+   Select Folder (not displayed in Generate From File menu, or if a file is selected)
+
+3. Edit existing templates
+   ReSharper -> Templates Explorer -> File Templates
+   Select C#
+   Double-click on "Class" template
+   Add a C# comment to the class and save the template
+   (Because we're editing a built-in template, the changed version is removed from
+    quicklist section. Drag and drop it back into the quicklist. This appears to be
+	a bug - http://youtrack.jetbrains.com/issue/RSRP-368017)
+   Use Generate From File, or select Solution Explorer and use Generate and see the
+     comment added to the new class
+
+4. Create new template
+   ReSharper -> Templates Explorer -> File Templates
+   Select C#
+   Click the "New Template" toolbar button
+   Set the default file name. This is the name used by default to create the file, and
+     will have a number appended, e.g. "Class" becomes "Class1", "Class2", etc). Set this
+	 to "TextFile.txt"
+   Give the template a description, e.g. "Text file"
+   Enter some text to be in the file by default, e.g. "Hello world"
+   Save the template, by default it will go into the "not in quicklist" section
+   Put the focus on the Solution Explorer and select ReSharper -> Edit -> New From Template -> More
+   Select "Text file" and a new text file is added to the project
+   Go back to the Templates Explorer, and move Text file into the quicklist section
+   Invoke Generate from File, or select Solution Explorer and invoke Generate and select Text file
+
+5. Create multi-file template
+   A multi-file template is a template that creates more than one file. We will create
+     a template that creates an interface and an implementation class
+   ReSharper -> Templates Explorer -> File Templates
+   Select C#
+   Click the "New Template" toolbar button
+   Set the default file name to NewAbstraction.cs
+   Enter the following text (similar to the interface template)
+
+namespace $NAMESPACE$
+{
+  public interface I$FILENAME$ {$END$}
+}
+
+   On the right of the editor window:
+     Select "Choose macro" for $NAMESPACE$ and set it to "Default namespace for current file"
+	 Select "Choose macro" for $FILENAME$ and set it to "Current file name without extension"
+	 Set both parameters to not editable
+   At the bottom of the window, click "Add new file"
+   Leave the placement and folder options unchanged
+   Change the filename to $NAME$.implementation.cs
+   Enter the following text:
+
+namespace $NAMESPACE$
+{
+  public class $FILENAME$ {$END$}
+}
+
+   Save the file template, and move it to the quicklist
+   Invoke Generate from File, or select Solution Explorer and invoke Generate and select "Interface and implementation"
+   Enter a name for the new abstraction, e.g. Engine. ReSharper will generate an Engine.cs file
+     for the interface, and an Engine.class.cs file for the implementation
