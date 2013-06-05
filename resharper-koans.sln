@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-StructuralSearchAndReplac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-LiveTemplates", "7-LiveTemplates\7-LiveTemplates.csproj", "{1FE7F614-3637-4685-8C8D-6CCC496F2EC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Editing", "3-Editing\3-Editing.csproj", "{5C22F837-6630-4FB3-B123-804499937834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{1FE7F614-3637-4685-8C8D-6CCC496F2EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE7F614-3637-4685-8C8D-6CCC496F2EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE7F614-3637-4685-8C8D-6CCC496F2EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C22F837-6630-4FB3-B123-804499937834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C22F837-6630-4FB3-B123-804499937834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C22F837-6630-4FB3-B123-804499937834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C22F837-6630-4FB3-B123-804499937834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
