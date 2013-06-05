@@ -20,7 +20,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
         // 5. Double click the item in the window to navigate here
         public void MethodWithToDoComment()
         {
-            // TODO: Implement Method
+            // TODO: Blah blah blah
         }
 
         // 4. The NotImplementedException should be highlighted and visible in the window
@@ -38,7 +38,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
         //    save to a solution level settings file, that can be committed to source control
         public void MethodWithCommentForMe()
         {
-            // PERF: This is too slow
+            // PERF: Blah blah blah
         }
     }
 }
