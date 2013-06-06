@@ -23,7 +23,7 @@
         public void SmartUseString(string stringParameter)
         {
             //string s2 = 
-            string s3 = this.
+            //string s3 = this.
         }
 
         public int Age { get; set; }
