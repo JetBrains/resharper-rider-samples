@@ -51,9 +51,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProductionCode\6-UnitTesting-ProductionCode.csproj">
+    <ProjectReference Include="..\ProductionCode\5-UnitTesting-ProductionCode.csproj">
       <Project>{95f7a295-7515-4046-b044-64e7ef134892}</Project>
-      <Name>6-UnitTesting-ProductionCode</Name>
+      <Name>5-UnitTesting-ProductionCode</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
