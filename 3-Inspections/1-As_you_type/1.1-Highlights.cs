@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -12,7 +11,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
         {
             // 1. Highlights code that is incorrect, and will most likely fail to compile
             //    Replace the "null" with 3000 below
-            //    ReSharper shows an error highlight
+            //    ReSharper shows an error highlight (red squiggly)
             //    Hover mouse over to see tooltip: "Cannot convert expression type 'int' to return type 'string'"
             return null;
         }

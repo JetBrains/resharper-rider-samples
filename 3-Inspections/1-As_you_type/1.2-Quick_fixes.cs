@@ -21,7 +21,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
             //    Place caret on highlighted region and press Alt+Enter
             //    Select "Change type of method 'ErrorHighlight' to 'int'"
             //    Or "Call ToString()"
-            return null;
+            return null;    // Replace with 3000
         }
 
         public void WarningHighlight()
@@ -68,7 +68,5 @@ namespace JetBrains.ReSharper.Koans.Inspections
             //    Select Remove unreachable code, or Uncomment unreachable code
             Console.WriteLine("Hello");
         }
-
-        // TODO: Find all code issues
     }
 }

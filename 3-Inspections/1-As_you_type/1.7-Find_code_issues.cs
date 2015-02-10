@@ -4,14 +4,14 @@ namespace JetBrains.ReSharper.Koans.Inspections
 {
     // Find code issues
     //
-    // ReSharper -> Inspect -> Code Issues in Solution/Current Project
+    // ReSharper → Inspect → Code Issues in Solution/Current Project
 
     public class FindMatchingIssues
     {
         public void MultipleIssues()
         {
             // 1. Alt+Enter on the first List<string> highlight
-            //    Expand the "Options..." submenu
+            //    Expand the "Inspection 'Use preferred var style'" submenu
             //    Select "Find all issues of this type in scope"
             //    Specify the scope in the dialog - project, solution or custom
             //    All matching issues are displayed in a new results window

@@ -1,4 +1,4 @@
-﻿using System.Windows.Forms;
+﻿using System.Windows.Controls;
 
 namespace JetBrains.ReSharper.Koans.Inspections
 {
@@ -8,6 +8,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     //
     // Ctrl+Shift+Alt+A (VS/IntelliJ)
 
+
     // 1. Display hierarchies of IComponent
     //    Place caret on IComponent and Invoke Inspect This
     //    Results are displayed in an Inspection window
@@ -16,6 +17,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     public interface IComponent
     {
     }
+
 
     // 2. Display hierarchies of BaseClass
     //    Note differences with IComponent - shows class hierarchy including Object,
@@ -40,10 +42,11 @@ namespace JetBrains.ReSharper.Koans.Inspections
     {
     }
 
+
+
     // 3. Display hierarchies of UserControl
     //    Doesn't show much until you uncheck "Show Elements from this Solution"
     public class UserControl : Button
     {
-
     }
 }

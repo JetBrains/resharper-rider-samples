@@ -8,14 +8,19 @@ namespace JetBrains.ReSharper.Koans.Inspections
     // Navigate between highlights
     //
     // Alt+PageUp and Alt+PageDn (VS)
-    // F12 and Shift F12 (IntelliJ)
+    // F12 and Shift+F12 (IntelliJ)
+    //
+    // Navigate between errors
+    //
+    // Shift+Alt+PageUp and ShiftAlt+PageDown (VS)
+    // Alt+F12 and Shift+Alt+F12 (IntelliJ)
 
     public class Navigation
     {
         public string ErrorHighlight()
         {
             // 1. Replace null with 3000 to make an error highlight
-            return null;
+            return 3000;
         }
 
         public void WarningHighlight()
