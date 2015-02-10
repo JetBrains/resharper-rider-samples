@@ -1,0 +1,25 @@
+﻿@model dynamic
+
+@{
+    // 1. Invoke C# code completion (Ctrl+Space)
+    //this.
+    
+    
+    // 2. Navigate to definition of ViewBag (Ctrl+Click)
+    //    (Note ViewBag is dynamic, so cannot navigate to Title)
+    ViewBag.Title = "title";
+    
+    // 3. Navigate to _Layout.cshtml
+    //    Ctrl+Click _Layout.cshtml
+    //    Ctrl+Click Views to open folder in solution explorer
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>title</h2>
+
+<p>
+    <!-- 3. Support action name in string literal
+            Invoke code completion on actionName string literal
+            Ctrl+Click on completed actionName string literal -->
+    @Html.ActionLink(linkText: "Edit", actionName: "") |
+</p>

@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "06-UnitTesti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting-ProductionCode", "06-UnitTesting\ProductionCode\UnitTesting-ProductionCode.csproj", "{95F7A295-7515-4046-B044-64E7EF134892}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Languages and Frameworks", "05 Languages and Frameworks", "{25BAD51D-5240-4956-A350-1964C8B93FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc", "05-LanguagesAndFrameworks\AspNetMvc\AspNetMvc.csproj", "{E9D58777-67B0-4BBC-A013-B78447643DFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{95F7A295-7515-4046-B044-64E7EF134892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F7A295-7515-4046-B044-64E7EF134892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F7A295-7515-4046-B044-64E7EF134892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D58777-67B0-4BBC-A013-B78447643DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D58777-67B0-4BBC-A013-B78447643DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D58777-67B0-4BBC-A013-B78447643DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D58777-67B0-4BBC-A013-B78447643DFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +103,6 @@ Global
 		{6705BA6A-5331-4508-9BC4-128B2B6FC3F9} = {478B743D-7E98-4B4A-A5A6-18C342DDEDEB}
 		{80015EB7-99CA-4481-A6A2-99230DE7DED8} = {44B8DF48-BAAE-43FD-9BEF-73FF83BC4E5C}
 		{95F7A295-7515-4046-B044-64E7EF134892} = {44B8DF48-BAAE-43FD-9BEF-73FF83BC4E5C}
+		{E9D58777-67B0-4BBC-A013-B78447643DFD} = {25BAD51D-5240-4956-A350-1964C8B93FDA}
 	EndGlobalSection
 EndGlobal
