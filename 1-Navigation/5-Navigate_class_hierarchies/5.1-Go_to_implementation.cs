@@ -5,7 +5,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     // Go to Implementation
     //
     // Navigates to the implementation of the type. For most types, navigates to definition.
-    // For interfaces, navigates to implementations of the interface
+    // For interfaces, navigates to implementations of the interface, for base classes,
+    // navigates to derived instances
     //
     // Alt+` (VS)
     // No keyboard shortcut for IntelliJ - ReSharper -> Navigate -> Go to Implementation

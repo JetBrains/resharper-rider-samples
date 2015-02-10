@@ -34,6 +34,8 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,11 +59,26 @@
     <Content Include="3-Navigate_to_somewhere_youve_already_been\3.2-Recent_files.txt" />
     <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.3-Recent-edits.cs" />
     <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.4-Bookmarks.cs" />
+    <Compile Include="4-Contextual_navigation\4.1-Navigate_To_menu.cs" />
+    <Compile Include="4-Contextual_navigation\4.3-Navigate_To_menu_on_method.cs" />
+    <Compile Include="4-Contextual_navigation\4.5-Navigate_To_menu_type_of_symbol.cs" />
+    <Compile Include="4-Contextual_navigation\ExampleCode\4.7_Navigate_to_menu_related_files_partial3.cs" />
+    <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_forms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_forms.Designer.cs">
+      <DependentUpon>4.7_Navigate_To_menu_related_files_forms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4-Contextual_navigation\ExampleCode\4.7_Navigate_to_menu_related_files_partial2.cs" />
+    <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_partial.cs" />
+    <Compile Include="4-Contextual_navigation\ExampleCode\NavigateToExampleCode.cs" />
+    <Compile Include="4-Contextual_navigation\4.4-Navigate_To_menu_control_flow.cs" />
+    <Compile Include="4-Contextual_navigation\4.2-Navigate_To_menu_on_type.cs" />
     <Compile Include="5-Navigate_class_hierarchies\5.1-Go_to_implementation.cs" />
     <Compile Include="5-Navigate_class_hierarchies\5.2-Go_to_derived_symbols.cs" />
     <Compile Include="5-Navigate_class_hierarchies\5.3-Go_to_base_symbols.cs" />
     <Compile Include="5-Navigate_class_hierarchies\ExampleCode\ICustomer.cs" />
-    <Compile Include="4-Contextual_navigation\4.1-Navigate_To_menu.cs" />
+    <Compile Include="4-Contextual_navigation\4.6_Navigate_To_menu_tools.cs" />
     <Compile Include="6-Find_usages\6.1-Highlight_usages_in_file.cs" />
     <Compile Include="6-Find_usages\6.2-Find_usages.cs" />
     <Compile Include="6-Find_usages\6.3-Find_usages_advanced.cs" />
@@ -84,6 +101,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_forms.resx">
+      <DependentUpon>4.7_Navigate_To_menu_related_files_forms.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

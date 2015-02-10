@@ -9,12 +9,14 @@
 // Ctrl+Shift+G (IntelliJ)
 
 
-// 1. Works on all symbols, including using statements
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+// 1. Navigate to related files. E.g. other files containing partial class
+//    Put text caret here ->
+//    Navigate to Related Files shows list of other files containing definitions of PartialClass
 
-// 2. Works on namespaces
+
 namespace JetBrains.ReSharper.Koans.Navigation
 {
+    public partial class PartialClass
+    {
+    }
 }
