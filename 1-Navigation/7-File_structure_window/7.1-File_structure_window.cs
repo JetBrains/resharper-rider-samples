@@ -14,6 +14,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     // 2. Select "Track caret in editor" and move around the editor
     // 3. Use the Next and Previous buttons to navigate around
     // 4. Explore the right click options
+    // 5. Type in the window to filter
 
     public class FileStructureWindow : IComponent
     {
@@ -24,7 +25,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
         public string Name { get; private set; }
 
-        // 1. In the file window, click the "x" in the box representing the region
+        // 6. In the file window, click the "x" in the box representing the region
         //    this removes the region
         #region Implementation of IComponent
 
