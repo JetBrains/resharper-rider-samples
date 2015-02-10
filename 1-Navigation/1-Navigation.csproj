@@ -35,6 +35,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
@@ -87,6 +88,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />
     <Content Include="1-Navigate_to_something_you_know\ExampleCode\Example_code.js" />
+    <Content Include="4-Contextual_navigation\ExampleCode\script3.js" />
+    <Content Include="4-Contextual_navigation\ExampleCode\script2.js" />
+    <Content Include="4-Contextual_navigation\ExampleCode\style2.css" />
+    <Content Include="4-Contextual_navigation\ExampleCode\style3.css" />
+    <Content Include="4-Contextual_navigation\ExampleCode\style1.css" />
+    <Content Include="4-Contextual_navigation\HTMLPage1.html" />
+    <Content Include="4-Contextual_navigation\ExampleCode\script1.js" />
     <None Include="7-File_structure_window\7.1-File_structure_window.web.config" />
   </ItemGroup>
   <ItemGroup>
