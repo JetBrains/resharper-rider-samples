@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Text;
 
 
-namespace JetBrains.ReSharper.Koans.UnitTesting
+namespace JetBrains.ReSharper.Koans.Tools
 {
     // Code cleanup
     //

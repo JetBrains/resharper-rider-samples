@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JetBrains.ReSharper.Koans.UnitTesting
+namespace JetBrains.ReSharper.Koans.Tools
 {
     // Clipboard Ring
     //

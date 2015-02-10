@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace JetBrains.ReSharper.Koans.UnitTesting
+namespace JetBrains.ReSharper.Koans.RegularExpressions
 {
     // Regular expression support
     //
