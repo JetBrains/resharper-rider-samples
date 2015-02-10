@@ -17,6 +17,7 @@ Ctrl+N (IntelliJ)
 
 3. Use CamelHumps to navigate to the "DocumentViewModel" type
    Type "DVM" in popup
+   Can also use lowercase "dvm"
 
 4. Use middle matching - type "view" to match "DocumentViewModel",
    "SettingsViewModel" and more
@@ -35,3 +36,4 @@ Ctrl+N (IntelliJ)
 
 9. Use space to delimit paths - type "1-n exa" to filter to files
    in the "1-Navigation\ExampleCode" folder
+   Type "s d dvm" for "System.Data.DataViewManager"

@@ -33,3 +33,6 @@ keyboard shortcut again. It's a means of narrowing the search to just types
 
 9. Navigate to type with namespace
    Type "System.Data.DataViewManager"
+
+10. Uses spaces to allow quick matching of namespace
+    Type "s d dvm" for "System.Data.DataViewManager"
