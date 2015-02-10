@@ -26,7 +26,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
             catch (Exception e)
             {
                 Clipboard.SetText("An error occurred while running the test" + Environment.NewLine + Environment.NewLine + e);
-                Console.WriteLine("Exception copied to clipboad");
+                Console.WriteLine("Exception copied to clipboard");
                 throw;
             }
         }
