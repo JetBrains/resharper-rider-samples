@@ -9,6 +9,6 @@
 
 3. Hold down Ctrl to make the popup transparent
 
-4. Click the icon in the top right of the popup, or press the
-   plus key on the numpad (doesn't work on laptop) to display
-   the results of any popup in the Find Results window
+4. Click the magnifying glass icon in the top right of the popup,
+   or press the plus key on the numpad (doesn't work on laptop)
+   to display the results of any popup in the Find Results window
