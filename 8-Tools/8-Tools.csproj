@@ -51,6 +51,7 @@
     <Compile Include="3.2-Code_cleanup_full_cleanup.cs" />
     <Compile Include="3.3-Code_cleanup_custom_profile.cs" />
     <Compile Include="6-RegularExpressions.cs" />
+    <Content Include="7-LocateInSolutionExplorer.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-Stack_trace_explorer.cs" />
     <Compile Include="2-Todo_explorer.cs" />

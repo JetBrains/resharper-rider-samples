@@ -1,0 +1,5 @@
+﻿Locate In Solution Explorer
+
+Opens Solution Explorer with current file selected
+
+Shift+Alt+L (VS + IntelliJ)
