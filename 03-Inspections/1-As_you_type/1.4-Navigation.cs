@@ -20,7 +20,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
         public string ErrorHighlight()
         {
             // 1. Replace null with 3000 to make an error highlight
-            return 3000;
+            return null;
         }
 
         public void WarningHighlight()
