@@ -1,0 +1,12 @@
+﻿Go To Everything
+
+Navigate anywhere by name
+
+Combines go to type, symbol and file in one menu.
+
+Ctrl+T (VS)
+Ctrl+N (IntelliJ)
+
+Escape to cancel
+
+Covered in more detail in next section

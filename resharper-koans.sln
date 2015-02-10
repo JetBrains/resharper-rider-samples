@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Navigation", "1-Navigation\1-Navigation.csproj", "{08951B8E-2965-45BC-9B43-6E3C673C7629}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Editing", "2-Editing\2-Editing.csproj", "{5C22F837-6630-4FB3-B123-804499937834}"
@@ -16,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-StructuralSearchAndReplace", "7-StructuralSearchAndReplace\7-StructuralSearchAndReplace.csproj", "{969392EF-35A5-4C65-AB3A-D0DF76119EF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-Tools", "8-Tools\8-Tools.csproj", "{0416D33B-B7AF-433A-A990-C594C87E30CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0-EssentialShortcuts", "0-EssentialShortcuts\0-EssentialShortcuts.csproj", "{7C2BD923-1D74-4D91-BADF-A221EA35F17B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{0416D33B-B7AF-433A-A990-C594C87E30CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0416D33B-B7AF-433A-A990-C594C87E30CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0416D33B-B7AF-433A-A990-C594C87E30CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2BD923-1D74-4D91-BADF-A221EA35F17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2BD923-1D74-4D91-BADF-A221EA35F17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2BD923-1D74-4D91-BADF-A221EA35F17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2BD923-1D74-4D91-BADF-A221EA35F17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
