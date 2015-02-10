@@ -48,9 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProductionCode\5-UnitTesting-ProductionCode.csproj">
+    <ProjectReference Include="..\ProductionCode\UnitTesting-ProductionCode.csproj">
       <Project>{95f7a295-7515-4046-b044-64e7ef134892}</Project>
-      <Name>5-UnitTesting-ProductionCode</Name>
+      <Name>UnitTesting-ProductionCode</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
