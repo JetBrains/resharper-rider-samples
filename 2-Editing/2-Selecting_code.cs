@@ -39,7 +39,7 @@ namespace JetBrains.ReSharper.Koans.Editing
             }
         }
 
-        // 4. Go to ReSharper -> Options -> Environment -> Editor -> Editor Behaviour
+        // 4. Go to ReSharper → Options → Environment → Editor → Editor Behaviour
         //    Tick CamelHumps on
         //    Place the caret inside the method name and Extend and Shrink selection
         //    (Also, with CamelHumps on, try Ctrl+Left and Ctrl+Right navigation inside the method name)

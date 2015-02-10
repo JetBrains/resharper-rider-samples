@@ -20,7 +20,7 @@ namespace JetBrains.ReSharper.Koans.Editing
         // 1. Type: this.
         //    After the dot, Basic completion shows the code completion options for the current context
         //    Members of the current type are shown in bold
-        //    Inherited members are not in normal text
+        //    Inherited members are in normal text
         // 2. Type: string value =
         //    After the equals sign, Automatic Completion shows the locally scoped Basic completion options followed
         //      by the wider scope of Basic Completion items, followed by Import Completion items
@@ -45,14 +45,14 @@ namespace JetBrains.ReSharper.Koans.Editing
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public string SayHello()
+        public string SayHello(string who)
         {
-            return "hello";
+            return "Hello " + who;
         }
 
-        public string SayGoodbye()
+        public string SayGoodbye(string who)
         {
-            return "goodbye";
+            return "Goodbye " + who;
         }
 
         #endregion
@@ -61,20 +61,26 @@ namespace JetBrains.ReSharper.Koans.Editing
         //    Place caret after the word Say and hit Ctrl+Space
         //    Choose the option and hit enter - text is inserted
         //    Choose the option and hit tab - text is replaced
+        // 9. Configure in ReSharper → Options → Intellisense → Completing Characters
         public void ReplacingExistingCode()
         {
-            this.SayGoodbye();
+            this.SayHello("Matt");
+
+            // Uncomment string literal, try typing Say and completing SayHello
+            // Enter will complete and wrap the string literal as a parameter
+            // Tab will complete the method call with the string literal pushed after
+            //"Matt";
         }
 
-        // 9. Use CamelHumps to match
-        //    Start typing: this.SCC to match ShowCurrentContext
+        // 10. Use CamelHumps to match
+        //     Start typing: this.SCC to match ShowCurrentContext
         public void UseCamelHumps()
         {
             // this.
         }
     }
 
-    // 10. Completion for overriding members
+    // 11. Completion for overriding members
     //     Type "override" to get a list of members to override, select ToString()
     public class CompleteOverrideKeyword
     {
@@ -83,7 +89,7 @@ namespace JetBrains.ReSharper.Koans.Editing
 
     }
 
-    // 11. Automatic Completion will import types from namespaces of existing references
+    // 12. Automatic Completion will import types from namespaces of existing references
     //     Start typing ": INotifyPropertyChanged" after the class declaration
     //     ReSharper will show Automatic Completion "INotifyPropertyChanged (in System.ComponentModel)"
     //     Selecting this will add a using System.ComponentModel to the top of the file

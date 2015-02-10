@@ -16,6 +16,20 @@ namespace JetBrains.ReSharper.Koans.Editing
 
     }
 
+    public class InsertConstructorWithParameters
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+
+        // 1. Insert constructor
+        //    Place caret inside class
+        //    Invoke Generate Code and select constructor
+        //    Select properties to generate and click OK
+
+
+    }
+
     public class GenerateOverridingMembers : BaseClass
     {
         // 2. Generate overriding members
@@ -96,6 +110,20 @@ namespace JetBrains.ReSharper.Koans.Editing
             //var message = new Message();
             //var processor = new Processor(message);
             //Console.WriteLine(processor);
+        }
+    }
+
+    public class GenerateSwitchLabels
+    {
+        public void Method(DayOfWeek day)
+        {
+            // 6. Generate switch labels
+            //    Place text caret inside switch statement
+            //    Alt+Enter and select Generate switch labels
+            switch (day)
+            {
+
+            }
         }
     }
 
