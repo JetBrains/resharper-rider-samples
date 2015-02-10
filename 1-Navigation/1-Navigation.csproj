@@ -57,11 +57,11 @@
     <Content Include="3-Navigate_to_somewhere_youve_already_been\3.2-Recent_files.txt" />
     <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.3-Recent-edits.cs" />
     <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.4-Bookmarks.cs" />
-    <Compile Include="4-Navigate_class_hierarchies\4.1-Go_to_implementation.cs" />
-    <Compile Include="4-Navigate_class_hierarchies\4.2-Go_to_derived_symbols.cs" />
-    <Compile Include="4-Navigate_class_hierarchies\4.3-Go_to_base_symbols.cs" />
-    <Compile Include="4-Navigate_class_hierarchies\ExampleCode\ICustomer.cs" />
-    <Compile Include="5-Contextual_navigation\5.1-Navigate_To_menu.cs" />
+    <Compile Include="5-Navigate_class_hierarchies\5.1-Go_to_implementation.cs" />
+    <Compile Include="5-Navigate_class_hierarchies\5.2-Go_to_derived_symbols.cs" />
+    <Compile Include="5-Navigate_class_hierarchies\5.3-Go_to_base_symbols.cs" />
+    <Compile Include="5-Navigate_class_hierarchies\ExampleCode\ICustomer.cs" />
+    <Compile Include="4-Contextual_navigation\4.1-Navigate_To_menu.cs" />
     <Compile Include="6-Find_usages\6.1-Highlight_usages_in_file.cs" />
     <Compile Include="6-Find_usages\6.2-Find_usages.cs" />
     <Compile Include="6-Find_usages\6.3-Find_usages_advanced.cs" />
