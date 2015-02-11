@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xaml", "05-LanguagesAndFram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring", "04-Refactoring\Refactoring\Refactoring.csproj", "{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring-MoveTarget", "04-Refactoring\Refactoring-MoveTarget\Refactoring-MoveTarget.csproj", "{C3CA581D-9289-443D-8EC5-50158F6FD9CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CA581D-9289-443D-8EC5-50158F6FD9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CA581D-9289-443D-8EC5-50158F6FD9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CA581D-9289-443D-8EC5-50158F6FD9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CA581D-9289-443D-8EC5-50158F6FD9CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,5 +131,6 @@ Global
 		{0D514801-30A3-4F31-9322-09B39B2A2467} = {25BAD51D-5240-4956-A350-1964C8B93FDA}
 		{330370F0-9D64-47D8-A881-32293BB46DB2} = {25BAD51D-5240-4956-A350-1964C8B93FDA}
 		{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E} = {97403CA5-0D64-4787-AB6C-9E0ACFD5753D}
+		{C3CA581D-9289-443D-8EC5-50158F6FD9CD} = {97403CA5-0D64-4787-AB6C-9E0ACFD5753D}
 	EndGlobalSection
 EndGlobal
