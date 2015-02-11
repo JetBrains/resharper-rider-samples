@@ -52,6 +52,7 @@
     <Compile Include="12-Convert_property_to_auto_property.cs" />
     <Compile Include="ConvertConstructorToFactoryMethod.cs" />
     <Compile Include="Convert_abstract_class_and_interface.cs" />
+    <Compile Include="Convert_static_and_extension_methods.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
     <Compile Include="ExtractClassFromParameters.cs" />
     <Compile Include="ExtractSuperclass.cs" />
