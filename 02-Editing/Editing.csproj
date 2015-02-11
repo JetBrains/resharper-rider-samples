@@ -52,10 +52,11 @@
     <Compile Include="04-Selecting_code.cs" />
     <Compile Include="06-Surround_with.cs" />
     <Compile Include="02-Quick_documentation.cs" />
-    <Compile Include="10-Clipboard_ring.cs" />
-    <Compile Include="09-Commenting_code.cs" />
-    <Compile Include="08-Duplicating_code.cs" />
+    <Compile Include="11-Clipboard_ring.cs" />
+    <Compile Include="10-Commenting_code.cs" />
+    <Compile Include="09-Duplicating_code.cs" />
     <Compile Include="07-Generating_code.cs" />
+    <Compile Include="08-Undefined_code.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="05-Rearranging_code.cs" />
   </ItemGroup>
