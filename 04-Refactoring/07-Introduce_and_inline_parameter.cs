@@ -9,9 +9,9 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     // Ctrl+R, V (VS)
     // Ctrl+Alt+V (IntelliJ)
 
-    // Inline variable
+    // Inline Parameter
     //
-    // Replaces variable usage with the contents of the variable
+    // Replaces parameter usage with the value from the call site
     //
     // Ctrl+R, I (VS)
     // Ctrl+Alt+N (IntelliJ)
