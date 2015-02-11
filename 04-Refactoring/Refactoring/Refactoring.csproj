@@ -50,9 +50,9 @@
     <Compile Include="11-Convert_methods_and_indexers.cs" />
     <Compile Include="10-Convert_methods_and_properties.cs" />
     <Compile Include="12-Convert_property_to_auto_property.cs" />
-    <Compile Include="ConvertConstructorToFactoryMethod.cs" />
-    <Compile Include="Convert_abstract_class_and_interface.cs" />
-    <Compile Include="Convert_static_and_extension_methods.cs" />
+    <Compile Include="13-Convert_constructor_to_factory_method.cs" />
+    <Compile Include="15-Convert_abstract_class_and_interface.cs" />
+    <Compile Include="14-Convert_static_and_extension_methods.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
     <Compile Include="ExtractClassFromParameters.cs" />
     <Compile Include="ExtractSuperclass.cs" />
