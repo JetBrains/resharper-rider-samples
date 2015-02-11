@@ -64,11 +64,11 @@
     <Compile Include="4-Contextual_navigation\4.3-Navigate_To_menu_on_method.cs" />
     <Compile Include="4-Contextual_navigation\4.5-Navigate_To_menu_type_of_symbol.cs" />
     <Compile Include="4-Contextual_navigation\ExampleCode\4.7_Navigate_to_menu_related_files_partial3.cs" />
-    <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_forms.cs">
+    <Compile Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_forms.Designer.cs">
-      <DependentUpon>4.7_Navigate_To_menu_related_files_forms.cs</DependentUpon>
+    <Compile Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.Designer.cs">
+      <DependentUpon>4.7-Navigate_To_menu_related_files_forms.cs</DependentUpon>
     </Compile>
     <Compile Include="4-Contextual_navigation\ExampleCode\4.7_Navigate_to_menu_related_files_partial2.cs" />
     <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_partial.cs" />
@@ -79,7 +79,7 @@
     <Compile Include="5-Navigate_class_hierarchies\5.2-Go_to_derived_symbols.cs" />
     <Compile Include="5-Navigate_class_hierarchies\5.3-Go_to_base_symbols.cs" />
     <Compile Include="5-Navigate_class_hierarchies\ExampleCode\ICustomer.cs" />
-    <Compile Include="4-Contextual_navigation\4.6_Navigate_To_menu_tools.cs" />
+    <Compile Include="4-Contextual_navigation\4.6-Navigate_To_menu_tools.cs" />
     <Compile Include="6-Find_usages\6.1-Highlight_usages_in_file.cs" />
     <Compile Include="6-Find_usages\6.2-Find_usages.cs" />
     <Compile Include="6-Find_usages\6.3-Find_usages_advanced.cs" />
@@ -93,7 +93,7 @@
     <Content Include="4-Contextual_navigation\ExampleCode\style2.css" />
     <Content Include="4-Contextual_navigation\ExampleCode\style3.css" />
     <Content Include="4-Contextual_navigation\ExampleCode\style1.css" />
-    <Content Include="4-Contextual_navigation\HTMLPage1.html" />
+    <Content Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files.html" />
     <Content Include="4-Contextual_navigation\ExampleCode\script1.js" />
     <None Include="7-File_structure_window\7.1-File_structure_window.web.config" />
   </ItemGroup>
@@ -111,8 +111,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_forms.resx">
-      <DependentUpon>4.7_Navigate_To_menu_related_files_forms.cs</DependentUpon>
+    <EmbeddedResource Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.resx">
+      <DependentUpon>4.7-Navigate_To_menu_related_files_forms.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
