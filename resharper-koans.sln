@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpresssions", "05-L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xaml", "05-LanguagesAndFrameworks\Xaml\Xaml.csproj", "{330370F0-9D64-47D8-A881-32293BB46DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring", "04-Refactoring\Refactoring.csproj", "{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring", "04-Refactoring\Refactoring\Refactoring.csproj", "{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
