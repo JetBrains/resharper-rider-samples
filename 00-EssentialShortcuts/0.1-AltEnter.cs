@@ -1,6 +1,5 @@
 ﻿namespace EssentialShortcuts
 {
-
     // Alt+Enter
     //
     // Used to apply quick fixes to inspections ("squigglies"), or apply
