@@ -10,6 +10,9 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     // Convert Property to Method(s)
     //
     // Converts a property to a getter and/or setter method(s)
+    //
+    // No shortcut. Invoke via Refactor This menu
+    // Ctrl+Shift+R
 
     public class ConvertMethodToProperty
     {
