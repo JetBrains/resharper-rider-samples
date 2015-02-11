@@ -46,7 +46,7 @@
     <Compile Include="08-Introduce_and_inline_field.cs" />
     <Compile Include="07-Introduce_and_inline_parameter.cs" />
     <Compile Include="06-Introduce_and_inline_variable.cs" />
-    <Compile Include="EncapsulateField.cs" />
+    <Compile Include="09-EncapsulateField.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="02-Rename.cs" />
