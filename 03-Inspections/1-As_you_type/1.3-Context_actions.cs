@@ -4,7 +4,9 @@
     //
     // Similar to quick fixes, but tied to a code block, not a highlight
     //
-    // Alt+Enter
+    // Alt+Enter whenever hammer gutter icon is visible
+    //
+    // NOTE: ReSharper has HUNDREDS of context actions. This file provides a very small sample
 
     public class ContextActions
     {
