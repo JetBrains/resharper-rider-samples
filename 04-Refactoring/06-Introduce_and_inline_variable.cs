@@ -42,7 +42,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
 
         public void Calculate3(int a, int b)
         {
-            // 1. Inline variable
+            // 3. Inline variable
             //    Select "value" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
             //    Invoke Inline Variable
             //    Variable is removed, and usage is replaced with "a+b"
