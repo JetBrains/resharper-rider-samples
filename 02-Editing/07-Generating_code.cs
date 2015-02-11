@@ -7,6 +7,9 @@ namespace JetBrains.ReSharper.Koans.Editing
     // Displays a contextual menu of options for generating code available at the current location
     //
     // Alt+Insert (in text editor)
+    //
+    // (Alt+Insert on Solution Explorer invokes Generate menu for File Templates,
+    //  see Live Templates section)
 
     public class InsertConstructor
     {
