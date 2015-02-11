@@ -2,7 +2,9 @@
 
 namespace JetBrains.ReSharper.Koans.Editing
 {
-    // Generate Code
+    // Generate Code menu
+    //
+    // Displays a contextual menu of options for generating code available at the current location
     //
     // Alt+Insert (in text editor)
 

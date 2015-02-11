@@ -37,6 +37,17 @@
     }
 
 
+    // Generate Code menu
+    //
+    // Displays a contextual menu of options for generating code available at the current location
+    //
+    // Alt+Insert (in text editor)
+    //
+    // Covered in more detail in the Editing section
+    public class GenerateCode
+    {
+    }
+
     // Inspect This menu
     //
     // Displays a contextual menu of options for analysing code and control flow
