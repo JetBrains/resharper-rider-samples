@@ -51,6 +51,7 @@
     <Compile Include="10-Convert_methods_and_properties.cs" />
     <Compile Include="12-Convert_property_to_auto_property.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
+    <Compile Include="ExtractClassFromParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="02-Rename.cs" />
     <Compile Include="03-Safe_delete.cs" />
