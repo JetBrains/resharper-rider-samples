@@ -49,11 +49,10 @@
     <Compile Include="3.1-Code_cleanup_reformat_code.cs" />
     <Compile Include="3.2-Code_cleanup_full_cleanup.cs" />
     <Compile Include="3.3-Code_cleanup_custom_profile.cs" />
-    <Content Include="5-LocateInSolutionExplorer.txt" />
+    <Content Include="4-LocateInSolutionExplorer.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-Stack_trace_explorer.cs" />
     <Compile Include="2-Todo_explorer.cs" />
-    <Compile Include="4-Xml_documentation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

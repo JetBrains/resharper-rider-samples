@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,22 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1-Code_completion\1.1-Automatic_completion.cs" />
-    <Compile Include="1-Code_completion\1.6-Complete_statement.cs" />
-    <Compile Include="1-Code_completion\1.2-Import_completion.cs" />
-    <Compile Include="1-Code_completion\1.3-Smart_completion.cs" />
-    <Compile Include="1-Code_completion\1.4-Double_completion.cs" />
-    <Compile Include="1-Code_completion\1.5-Filter_completion.cs" />
-    <Compile Include="2-Selecting_code.cs" />
-    <Compile Include="4-Surround_with.cs" />
-    <Compile Include="8-Clipboard_ring.cs" />
-    <Compile Include="7-Commenting_code.cs" />
-    <Compile Include="6-Duplicating_code.cs" />
-    <Compile Include="5-Generating_code.cs" />
+    <Compile Include="01-Code_completion\1.1-Automatic_completion.cs" />
+    <Compile Include="01-Code_completion\1.6-Complete_statement.cs" />
+    <Compile Include="01-Code_completion\1.2-Import_completion.cs" />
+    <Compile Include="01-Code_completion\1.3-Smart_completion.cs" />
+    <Compile Include="01-Code_completion\1.4-Double_completion.cs" />
+    <Compile Include="01-Code_completion\1.5-Filter_completion.cs" />
+    <Compile Include="03-ParameterInfo.cs" />
+    <Compile Include="04-Selecting_code.cs" />
+    <Compile Include="06-Surround_with.cs" />
+    <Compile Include="02-Quick_documentation.cs" />
+    <Compile Include="10-Clipboard_ring.cs" />
+    <Compile Include="09-Commenting_code.cs" />
+    <Compile Include="08-Duplicating_code.cs" />
+    <Compile Include="07-Generating_code.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="3-Rearranging_code.cs" />
+    <Compile Include="05-Rearranging_code.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

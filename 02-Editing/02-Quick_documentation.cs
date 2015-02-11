@@ -1,11 +1,12 @@
 ﻿using System;
 
-namespace JetBrains.ReSharper.Koans.Tools
+namespace JetBrains.ReSharper.Koans.Editing
 {
-    // QuickDoc xml documentation viewer
+    // Show Quick Documentation
     //
     // Ctrl+Shift+F1 (VS)
     // Ctrl+Q (IntelliJ)
+    // Escape to close
 
     public class XmlDocumentation
     {
