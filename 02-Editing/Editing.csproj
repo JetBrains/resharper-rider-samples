@@ -47,6 +47,7 @@
     <Compile Include="1-Code_completion\1.5-Filter_completion.cs" />
     <Compile Include="2-Selecting_code.cs" />
     <Compile Include="4-Surround_with.cs" />
+    <Compile Include="8-Clipboard_ring.cs" />
     <Compile Include="7-Commenting_code.cs" />
     <Compile Include="6-Duplicating_code.cs" />
     <Compile Include="5-Generating_code.cs" />
