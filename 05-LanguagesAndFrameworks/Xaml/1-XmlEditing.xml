@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!-- 1. Synchronous tag editing
+          Replace "foo" in one opening element with "bar"
+          Closing element is updated automatically -->
+  <bar></bar>
+
+  <!-- 2. Tag manipulation
+          Alt+Enter on tag name, select "Collapse empty tag"
+          Alt+Enter on tag name, select "Expand empty tag" 
+          Alt+Enter on tag name, select "Replace tag" 
+          Alt+Enter on tag name, select "Remove tag" -->
+  <bar></bar>
+
+  <!-- 3. Promote child tag
+          Alt+Enter on foo tag, select "Remove tag and promote child" -->
+  <foo>
+    <bar></bar>
+  </foo>
+  
+  <!-- 4. Convert tag and content to attribute
+          Alt+Enter on bar tag, select "To attribute" -->
+  <foo>
+    <bar>Value</bar>
+  </foo>
+
+  <!-- 5. Convert attribute to nested element
+          Alt+Enter on attribute, select "To nested element" -->
+  <foo var="value" />
+
+  <!-- 6. Convert text value to CDATA
+          Alt+Enter on Value, select "Text to CDATA" -->
+  <foo>Value</foo>
+  
+  <!-- 7. Replace all attributes
+          Alt+Enter on attribute, select "Replace all attributes"
+          Enter new name for all baz attributes in foo elements -->
+  <foo baz="value" />
+  <foo baz="value" />
+  <foo baz="value" />
+  
+  <!-- 8. Expand/shrink selection
+          Place caret in various places, repeatedly expand and shrink selection
+          Selects attribute values, attribute, element, parent elements
+          
+          Ctrl+Alt+Right and Ctrl+Alt+Left (VS)
+          Ctrl+W and Shift+Ctrl+W (IntelliJ)
+          
+          Select block - Ctrl+Shift+[ -->
+  <foo bar="value">
+    <baz quux="doh" />
+    <baz quux="doh" />
+    <baz quux="doh" />
+  </foo>
+  
+  <!-- 9. Rearrange attributes and elements
+          Place caret on attribute to reorder attributes
+          Place caret on element to reorder element
+          Reordering element left/right moves element in/out parent
+          
+          Ctrl+Shift+Alt+Left/Right/Up/Down -->
+  <foo bar="value" bar1="value1" bar2="value2">
+    <baz quux="doh" quux2="doh2" quux3="doh3" />
+    <baz quux="doh" quux2="doh2" quux3="doh3" />
+    <baz quux="doh" quux2="doh2" quux3="doh3" />
+  </foo>
+  
+  <!-- 10. Toggle current line comment
+  
+           Ctrl+Alt+/ (VS)
+           Ctrl+/ (IntelliJ) -->
+  <foo></foo>
+  
+  <!-- 11. Insert block comment
+           Inserts block comment at text caret, or around selection
+           
+           Ctrl+Shift+/ (VS + IntelliJ) -->
+  <foo></foo>
+  
+  <!-- 12. Surround with
+           Select element, invoke surround with, surround with tag
+           
+           Ctrl+E, U (VS)
+           Ctrl+Alt+J (IntelliJ)
+           Alt+Enter -->
+  <foo></foo>
+</root>

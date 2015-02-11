@@ -1,0 +1,54 @@
+﻿<Window x:Class="Xaml.Refactoring"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        Title="Refactoring" Height="350" Width="525">
+
+    <DockPanel>
+        <DockPanel.Resources>
+        </DockPanel.Resources>
+
+        <!-- 1. Extract XAML Style refactoring
+                Place text caret on StackPanel below
+                Invoke Refactor This (Ctrl+Shift+R)
+                Select "Extract XAML Style"
+                Select items to extract to style -->
+        <StackPanel VerticalAlignment="Bottom"
+                        HorizontalAlignment="Left">
+            <StackPanel.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0" Color="Red" />
+                    <GradientStop Offset="1" Color="Black" />
+                </LinearGradientBrush>
+            </StackPanel.Background>
+        </StackPanel>
+        
+        <!-- 2. Extract XAML Resource refactoring
+                Place text caret on "abc" below
+                Invoke Refactor This menu (Ctrl+Shift+R)
+                Select Extract XAML Resource
+                Select all 3 parameters, or just one
+                Provide name, then create resource -->
+        <StackPanel>
+            <TextBlock Text="abc" />
+            <TextBlock Text="abc" />
+            <TextBlock Text="{Binding StringFormat='abc'}" />
+        </StackPanel>
+        
+        <!-- 3. Inline XAML resource
+                Place text caret on XyzText in a binding usage
+                Invoke Refactor This menu (Ctrl+Shift+R)
+                Select Inline XAML Resource
+                Optionally select Inline all usages
+                Accept -->
+        <StackPanel>
+            <StackPanel.Resources>
+                <system:String x:Key="XyzText">xyz</system:String>
+            </StackPanel.Resources>
+            
+            <TextBlock Text="{StaticResource XyzText}" />
+            <TextBlock Text="{StaticResource XyzText}" />
+            <TextBlock Text="{Binding StringFormat={StaticResource XyzText}}" />
+        </StackPanel>
+    </DockPanel>
+</Window>

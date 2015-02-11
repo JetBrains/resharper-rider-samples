@@ -1,0 +1,65 @@
+﻿<Window x:Class="Xaml.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <!-- 1. XML Manipulation also applies to XAML - see XmlEditing.xml -->
+    
+    
+    <!-- 2. Investigate File Structure Window
+            Ctrl+Alt+F (VS)
+            Ctrl+F11 (IntelliJ) -->
+
+    
+    <Window.Resources>
+        <!-- 3. Colour picker
+                Named colour is underlined in that colour
+                Edit to hex value (e.g. #CC5577), see underline
+                Alt+Enter on attribute value and "Pick from colour palette" -->
+        <SolidColorBrush x:Key="Color1" Color="Fuchsia" />
+        <SolidColorBrush x:Key="Color2" Color="#0066FF" />
+    </Window.Resources>
+    
+    <!-- 4. Convert attribute to nested element
+            Alt+Enter on attribute -->
+    <StackPanel HorizontalAlignment="Center">
+        
+        <!-- 5. Navigate to resource usage
+                Ctrl+Click on resource name
+                Invoke Find Usages on resource name or definition -->
+        <TextBlock Background="{StaticResource Color1}" Foreground="{StaticResource Color2}">Hello world</TextBlock>
+        
+        <!-- 6. Code completion for XAML elements
+                Type SP to create StackPanel element. No need for angle brackets -->
+        
+
+        <!-- 7. Double completion to use resource element
+                Uncomment invalid code below
+                Invoke double completion on Color1 below (Ctrl+Space x 2) -->
+        <!--<TextBlock Background="Color1" Foreground="{StaticResource Color2}" />-->
+
+        
+        <!-- 8. Create from usage
+                Uncomment invalid code below (Toggle line comment)
+                Alt+Enter on invalid OnClick and create handler 
+                Start typing in IsEnabledChanged attribute value, select create handler -->
+        <!--<Button Click="OnClick" IsEnabledChanged=""></Button>-->
+        
+        <!-- 9. Rearrange resources
+                Put text caret on Style below
+                Rearrange elements (Ctrl+Shift+Alt+Left/Right)
+                Note Style is moved to new .Resources parent element -->
+        <DockPanel>
+            <Grid>
+                <Canvas>
+                    <Canvas.Resources>
+                        <Style x:Key="MyStyle">
+                            <Setter Property="UIElement.Visibility" Value="Collapsed" />
+                        </Style>
+                    </Canvas.Resources>
+                </Canvas>
+            </Grid>
+        </DockPanel>
+        
+    </StackPanel>
+</Window>
