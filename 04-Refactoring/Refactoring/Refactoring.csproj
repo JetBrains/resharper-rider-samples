@@ -53,6 +53,7 @@
     <Compile Include="ConvertConstructorToFactoryMethod.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
     <Compile Include="ExtractClassFromParameters.cs" />
+    <Compile Include="ExtractSuperclass.cs" />
     <Compile Include="ExtractInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="02-Rename.cs" />
