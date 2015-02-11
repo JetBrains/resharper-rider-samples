@@ -50,6 +50,7 @@
     <Compile Include="11-Convert_methods_and_indexers.cs" />
     <Compile Include="10-Convert_methods_and_properties.cs" />
     <Compile Include="12-Convert_property_to_auto_property.cs" />
+    <Compile Include="ConvertConstructorToFactoryMethod.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
     <Compile Include="ExtractClassFromParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
