@@ -42,8 +42,7 @@
     <Compile Include="01-Refactor_This_menu.cs" />
     <Compile Include="04-Move.cs" />
     <Compile Include="05-Change_signature.cs" />
-    <Compile Include="06-Introduce.cs" />
-    <Compile Include="07-Inline.cs" />
+    <Compile Include="06-Introduce_and_inline_variable.cs" />
     <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="02-Rename.cs" />
