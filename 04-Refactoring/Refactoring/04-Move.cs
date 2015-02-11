@@ -60,7 +60,7 @@
     //    Place text caret on type definition
     //    Invoke Move Refactoring
     //    Select Move to another namespace
-    //    ReSharper suggests current namespace - add ".Target" to end of namespace
+    //    ReSharper suggests current namespace - add ".MoveTarget" to end of namespace
     //      (namespace should be JetBrains.ReSharper.Koans.Refactoring.Target)
     //    ReSharper moves the type to that namespace, but keeps type in current file
     //    Type should be at bottom of file
@@ -84,6 +84,6 @@
     }
 }
 
-namespace JetBrains.ReSharper.Koans.Refactoring.Target
+namespace JetBrains.ReSharper.Koans.Refactoring.MoveTarget
 {
 }
