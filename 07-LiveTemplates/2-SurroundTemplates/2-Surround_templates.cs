@@ -19,7 +19,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
         //    Tab again, and the Console.WriteLine is highlighted, ready to be replaced with e.g. throw;
         //
         // 2. View the try/catch surround template
-        //    ReSharper -> Templates Explorer -> Surround Templates -> try..catch
+        //    ReSharper → Templates Explorer → Surround Templates → try..catch
         //    Note the $SELECTION$ parameter. This is the currently selected text
         //    Note the $SELSTART$ and $SELEND$ macros. These are used to mark the
         //      start and end of the selection after the template has been invoked,
@@ -38,14 +38,14 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
         }
 
         // 2. Create a surround template to surround with quotes
-        //    Go to ReSharper -> Templates Explorer -> Surround Templates
+        //    Go to ReSharper → Templates Explorer → Surround Templates
         //    Click the New Template toolbar icon
         //    Change the text to (including quotes): "$SELECTION$"
         //    Enter a description - quote
         //    Save the template (note that it isn't in the quicklist secton yet)
         //    Select the message variable usage in the first Console.WriteLine and invoke
         //      Surround With, select More... and then select "quote"
-        //    Go to Templates Explorer -> Surround Templates and drag and drop the quote
+        //    Go to Templates Explorer → Surround Templates and drag and drop the quote
         //      template into the quicklist section
         //    Select the message variable usage in the second Console.WriteLine and invoke
         //      Surround With and select "quote"

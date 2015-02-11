@@ -14,7 +14,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
 
     // 1. Navigate to related files. E.g. related designer files
-    //    Put text caret here ->
+    //    Put text caret here →
     //    Navigate to Related Files shows list of other files containing definitions of Form1
 
     public partial class Form1 : Form

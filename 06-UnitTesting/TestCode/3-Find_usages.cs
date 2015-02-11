@@ -4,7 +4,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
 {
     // 1. Find usages on Calc
     //    Note that the usages in the test methods are marked with test icons
-    //    Remove the test usages from the results from the Filter Usages dropdown -> Show Unit Test Usages
+    //    Remove the test usages from the results from the Filter Usages dropdown → Show Unit Test Usages
     public class Calc
     {
         public int Add(int x, int y)

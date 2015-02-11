@@ -10,7 +10,7 @@
 
 
 // 1. Navigate to related files. E.g. other files containing partial class
-//    Put text caret here ->
+//    Put text caret here →
 //    Navigate to Related Files shows list of other files containing definitions of PartialClass
 
 

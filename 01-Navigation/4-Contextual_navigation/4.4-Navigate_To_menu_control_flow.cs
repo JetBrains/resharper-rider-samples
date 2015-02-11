@@ -23,17 +23,17 @@ namespace JetBrains.ReSharper.Koans.Navigation
             {
                 var child = Children[i];
 
-                // a) Place the caret on "continue". Navigate To -> Control Flow Target
+                // a) Place the caret on "continue". Navigate To → Control Flow Target
                 //    takes the caret to the i++ in the for declaration
                 if (ShouldSkipChild(child))
                     continue;
 
-                // b) Place the caret on "break". Navigate To -> Control Flow Target
+                // b) Place the caret on "break". Navigate To → Control Flow Target
                 //    takes the caret to the next statement after the loop
                 if (ShouldStop(child))
                     break;
 
-                // c) Place the caret on "return". Navigate To -> Control Flow Target
+                // c) Place the caret on "return". Navigate To → Control Flow Target
                 //    takes the caret to the closing brace of the function
                 if (ShouldQuit(child))
                     return;
@@ -47,15 +47,15 @@ namespace JetBrains.ReSharper.Koans.Navigation
             switch (size)
             {
                 case Size.Large:
-                    // d) Place the caret on "break". Navigate To -> Control Flow Target
+                    // d) Place the caret on "break". Navigate To → Control Flow Target
                     //    takes the caret to the first statement after the switch
                     break;
                 case Size.Medium:
-                    // e) Place the caret on "return". Navigate To -> Control Flow Target
+                    // e) Place the caret on "return". Navigate To → Control Flow Target
                     //    takes the caret to the closing brace of the function
                     return;
                 case Size.Small:
-                    // e) Place the caret on "throw". Navigate To -> Control Flow Target
+                    // e) Place the caret on "throw". Navigate To → Control Flow Target
                     //    takes the caret to the closing brace of the function
                     throw new ArgumentOutOfRangeException("size");
             }

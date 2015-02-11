@@ -8,7 +8,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     // 1. Generated code is not analysed for warnings or suggestions
     //    This file is marked as generated due to the *.generated.cs file name
     //    (As used by e.g. Windows Forms designer)
-    //    Custom file names can be configured in ReSharper -> Options -> Generated Code
+    //    Custom file names can be configured in ReSharper → Options → Generated Code
 
     public class ErrorStripeGenerated
     {

@@ -27,7 +27,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
         // 3. Navigate between warnings
 
         // 4. Uncomment the failing code below
-        //    Open the Solution Errors Window (ReSharper -> Inspect -> Solution Errors Window)
+        //    Open the Solution Errors Window (ReSharper → Inspect → Solution Errors Window)
         //    Double click the error in the window to navigate back
         //    Hide errors with right click or toolbar
         //    Show hidden errors with toolbar

@@ -22,7 +22,7 @@ Alt+Ins (VS + IntelliJ)
    Select Folder (not displayed in Generate From File menu, or if a file is selected)
 
 3. Edit existing templates
-   ReSharper -> Templates Explorer -> File Templates
+   ReSharper → Templates Explorer → File Templates
    Select C#
    Double-click on "Class" template
    Add a C# comment to the class and save the template
@@ -33,7 +33,7 @@ Alt+Ins (VS + IntelliJ)
      comment added to the new class
 
 4. Create new template
-   ReSharper -> Templates Explorer -> File Templates
+   ReSharper → Templates Explorer → File Templates
    Select C#
    Click the "New Template" toolbar button
    Set the default file name. This is the name used by default to create the file, and
@@ -42,7 +42,7 @@ Alt+Ins (VS + IntelliJ)
    Give the template a description, e.g. "Text file"
    Enter some text to be in the file by default, e.g. "Hello world"
    Save the template, by default it will go into the "not in quicklist" section
-   Put the focus on the Solution Explorer and select ReSharper -> Edit -> New From Template -> More
+   Put the focus on the Solution Explorer and select ReSharper → Edit → New From Template → More
    Select "Text file" and a new text file is added to the project
    Go back to the Templates Explorer, and move Text file into the quicklist section
    Invoke Generate from File, or select Solution Explorer and invoke Generate and select Text file
@@ -50,7 +50,7 @@ Alt+Ins (VS + IntelliJ)
 5. Create multi-file template
    A multi-file template is a template that creates more than one file. We will create
      a template that creates an interface and an implementation class
-   ReSharper -> Templates Explorer -> File Templates
+   ReSharper → Templates Explorer → File Templates
    Select C#
    Click the "New Template" toolbar button
    Set the default file name to NewAbstraction.cs

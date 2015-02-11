@@ -24,8 +24,8 @@
             return "Hello" + arg + "World";
         }
 
-        // 3. Context actions can be configured in the ReSharper -> Options Dialog
-        //    Configured per language. Select Code Editing -> C# -> Context Actions,
+        // 3. Context actions can be configured in the ReSharper → Options Dialog
+        //    Configured per language. Select Code Editing → C# → Context Actions,
         //    or VB.Net, JavaScript, XML, Build Scripts, etc
     }
 }

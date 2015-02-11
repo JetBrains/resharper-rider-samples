@@ -19,7 +19,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
 
         // 2. The $END$ macro
         //    The $END$ macro marks the point where the text caret is placed when the template is inserted
-        //    Go to ReSharper -> Templates Explorer -> Live Templates -> C# and select the "psvm" template 
+        //    Go to ReSharper → Templates Explorer → Live Templates → C# and select the "psvm" template 
         //    This template expands to implement the Main method of an app. The $END$ macro is placed inside
         //      the method body
         //    Type psvm after this comment, hit tab or select the item from the code completion list
@@ -56,7 +56,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
         private Guid guid2 = new Guid("nguid"); // Place cursor between d and " and hit tab to expand
 
         // 5. Shorten references
-        //    Go to ReSharper -> Templates Explorer -> Live Templates -> C# and select the "asrt" template 
+        //    Go to ReSharper → Templates Explorer → Live Templates → C# and select the "asrt" template 
         //    Note that the template expands to "System.Diagnostics.Debug.Assert($END$)"
         //    Type "asrt" in the method below, hit tab, or select the item from the code completion list
         //    Note that the inserted code is "Debug.Assert()" and that System.Diagnostics is added to the
@@ -78,7 +78,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
     }
 
     // 7. Create a Live Template
-    //    Go to ReSharper -> Templates Explorer -> Live Templates -> C#
+    //    Go to ReSharper → Templates Explorer → Live Templates → C#
     //    Click the New Template toolbar button
     //    Enter a shortcut, e.g. tf
     //    Enter a description, e.g. "Create NUnit TestFixture"

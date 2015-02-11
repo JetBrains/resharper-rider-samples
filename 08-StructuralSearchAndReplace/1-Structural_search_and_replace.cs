@@ -10,7 +10,7 @@ namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
     {
         // 1. Create a pattern to highlight usages of DateTime.Today rather than UTC time
         //
-        //    a) Go to ReSharper -> Find -> Search with Pattern
+        //    a) Go to ReSharper → Find → Search with Pattern
         //    b) Type DateTime.Today in code search box
         //    c) Click find - ReSharper should show list of all instances of DateTime.Today
         //
@@ -25,9 +25,9 @@ namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
         //    below isn't found. We need to tell ReSharper to search for the type System.DateTime,
         //    not the text DateTime.Today
         //
-        //    a) Go to ReSharper -> Find -> Search with Pattern
+        //    a) Go to ReSharper → Find → Search with Pattern
         //    b) Change the pattern to $type$.Today
-        //    c) Click Add Placeholder -> Extract from pattern. ReSharper will create an expression
+        //    c) Click Add Placeholder → Extract from pattern. ReSharper will create an expression
         //       placeholder called "type" 
         //    d) Double click the "type" placeholder to edit it
         //    e) Type System.DateTime in the "Expression type", or use the dropdown to select from
@@ -43,7 +43,7 @@ namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
         }
 
         // 3. Create a pattern to highlight usages of DateTime.Today as a warning
-        //    a) Go to ReSharper -> Options -> Code Inspection -> Custom Patterns
+        //    a) Go to ReSharper → Options → Code Inspection → Custom Patterns
         //    b) Click Add pattern
         //    c) Make sure "Find" is highlighted in top right of Add dialog
         //    d) Type $type$.Today in code search box
@@ -61,7 +61,7 @@ namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
         }
 
         // 5. Create a pattern to highlight usages of DateTime.Now and allow replacing with DateTime.UtcNow
-        //    a) Go to ReSharper -> Options -> Code Inspection -> Custom Patterns
+        //    a) Go to ReSharper → Options → Code Inspection → Custom Patterns
         //    b) Click Add pattern
         //    c) Make sure "Replace" is highlighted in top right of Add dialog
         //    d) Type $type$.Now in code search box
@@ -82,7 +82,7 @@ namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
         }
 
         // 6. Create a pattern that matches similar constructs
-        //    a) Go to ReSharper -> Options -> Code Inspections -> Custom Patterns
+        //    a) Go to ReSharper → Options → Code Inspections → Custom Patterns
         //    b) Click Add Pattern
         //    c) Make sure "Find" is highlighted in top right of Add dialog
         //    d) Type "$id$ > 0" in the search text box

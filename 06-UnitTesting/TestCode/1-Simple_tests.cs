@@ -5,7 +5,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
 {
     // Run unit tests
     //
-    // All keyboard shortcuts are listed in the ReSharper -> Unit Tests menu
+    // All keyboard shortcuts are listed in the ReSharper → Unit Tests menu
     //
     // Run unit tests in the current cursor context:
     //   Ctrl+U, R (VS)

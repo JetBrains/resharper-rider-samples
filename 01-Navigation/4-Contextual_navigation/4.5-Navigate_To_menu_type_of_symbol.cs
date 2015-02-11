@@ -18,7 +18,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
         public void NavigateToSymbolType()
         {
             // 1. When caret is on a symbol
-            //    Place caret on "stuff". Navigate To -> Type of Symbol
+            //    Place caret on "stuff". Navigate To → Type of Symbol
             //    takes caret to declaration of BaseClass
             var stuff = new BaseClass();
         }

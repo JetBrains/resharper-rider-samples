@@ -9,7 +9,7 @@
 // Ctrl+Shift+G (IntelliJ)
 
 
-// 1. Place text caret here ->
+// 1. Place text caret here →
 //    a) Navigate to Windows Explorer. Opens explorer with current file selected
 //    b) Navigate to Command Prompt. Opens command prompt in current directory
 //    c) Locate in Solution Explorer. Opens solution explorer with current file selected

@@ -11,7 +11,7 @@
     
             1. Complete the "date" template in 1.2-LiveTemplatesHtml.html
             2. Edit the "date" template and change the availability to:
-                HTML-Like -> Where a tag could be in HTML or similar languages
+                HTML-Like → Where a tag could be in HTML or similar languages
             3. Save the template
             4. Type "date" below, and hit tab to expand to the current date and time
             -->
