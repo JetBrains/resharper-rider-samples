@@ -16,6 +16,7 @@ namespace JetBrains.ReSharper.Koans.Tools
     {
         // 1. Run this test. It will fail and copy the exception to the clipboard
         // 2. Invoke the Stack Trace Explorer, click on the links for the files, methods and namespaces to navigate
+        [STAThread]
         [Test]
         public void CauseExceptionAndCopyToClipboard()
         {
