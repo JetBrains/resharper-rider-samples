@@ -60,6 +60,7 @@
     <Content Include="3-Navigate_to_somewhere_youve_already_been\3.2-Recent_files.txt" />
     <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.3-Recent-edits.cs" />
     <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.4-Bookmarks.cs" />
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\NavigateTo.cs" />
     <Compile Include="4-Contextual_navigation\4.1-Navigate_To_menu.cs" />
     <Compile Include="4-Contextual_navigation\4.3-Navigate_To_menu_on_method.cs" />
     <Compile Include="4-Contextual_navigation\4.5-Navigate_To_menu_type_of_symbol.cs" />
