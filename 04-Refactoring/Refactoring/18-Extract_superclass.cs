@@ -52,7 +52,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
 
             public string Title { get; private set; }
 
-            public string SayHello()
+            public void SayHello()
             {
                 Console.WriteLine("Hello {0}", Forename);
             }

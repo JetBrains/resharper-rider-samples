@@ -47,7 +47,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     {
         public abstract string Name { get; protected set; }
 
-        public string SayHello()
+        public void SayHello()
         {
             Console.WriteLine("Hello " + Name);
         }

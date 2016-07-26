@@ -6,7 +6,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     //
     // Create a parameter in the current method from selection
     //
-    // Ctrl+R, V (VS)
+    // Ctrl+R, P (VS)
     // Ctrl+Alt+V (IntelliJ)
 
     // Inline Parameter
