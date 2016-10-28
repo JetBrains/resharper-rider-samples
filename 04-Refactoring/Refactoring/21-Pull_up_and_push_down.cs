@@ -40,7 +40,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
 
     namespace PushDown
     {
-        // x. Push members down from Base to inheriting types
+        // 2. Push members down from Base to inheriting types
         //    Invoke Refactor This → Push Members Down on Base
         //    Choose which inheriting types to push to
         //    Choose which members to push down
@@ -48,7 +48,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         {
             public string PropertyOnBase { get; set; }
 
-            // x. Push members down on property that is in use
+            // a. Push members down on property that is in use
             //    Invoke Refactor This → Push Members Down on Base
             //    Choose which inheriting types to push to
             //    Choose UsedPropertyOnBase
@@ -69,7 +69,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
             public void Method()
             {
                 var @base = new Base();
-                Console.WriteLine(@base.PropertyOnBase);
+                Console.WriteLine(@base.UsedPropertyOnBase);
             }
         }
     }

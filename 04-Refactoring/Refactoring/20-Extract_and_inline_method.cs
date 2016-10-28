@@ -43,7 +43,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     {
         private const string Name = "Fred";
 
-        public string SayHello()
+        public void SayHello()
         {
             // 2. Inline Method
             //    Place the text caret on the method name

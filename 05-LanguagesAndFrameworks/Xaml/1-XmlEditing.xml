@@ -3,7 +3,7 @@
   <!-- 1. Synchronous tag editing
           Replace "foo" in one opening element with "bar"
           Closing element is updated automatically -->
-  <bar></bar>
+  <foo></foo>
 
   <!-- 2. Tag manipulation
           Alt+Enter on tag name, select "Collapse empty tag"

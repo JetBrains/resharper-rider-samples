@@ -16,13 +16,4 @@
             navigateTo.Destination();
         }
     }
-
-
-    public class NavigateTo
-    {
-        public void Destination()
-        {
-            // Now navigate back, using Visual Studio's Ctrl+- (minus)
-        }
-    }
 }

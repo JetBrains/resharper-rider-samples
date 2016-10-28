@@ -39,7 +39,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
 
         public void Method2()
         {
-            Method("hi");
+            Method("hi", null);
         }
     }
 

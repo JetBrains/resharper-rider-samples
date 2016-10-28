@@ -37,7 +37,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
             public int Age { get; private set; }
         }
 
-        // 2. Extract interface from hierarchy
+        // 2. Extract superclass from hierarchy
         //    Place text caret on type definition
         //    Invoke Refactor This → Extract Superclass
         //    Confirm name of base class, location and which members - list includes inherited members
@@ -52,7 +52,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
 
             public string Title { get; private set; }
 
-            public string SayHello()
+            public void SayHello()
             {
                 Console.WriteLine("Hello {0}", Forename);
             }
