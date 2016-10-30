@@ -10,7 +10,7 @@ namespace JetBrains.ReSharper.Koans.Editing
     // Ctrl+P (IntelliJ)
     // Cancel to close
     //
-    // Configure behaviour in ReSharper → Options → Environment → IntelliSense → Parameter Info
+    // Configure behavior in ReSharper → Options → Environment → IntelliSense → Parameter Info
     public class ParameterInfo
     {
         public void Foo()

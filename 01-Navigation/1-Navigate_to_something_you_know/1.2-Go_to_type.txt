@@ -22,7 +22,7 @@ keyboard shortcut again. It's a means of narrowing the search to just types
 5. Navigate to any view model with middle matching - type "view" in popup
    Matches the middle of the symbol name - also works with CamelHumps
 
-6. Navigate to DocumentViewModel using wildcard mathing - type "D*M" in popup
+6. Navigate to DocumentViewModel using wildcard matching - type "D*M" in popup
 
 7. Navigate to library types when type not defined in current project
    type "Console" in popup

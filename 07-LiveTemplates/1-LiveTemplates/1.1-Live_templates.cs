@@ -28,7 +28,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
 
 
         // 3. Editable hotspots
-        //    Live Templates can contain "hotspots" that can provide interacivity when expanding the template
+        //    Live Templates can contain "hotspots" that can provide interactivity when expanding the template
         //    Hotspots can be tied to macros to provide suggestions for the content of hotspots
         //    Expand the "foreach" template in the method below
         //    Note that there are 3 hotspots - the collection to iterate, the type of the current object and

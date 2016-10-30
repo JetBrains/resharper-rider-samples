@@ -42,7 +42,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
         //    Click the New Template toolbar icon
         //    Change the text to (including quotes): "$SELECTION$"
         //    Enter a description - quote
-        //    Save the template (note that it isn't in the quicklist secton yet)
+        //    Save the template (note that it isn't in the quicklist section yet)
         //    Select the message variable usage in the first Console.WriteLine and invoke
         //      Surround With, select More... and then select "quote"
         //    Go to Templates Explorer → Surround Templates and drag and drop the quote
