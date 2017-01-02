@@ -36,7 +36,7 @@ namespace JetBrains.ReSharper.Koans.Editing
         public void SurroundWithContextAction()
         {
             // 3. Select the Console.WriteLine statement
-            //    Invoke Surrond With by using Alt+Enter
+            //    Invoke Surround With by using Alt+Enter
             //    Select { }
             if (true)
                 Console.WriteLine("Hello world");

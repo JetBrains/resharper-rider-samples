@@ -24,7 +24,7 @@ namespace JetBrains.ReSharper.Koans.Editing
             //    Update all usages of an undefined symbol in the current method
             //    Uncomment broken code
             //    Alt+Enter on undefined symbol
-            //    Select Chage all local 'value'
+            //    Select Change all local 'value'
             //    ReSharper suggests alternatives that fit - result from local method, and NewValue field
             //    Accepting change only affects this method
 
@@ -43,7 +43,7 @@ namespace JetBrains.ReSharper.Koans.Editing
             //    Update all usages of an undefined symbol across methods
             //    Uncomment broken code below, and in ChangeAll2
             //    Alt+Enter on undefined symbol
-            //    Select Chage all 'value'
+            //    Select Change all 'value'
             //    ReSharper suggests alternatives that fit - NewValue field, but not localValue
             //      (it's not accessible from ChangeAll2)
             //    Accepting change only affects this method and ChangeAll2

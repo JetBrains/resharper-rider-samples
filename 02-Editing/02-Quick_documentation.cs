@@ -59,7 +59,7 @@ namespace JetBrains.ReSharper.Koans.Editing
         /// </summary>
         /// <param name="data">The data required to complete the operation</param>
         /// <param name="log">Should perform logging</param>
-        /// <returns>True if the operation completes succesfully</returns>
+        /// <returns>True if the operation completes successfully</returns>
         public bool DocumentedMethod(string data, bool log)
         {
             return true;
