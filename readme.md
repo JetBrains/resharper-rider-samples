@@ -1,4 +1,4 @@
-# ReSharper Workshop
+# ReSharper/Rider Workshop
 
 In these materials, you'll learn about many of the features and productivity enhancements available in [ReSharper](https://jetbrains.com/resharper). It provides step by step exercises for navigation, editing, inspections, refactoring and more. While it doesn't cover EVERY feature in ReSharper (we like to have some surprises), it does give many, many useful tips and tricks to both beginners and long time users.
 
@@ -8,7 +8,7 @@ The workshop is self-paced, meaning you can work your way through the exercises 
 
 ## Getting started
 
-Simply get a copy of the repo (clone or download straight) and open the `resharper-workshop.sln` in Visual Studio. It is recommended to build the solution at least once before starting, as this will restore various NuGet packages used by some of the exercises (many exercises do not require compiling, such as navigation and editing, but others require compiling code, or referencing third party assemblies, such as unit testing and asp.net MVC support)
+Simply get a copy of the repo (clone or download straight) and open the `resharper-rider-samples.sln` in Visual Studio. It is recommended to build the solution at least once before starting, as this will restore various NuGet packages used by some of the exercises (many exercises do not require compiling, such as navigation and editing, but others require compiling code, or referencing third party assemblies, such as unit testing and asp.net MVC support)
 
 The exercises are structured into numbered solution folders. Each folder contains one or more projects, and the exercises themselves are usually described in comments inside the source to these projects. Simply open the files and work through the exercises at your own pace.
 
