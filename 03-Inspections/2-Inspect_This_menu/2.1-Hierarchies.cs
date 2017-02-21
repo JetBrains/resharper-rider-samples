@@ -1,5 +1,4 @@
-﻿using System.Windows.Controls;
-
+﻿
 namespace JetBrains.ReSharper.Koans.Inspections
 {
     // Inspect This menu - Hierarchies
@@ -46,7 +45,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
 
     // 3. Display hierarchies of UserControl
     //    Doesn't show much until you uncheck "Show Elements from this Solution"
-    public class UserControl : Button
+    public class UserControl : BaseClass
     {
     }
 }
