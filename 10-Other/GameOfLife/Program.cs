@@ -19,6 +19,12 @@ namespace GameOfLife
         {
             int data;
 
+            String csharp = "Kotlin";
+            if (csharp != null)
+            {
+
+            }
+
             for (int row = 0; row < HEIGHT; ++row)
             {
                 for (int col = 0; col < WIDTH; ++col)

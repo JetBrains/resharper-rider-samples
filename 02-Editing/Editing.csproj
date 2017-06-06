@@ -63,6 +63,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSharpConsoleApplication\FSharpConsoleApplication.fsproj">
+      <Project>{a3eecd1f-204f-4f08-9121-c3253bb2a8a6}</Project>
+      <Name>FSharpConsoleApplication</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

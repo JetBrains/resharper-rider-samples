@@ -19,6 +19,7 @@
 
     public class SettingsViewModel
     {
+        
         // ...
     }
 
@@ -26,5 +27,6 @@
     {
         // ...
     }
+    
 
 }

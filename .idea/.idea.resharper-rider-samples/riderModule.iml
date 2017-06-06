@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../08-StructuralSearchAndReplace" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../09-Tools" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../10-Other/GameOfLife" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../FSharpConsoleApplication" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../00-EssentialShortcuts/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../00-EssentialShortcuts/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../01-Navigation/bin" />
@@ -47,6 +48,8 @@
       <excludeFolder url="file://$MODULE_DIR$/../../09-Tools/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../10-Other/GameOfLife/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../10-Other/GameOfLife/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FSharpConsoleApplication/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FSharpConsoleApplication/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../packages" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

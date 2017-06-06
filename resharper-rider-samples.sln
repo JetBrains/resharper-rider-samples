@@ -55,6 +55,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Other", "10 Other", "{53
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "10-Other\GameOfLife\GameOfLife.csproj", "{AC7DC4DA-1413-431F-B280-D22295196B4B}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpConsoleApplication", "FSharpConsoleApplication\FSharpConsoleApplication.fsproj", "{A3EECD1F-204F-4F08-9121-C3253BB2A8A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{AC7DC4DA-1413-431F-B280-D22295196B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC7DC4DA-1413-431F-B280-D22295196B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC7DC4DA-1413-431F-B280-D22295196B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EECD1F-204F-4F08-9121-C3253BB2A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EECD1F-204F-4F08-9121-C3253BB2A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EECD1F-204F-4F08-9121-C3253BB2A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EECD1F-204F-4F08-9121-C3253BB2A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

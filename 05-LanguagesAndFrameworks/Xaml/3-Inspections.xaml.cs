@@ -4,7 +4,7 @@
     {
         public Inspections()
         {
-            InitializeComponent();
+     //       InitializeComponent();
         }
     }
 }

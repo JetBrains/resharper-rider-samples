@@ -87,6 +87,8 @@ namespace JetBrains.ReSharper.Koans.Editing
         // Type here:
 
 
+        MyFSharp.SharpPerson _sharpPerson = new MyFSharp.SharpPerson("Mary", "Smith");
+        
     }
 
     // 12. Automatic Completion will import types from namespaces of existing references

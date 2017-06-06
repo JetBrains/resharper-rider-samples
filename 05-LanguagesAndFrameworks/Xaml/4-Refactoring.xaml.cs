@@ -4,7 +4,7 @@
     {
         public Refactoring()
         {
-            InitializeComponent();
+      //      InitializeComponent();
         }
     }
 }

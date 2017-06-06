@@ -14,12 +14,17 @@
 //    b) Navigate to Command Prompt. Opens command prompt in current directory
 //    c) Locate in Solution Explorer. Opens solution explorer with current file selected
 
+using System;
 using JetBrains.ReSharper.Koans.Navigation;
 
 public class Foo
 {
+    public Form1 Form2 { get; private set; }
+
     public void Thing()
     {
-        new Form1();
+        Console.WriteLine("Fast!");
+
+        Form2 = new Form1();
     }
 }
