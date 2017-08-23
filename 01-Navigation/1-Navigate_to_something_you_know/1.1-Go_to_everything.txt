@@ -1,39 +1,37 @@
-﻿Go To Everything
+﻿任意跳转
 
-Navigate anywhere by name
-
-Combines go to type, symbol and file in one menu.
+ReSharper - Navigate - Go to Everything/Type...
+可以跳转到任意类型、符号或者文件
 
 Ctrl+T (VS)
 Ctrl+N (IntelliJ)
 
-1. Navigate to type, symbol or file
-   Type "example", showing ExampleCode.cs, Example_code.js, the "GoToFileMemberExample" type,
-   the "example" function in Example_code.js and the "ExampleCode" folder
-   Open these files
+1. 跳转到任意类型、符号或者文件
+   输入"example"，可以看到ExampleCode.cs, Example_code.js这几个文件， 
+   "GoToFileMemberExample"这个类，Example_code.js中的函数"example"，
+   还有若干个名为"ExampleCode"的目录。点击就可以跳转到相应的位置。
 
-2. Displays recently open files by default
-   Filter by typing
+2. 默认显示最近打开的文件
+   还可以通过输入进行过滤
 
-3. Use CamelHumps to navigate to the "DocumentViewModel" type
-   Type "DVM" in popup
-   Can also use lowercase "dvm"
+3. 使用首字母缩写跳转到"DocumentViewModel"类
+   输入DVM， 大小写都可以
 
-4. Use middle matching - type "view" to match "DocumentViewModel",
-   "SettingsViewModel" and more
+4. 使用部分匹配 - 输入"view"就可以匹配到"DocumentViewModel",
+   "SettingsViewModel"
 
-5. Use wildcards - type "D*M" to match "DocumentViewModel"
+5. 使用通配符 - 输入"D*M"可以匹配到"DocumentViewModel"
 
-6. Navigate to library types when type not defined in current project
-   type "Console" in popup
+6. 跳转到其他库中的类型
+   输入 "Console"
 
-7. Include library types in search when type matches
-   Navigate to System.Data.DataViewManager
-   Type "DVM" in popup, then hit Alt+N to include library types
+7. 包含库类型
+   比如要跳转到System.Data.DataViewManager
+   输 "DVM"， 然后按下Alt+N
 
-8. Navigate to type with namespace
-   Type "System.Data.DataViewManager"
+8. 可以指明Namespace
+   输入"System.Data.DataViewManager"
+   看到出现漏斗请等待一会儿
 
-9. Use space to delimit paths - type "1-n exa" to filter to files
-   in the "1-Navigation\ExampleCode" folder
-   Type "s d dvm" for "System.Data.DataViewManager"
+9. 使用空格来分隔路径 - 输入 "1-n exa" 可以定位到 "1-Navigation\ExampleCode" 这个文件夹
+   输入 "s d dvm" 可以定位到 "System.Data.DataViewManager"
