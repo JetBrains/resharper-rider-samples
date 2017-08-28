@@ -1,5 +1,6 @@
 ﻿跳转到类型
 
+ReSharper - Navigate - Go to Everything/Type...
 Ctrl+T, /, T, Space (VS)
 注：原来这里写的是Ctrl+T, Ctrl+T，测试下来不成功。
 

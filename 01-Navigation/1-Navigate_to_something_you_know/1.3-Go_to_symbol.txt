@@ -1,25 +1,22 @@
-﻿Go to Symbol
+﻿跳转到符号
 
-Navigate to any symbol - type, method, property, variable
+ReSharper - Navigate - Go to Symbol...
+跳转到任意符号， 包括类型、方法、属性、变量
 
-Ctrl+Shift+Alt+T (VS)
+Shift+Alt+T (VS)
 Ctrl+Shift+Alt+N (IntelliJ)
 
-1. Navigate to Person.Name - type "Person" in popup
+1. 跳转到Person.Name, 执行Go to Symbol， 输入person.n，找到JetBrains.ReSharper.Koans.Refactoring.Person.Name
 
-2. Use CamelHumps, wildcards and middle matching
+2. 使用空格， 输入per na
 
-3. Narrow search by more fully qualifying the search
-   Type "Person." in the popup, filters to Person.Name and Person.Age
+3. 加上Namespace， 输入j r k r p n
 
-4. Use a space to delimit words, e.g. namespaces, classes and symbols
-   Type "person name" in popup
+5. 包含库类型
+   输入Name， 然后按下Ctrl+N
 
-5. Include library symbols
-   Type "Name" and hit Alt+N
+6. 如果没有匹配的符号，跳转到其他库中的符号
+   输入 "console WL"
 
-6. Navigate to library symbols if no matching symbols found
-   Type "console WL"
-
-7. Find symbols in JS files
-   Type "calc", navigate to the "calculate" function in Example_code.js
+7. 还可以找到JS文件的符号
+   输入 "calc", 跳转到Example_code.js文件中的"calculate"函数

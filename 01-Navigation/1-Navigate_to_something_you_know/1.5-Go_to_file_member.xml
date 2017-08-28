@@ -1,13 +1,14 @@
 ﻿<!--
-  Go to File Member in xml files
+// 跳转到XML文件成员
+// ReSharper - Navigate - Go to File Member...
+// 跳转到定义在当前文件的任意成员
   
   Alt+\ (VS)
   Ctrl+F12 (IntelliJ)
 
-  1. Filter for element - type "person" in popup
-  2. Special support for attributes called "name"
-     Change the "named" attribute to "name"
-     Show popup, can now filter by "Dave" or "Angela"
+  1. 输入person， 可以过滤出person元素
+  2. 对name属性做过特殊支持， 把下面的"named"属性改成"name"
+     这次弹框中能显示"Dave" 或者 "Angela"
 -->
 <people>
   <person named="Dave" age="32" />

@@ -1,26 +1,26 @@
 ﻿namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to File Member
-    //
-    // Navigate to any members defined in the current file
+    // 跳转到文件成员
+    // ReSharper - Navigate - Go to File Member...
+    // 跳转到定义在当前文件的任意成员
     //
     // Alt+\ (VS)
     // Ctrl+F12 (IntelliJ)
     //
-    // 1. Navigate to type by name, CamelHumps, middle matching or wildcard
-    //    Type "GoToFileMemberExample"
-    //    Type "GTFME"
-    //    Type "FileMember"
-    //    Type "GoTo*Example"
+    // 1. 可以通过输入名字、首字母缩写、部分文字匹配、通配符的方法进行查找类
+    //    输入 "GoToFileMemberExample"
+    //    输入 "GTFME"
+    //    输入 "FileMember"
+    //    输入 "GoTo*Example"
     //
-    // 2. Navigate to class member by name
-    //    Type "foo" to navigate to GoToFileMemberExample.Foo
+    // 2. 通过名字查找类成员
+    //    输入 "foo" 跳转到 GoToFileMemberExample.Foo
     //
-    // 3. Navigate to constructor
-    //    Type "new" or "ctor"
+    // 3. 跳转到构造函数
+    //    输入 "new" 或者 "ctor"
     //
-    // 4. Navigate to members by visibility
-    //    Type "public" or "private"
+    // 4. 根据可见性来过滤成员
+    //    输入 "public" 或者 "private"
 
 
     // ----------
