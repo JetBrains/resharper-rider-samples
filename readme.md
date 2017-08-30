@@ -1,3 +1,5 @@
+[![official project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 # ReSharper/Rider Workshop
 
 In these materials, you'll learn about many of the features and productivity enhancements available in [ReSharper](https://jetbrains.com/resharper). It provides step by step exercises for navigation, editing, inspections, refactoring and more. While it doesn't cover EVERY feature in ReSharper (we like to have some surprises), it does give many, many useful tips and tricks to both beginners and long time users.
