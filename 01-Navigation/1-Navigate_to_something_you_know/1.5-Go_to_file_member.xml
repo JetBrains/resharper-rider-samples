@@ -1,7 +1,7 @@
-﻿<!--
-// 跳转到XML文件成员
+<!--
+// 转到XML文件成员
 // ReSharper - Navigate - Go to File Member...
-// 跳转到定义在当前文件的任意成员
+// 转到定义在当前文件的任意成员
   
   Alt+\ (VS)
   Ctrl+F12 (IntelliJ)

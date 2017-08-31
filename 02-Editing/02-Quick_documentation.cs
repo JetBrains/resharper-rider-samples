@@ -13,7 +13,7 @@ namespace JetBrains.ReSharper.Koans.Editing
         public void Method()
         {
             // 1. 选中Documented, 执行Show Quick Documentation
-            //    点击Go to链接, 可以跳转到Documented类的定义
+            //    点击Go to链接, 可以转到Documented类的定义
             //    点击See Also下的RelatedClass链接, 会显示RelatedClass的快速文档
             var documented = new Documented();
 
@@ -44,7 +44,7 @@ namespace JetBrains.ReSharper.Koans.Editing
     #region Implementation Details
 
     /// <summary>
-    /// 点击右上角的go to链接可以跳转到类的定义
+    /// 点击右上角的go to链接可以转到类的定义
     /// </summary>
     /// <remarks>
     /// <para>点击下方的RelatedClass链接</para>

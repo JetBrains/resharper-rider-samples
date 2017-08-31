@@ -1,4 +1,4 @@
-﻿跳转到类型
+转到类型
 
 ReSharper - Navigate - Go to Everything/Type...
 Ctrl+T, /, T, Space (VS)
@@ -8,9 +8,9 @@ Ctrl+T, /, T, Space (VS)
 输入"/", 可以看到弹出框中显示各种类型， 其中t代表类型。
 输入"t"， 再输入空格。
 
-1. 跳转到"Persen"类型， 输入Person
+1. 转到"Persen"类型， 输入Person
 
-2. 跳转到"DocumentViewModel" - 输入 "DocumentViewModel"
+2. 转到"DocumentViewModel" - 输入 "DocumentViewModel"
 
 3. 同样可以使用首字母缩写 - 输入 "DVM"
 
@@ -24,16 +24,17 @@ Ctrl+T, /, T, Space (VS)
 
 6. 使用通配符 - 输入 "D*M"
 
-7. 跳转到其他库中的类型
+7. 转到其他库中的类型
    输入 "Console"
 
 8. 包含库类型
-   比如要跳转到System.Data.DataViewManager
+   比如要转到System.Data.DataViewManager
    输 "DVM"， 然后按下Alt+N
 
-9. 可以指明Namespace
+9. 可以指明命名空间
    输入"System.Data.DataViewManager"
    看到出现漏斗请等待一会儿
 
-10. 使用空格来快速匹配Namespace
+10. 使用空格来快速匹配命名空间
     输入 "s d dvm" 可以定位到 "System.Data.DataViewManager"
+

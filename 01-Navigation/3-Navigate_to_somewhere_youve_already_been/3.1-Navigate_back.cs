@@ -1,10 +1,8 @@
-﻿namespace JetBrains.ReSharper.Koans.Navigation
+namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate Back
-    //
-    // Returns the caret to the last navigation point
-    //
-    // Ctrl+- (minus)
+    // 向后导航 (VS功能)
+    // View - Navigate Backward
+    // Ctrl+-
     //
     public class NavigateBack
     {
@@ -12,7 +10,7 @@
         {
             var navigateTo = new NavigateTo();
 
-            // 1. Navigate to NavigateTo.Destination by Ctrl+Click or Go To Definition
+            // 1. 跳转到NavigateTo.Destination的定义
             navigateTo.Destination();
         }
     }

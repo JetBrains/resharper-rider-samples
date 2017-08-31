@@ -1,13 +1,13 @@
-﻿跳转到文件
+转到文件
 
 ReSharper - Navigate - Go to File...
-直接跳转到一个文件
+直接转到一个文件
 
 Ctrl+Shift+T (VS)
 Ctrl+Shift+N
 
-1. 跳转到"Go_to_file.txt"，输入gotofile，也可以只输入gtf，gtfile，*file.txt
+1. 转到"Go_to_file.txt"，输入gotofile，也可以只输入gtf，gtfile，*file.txt
 
-2. 使用首字母缩写 - 输入"EC"跳转到ExampleCode.cs
+2. 使用首字母缩写 - 输入"EC"转到ExampleCode.cs
 
-3. 也可以跳转到文件夹， 输入"EC"， 在Solution Explorer中跳转到ExampleCode目录
+3. 也可以转到文件夹， 输入"EC"， 在Solution Explorer中转到ExampleCode目录

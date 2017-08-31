@@ -1,22 +1,22 @@
-﻿跳转到符号
+转到符号
 
 ReSharper - Navigate - Go to Symbol...
-跳转到任意符号， 包括类型、方法、属性、变量
+转到任意符号， 包括类型、方法、属性、变量
 
 Shift+Alt+T (VS)
 Ctrl+Shift+Alt+N (IntelliJ)
 
-1. 跳转到Person.Name, 执行Go to Symbol， 输入person.n，找到JetBrains.ReSharper.Koans.Refactoring.Person.Name
+1. 转到Person.Name, 执行Go to Symbol， 输入person.n，找到JetBrains.ReSharper.Koans.Refactoring.Person.Name
 
 2. 使用空格， 输入per na
 
-3. 加上Namespace， 输入j r k r p n
+3. 加上命名空间， 输入j r k r p n
 
 5. 包含库类型
    输入Name， 然后按下Ctrl+N
 
-6. 如果没有匹配的符号，跳转到其他库中的符号
+6. 如果没有匹配的符号，转到其他库中的符号
    输入 "console WL"
 
 7. 还可以找到JS文件的符号
-   输入 "calc", 跳转到Example_code.js文件中的"calculate"函数
+   输入 "calc", 转到Example_code.js文件中的"calculate"函数

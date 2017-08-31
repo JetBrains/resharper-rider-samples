@@ -1,8 +1,8 @@
-﻿namespace JetBrains.ReSharper.Koans.Navigation
+namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // 跳转到文件成员
+    // 转到文件成员
     // ReSharper - Navigate - Go to File Member...
-    // 跳转到定义在当前文件的任意成员
+    // 转到定义在当前文件的任意成员
     //
     // Alt+\ (VS)
     // Ctrl+F12 (IntelliJ)
@@ -14,9 +14,9 @@
     //    输入 "GoTo*Example"
     //
     // 2. 通过名字查找类成员
-    //    输入 "foo" 跳转到 GoToFileMemberExample.Foo
+    //    输入 "foo" 转到 GoToFileMemberExample.Foo
     //
-    // 3. 跳转到构造函数
+    // 3. 转到构造函数
     //    输入 "new" 或者 "ctor"
     //
     // 4. 根据可见性来过滤成员

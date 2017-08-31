@@ -1,7 +1,7 @@
-﻿任意跳转
+任意跳转
 
 ReSharper - Navigate - Go to Everything/Type...
-可以跳转到任意类型、符号或者文件
+可以转到任意类型、符号或者文件
 
 Ctrl+T (VS)
 Ctrl+N (IntelliJ)

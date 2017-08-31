@@ -1,20 +1,20 @@
-﻿任意跳转
+任意跳转
 
 ReSharper - Navigate - Go to Everything/Type...
-可以跳转到任意类型、符号或者文件
+可以转到任意类型、符号或者文件
 
 Ctrl+T (VS)
 Ctrl+N (IntelliJ)
 
-1. 跳转到任意类型、符号或者文件
+1. 转到任意类型、符号或者文件
    输入"example"，可以看到ExampleCode.cs, Example_code.js这几个文件， 
    "GoToFileMemberExample"这个类，Example_code.js中的函数"example"，
-   还有若干个名为"ExampleCode"的目录。点击就可以跳转到相应的位置。
+   还有若干个名为"ExampleCode"的目录。点击就可以转到相应的位置。
 
 2. 默认显示最近打开的文件
    还可以通过输入进行过滤
 
-3. 使用首字母缩写跳转到"DocumentViewModel"类
+3. 使用首字母缩写转到"DocumentViewModel"类
    输入DVM， 大小写都可以
 
 4. 使用部分匹配 - 输入"view"就可以匹配到"DocumentViewModel",
@@ -22,16 +22,17 @@ Ctrl+N (IntelliJ)
 
 5. 使用通配符 - 输入"D*M"可以匹配到"DocumentViewModel"
 
-6. 跳转到其他库中的类型
+6. 转到其他库中的类型
    输入 "Console"
 
 7. 包含库类型
-   比如要跳转到System.Data.DataViewManager
+   比如要转到System.Data.DataViewManager
    输 "DVM"， 然后按下Alt+N
 
-8. 可以指明Namespace
+8. 可以指明命名空间
    输入"System.Data.DataViewManager"
    看到出现漏斗请等待一会儿
 
 9. 使用空格来分隔路径 - 输入 "1-n exa" 可以定位到 "1-Navigation\ExampleCode" 这个文件夹
    输入 "s d dvm" 可以定位到 "System.Data.DataViewManager"
+

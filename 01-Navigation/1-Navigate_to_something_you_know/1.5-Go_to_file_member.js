@@ -1,11 +1,11 @@
-﻿// 跳转到JS文件成员
+// 转到JS文件成员
 // ReSharper - Navigate - Go to File Member...
-// 跳转到定义在当前文件的任意成员
+// 转到定义在当前文件的任意成员
 //
 // Alt+\ (VS)
 // Ctrl+F12 (IntelliJ)
 //
-// 1. 输入 "example" 或者 "other"， 可以跳转到指定函数
+// 1. 输入 "example" 或者 "other"， 可以转到指定函数
 //
 // 2. 使用部分匹配或者通配符
 //    输入 "interesting" 或者 "really*function"
