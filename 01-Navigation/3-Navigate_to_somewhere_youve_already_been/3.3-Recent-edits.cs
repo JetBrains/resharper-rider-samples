@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Show Recent Edits
+    // 显示最近的修改
     //
-    // Shows a popup menu of recent edits. Shows code blocks, not files
+    // 显示最近修改的弹出菜单
     //
     // Ctrl+Shift+, (VS)
     // Ctrl+Shift+Alt+Backspace (IntelliJ)
@@ -22,17 +22,17 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
         private string GetName()
         {
-            // 1. Implement GetName by returning firstName
+            // 1. 删除下面的代码, 返回firstName
             throw new NotImplementedException();
         }
 
         public void Dump()
         {
-            // 2. Implement by uncommenting
+            // 2. 取消下面代码的注释
             // Console.WriteLine("Name: {0}", GetName());
 
-            // 3. Return to GetName using Recent Edits and change to be firstName + lastName
-            // 4. Return back here and uncomment the following
+            // 3. 打开最近修改, 回到GetName(), 改成返回firstName + lastName
+            // 4. 再回到这里取消下面代码的注释
             // Console.WriteLine("Done");
         }
     }
