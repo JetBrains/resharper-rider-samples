@@ -1,18 +1,19 @@
-﻿using System;
+using System;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Find Usages advanced
-    //
-    // Displays a dialog with search options
+    // 查找所有使用(高级)
+    // ReSharper - Find - Find Usages advanced...
+    // 显示一个搜索选项对话框
     //
     // Ctrl+Shift+Alt+F12 (VS)
     // Shift+Alt+F7 (IntelliJ)
 
     public class FindUsagesAdvanced
     {
-        // 1. Look for textual occurrences of Singularity
-        //    Should find these two comments - "Singularity" and the code below
+        // 1. 选中Singularity, 然后执行Find Usages advanced
+        //    勾选Textual occurrences, 可以搜索Singularity的文本
+        //    可以找到下面两条Console.WriteLine语句, 一个直接使用Singularity, 另一个使用字符串"Singularity"
         public string Singularity { get; set; }
 
         public void PrintSingularity()
@@ -21,22 +22,23 @@ namespace JetBrains.ReSharper.Koans.Navigation
             Console.WriteLine("Singularity");
         }
 
-        // 2. Look for textual occurrences of Navigation
-        //    Should find lots of namespace usages
-        //    b) Reduce scope to current file and try again
+        // 2. 再对下面Navigation试一下, 会搜索到两条命名空间中的文本使用
+        //    在搜索范围(Scope)中选中当前文件(current file), 再试一下看看
+        //    注: 我试下来这个对话框总是显示不全
         public string Navigation { get; set; }
 
-        // 3. Look for all usages, including dynamic, of DynamicUsage
-        //    Should find two usages in code + one textual
+        // 3. 这次对 DynamicUsage 试一下选中动态引用(Dynamic references)
+        //    应该会找到两处代码使用和一处文本使用
         public void DynamicUsage(string argument)
         {
             if (argument == null)
                 return;
 
             var something = GetDynamicObject();
+            // 动态的使用
             something.DynamicUsage("sausages");
 
-            // Non-dynamic usage
+            // 非动态的使用
             this.DynamicUsage("hello");
         }
 

@@ -1,9 +1,8 @@
-﻿namespace JetBrains.ReSharper.Koans.Navigation
+namespace JetBrains.ReSharper.Koans.Navigation
 {
+    // 快速查找使用
+    // 显示包含当前文件中使用的弹出菜单
     // Quick Find Usages
-    //
-    // Displays popup menu of usages in current file
-    //
     // Alt+Shift+F12 (VS)
     // Ctrl+Alt+F7 (IntelliJ)
 
@@ -14,7 +13,7 @@
 
         public double Adjust(double original, double delta)
         {
-            // 1. Place the caret on newValue and invoke Quick Find Usages
+            // 1. 选中newValue然后执行Quick Find Usages
             var newValue = original + delta;
 
             if (newValue < MinValue)

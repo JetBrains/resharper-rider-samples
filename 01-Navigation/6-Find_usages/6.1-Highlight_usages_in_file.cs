@@ -1,6 +1,7 @@
-﻿namespace JetBrains.ReSharper.Koans.Navigation
+namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Highlight Usages in File
+    // 高亮本文件中的使用
+    // ReSharper - Find - Highlight Usages in File
     //
     // Shift+Alt+F11 (VS)
     // Ctrl+Alt+F7 (IntelliJ)
@@ -12,13 +13,12 @@
 
         public double Adjust(double original, double delta)
         {
-            // 1. Place the caret on newValue and Highlight Usages in File
-            //    Note the different colour highlights for read and write usage
-            //    Note the highlights in the stripe on the right of the editor
-            //    These highlights are clickable, and have tooltips
-            //    Escape clears the highlight
-            //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-            //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+            // 1. 选中 newValue 然后执行 Highlight Usages in File
+            //    你可以看到他们有不同的颜色, 写入是红色, 而读取是蓝色
+            //    同时你也可以看到右侧的相同颜色条纹, 这些条纹都是可以点击的
+            //    按Escape取消高亮
+            //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) 可以前后切换
+            //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ)
             var newValue = original + delta;
 
             if (newValue < MinValue)
