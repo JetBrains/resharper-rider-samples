@@ -2,20 +2,10 @@
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
-    //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
-    //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
-    //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
 
-
-    // 1. Navigate to related files. E.g. related designer files
-    //    Put text caret here →
-    //    Navigate to Related Files shows list of other files containing definitions of Form1
+    // 1. 把光标放在这里，执行Navigate To命令 →
+    //    按R，显示相关文件（Related Files）
+    //    designer文件和resx文件都列了出来
 
     public partial class Form1 : Form
     {

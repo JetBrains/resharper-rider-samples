@@ -1,18 +1,6 @@
-﻿// Navigate To menu
-//
-// Displays a contextual menu of options you can use to navigate to from
-// your current location
-//
-// Very useful way of navigating without having to learn ALL of the shortcuts!
-//
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
-
-
-// 1. Place text caret here →
-//    a) Navigate to Windows Explorer. Opens explorer with current file selected
-//    b) Navigate to Command Prompt. Opens command prompt in current directory
-//    c) Locate in Solution Explorer. Opens solution explorer with current file selected
+﻿
+// 1. 把光标放在这里，执行Navigate To命令 →
+//    a) 按L，定位到解决方案浏览器（Locate in Solution Explorer）. 会打开解决方案浏览器，并选中当前文件。
 
 using System;
 using JetBrains.ReSharper.Koans.Navigation;

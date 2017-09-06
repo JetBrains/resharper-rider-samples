@@ -3,18 +3,7 @@ using System.Collections.Generic;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
-    //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
-    //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
-    //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
-
-
-    // 1. When caret is on a control flow keyword
+    // 1. 这次对控制流的关键字使用Navigate to命令
     public class NavigateToControlFlowKeyword
     {
         public void ControlFlowWithForStatement()
@@ -23,22 +12,23 @@ namespace JetBrains.ReSharper.Koans.Navigation
             {
                 var child = Children[i];
 
-                // a) Place the caret on "continue". Navigate To → Control Flow Target
-                //    takes the caret to the i++ in the for declaration
+                // a) 选中"continue". 按C，转到控制流目标（Control Flow Target）
+                //    光标会转到for语句中的 i++ 命令前
                 if (ShouldSkipChild(child))
                     continue;
 
-                // b) Place the caret on "break". Navigate To → Control Flow Target
-                //    takes the caret to the next statement after the loop
+                // b) 选中"break". 按C，转到控制流目标（Control Flow Target）
+                //    光标会转到循环后的第一条语句前
                 if (ShouldStop(child))
                     break;
 
-                // c) Place the caret on "return". Navigate To → Control Flow Target
-                //    takes the caret to the closing brace of the function
+                // c) 选中"return". 按C，转到控制流目标（Control Flow Target）
+                //    光标会转到函数体的闭合花括号前
                 if (ShouldQuit(child))
                     return;
             }
 
+            // 按Ctrl+-返回
             Console.WriteLine("Finished loop");
         }
 
@@ -47,16 +37,16 @@ namespace JetBrains.ReSharper.Koans.Navigation
             switch (size)
             {
                 case Size.Large:
-                    // d) Place the caret on "break". Navigate To → Control Flow Target
-                    //    takes the caret to the first statement after the switch
+                    // d) 选中"break". 按C，转到控制流目标（Control Flow Target）
+                    //    光标会跳转到switch后第一条语句
                     break;
                 case Size.Medium:
-                    // e) Place the caret on "return". Navigate To → Control Flow Target
-                    //    takes the caret to the closing brace of the function
+                    // e) 选中"return". 按C，转到控制流目标（Control Flow Target）
+                    //    光标会转到函数体的闭合花括号前
                     return;
                 case Size.Small:
-                    // e) Place the caret on "throw". Navigate To → Control Flow Target
-                    //    takes the caret to the closing brace of the function
+                    // e) 选中"throw". 按C，转到控制流目标（Control Flow Target）
+                    //    光标会转到函数体的闭合花括号前
                     throw new ArgumentOutOfRangeException("size");
             }
 
