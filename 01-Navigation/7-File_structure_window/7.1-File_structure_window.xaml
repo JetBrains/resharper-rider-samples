@@ -1,8 +1,5 @@
 ﻿<!--
-     Ctrl+Alt+F (VS)
-     Ctrl+F11 (IntelliJ)
-     
-     Explore the file window, including right click and toolbar options
+     xaml格式的文件也可以查看
 -->
 
 <UserControl x:Class="JetBrains.ReSharper.Koans.Navigation._7_File_structure_window.UserControl1"
