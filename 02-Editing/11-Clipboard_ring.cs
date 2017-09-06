@@ -2,26 +2,26 @@
 
 namespace JetBrains.ReSharper.Koans.Editing
 {
-    // Clipboard Ring
+    // 剪贴板环
+    // ReSharper - Edit - Paste
+    // 可以保存最近的20个剪贴板记录
     //
-    // Tracks the last 20 copies to the clipboard
-    //
-    // ReSharper → Edit → Paste (No shortcut defined in VS)
+    // Ctrl+Shift+V (VS)
     // Ctrl+Shift+V (IntelliJ)
 
     public class ClipboardRing
     {
         public void Method()
         {
-            // 1. Copy each line below in turn
-            // 2. Invoke Clipboard Ring
-            //    Each copied line is shown in most recent order
-            // 3. Hit the number to paste
-            //    Next time the dialog is opened, the order is updated
+            // 1. 把光标放到下面的第一行语句
+            // 2. 重复按Shift+Delete四次
+            // 3. 按Ctrl+Shift+V， 按照从大到下的顺序依次粘贴
+            //    可以输入four来过滤
             Console.WriteLine("One");
             Console.WriteLine("Two");
             Console.WriteLine("Three");
             Console.WriteLine("Four");
+
         }
     }
 }
