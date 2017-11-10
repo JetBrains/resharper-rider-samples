@@ -26,9 +26,7 @@
 [Bb]in/
 [Oo]bj/
 _UpgradeReport_Files/
-
-# Note that we deliberately commit packages
-#[Pp]ackages/
+[Pp]ackages/
 
 Thumbs.db
 Desktop.ini
