@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../..">
-      <sourceFolder url="file://$MODULE_DIR$/../../00-EssentialShortcuts" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../01-Navigation" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../02-Editing" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../03-Inspections" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../04-Refactoring/Refactoring" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../04-Refactoring/Refactoring-MoveTarget" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/MvcApplication4/MvcApplication4" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/RegularExpresssions" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/Xaml" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../06-UnitTesting/ProductionCode" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../06-UnitTesting/TestCode" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../07-LiveTemplates" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../08-StructuralSearchAndReplace" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../09-Tools" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../10-Other/GameOfLife" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../FSharpConsoleApplication" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/../../00-EssentialShortcuts/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../00-EssentialShortcuts/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../01-Navigation/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../01-Navigation/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../02-Editing/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../02-Editing/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../03-Inspections/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../03-Inspections/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../04-Refactoring/Refactoring-MoveTarget/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../04-Refactoring/Refactoring-MoveTarget/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../04-Refactoring/Refactoring/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../04-Refactoring/Refactoring/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/MvcApplication4/MvcApplication4/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/MvcApplication4/MvcApplication4/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/RegularExpresssions/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/RegularExpresssions/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/Xaml/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../05-LanguagesAndFrameworks/Xaml/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../06-UnitTesting/ProductionCode/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../06-UnitTesting/ProductionCode/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../06-UnitTesting/TestCode/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../06-UnitTesting/TestCode/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../07-LiveTemplates/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../07-LiveTemplates/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../08-StructuralSearchAndReplace/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../08-StructuralSearchAndReplace/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../09-Tools/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../09-Tools/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../10-Other/GameOfLife/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../10-Other/GameOfLife/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../FSharpConsoleApplication/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../FSharpConsoleApplication/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

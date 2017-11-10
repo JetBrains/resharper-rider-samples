@@ -16,8 +16,8 @@
             PercentageDiscount = 0;
         }
 
-        public string Id { get; private set; }
         public string Name { get; private set; }
+        public string Id { get; private set; }
         public virtual int PercentageDiscount { get; private set; }
     }
 
@@ -28,7 +28,10 @@
         {
         }
 
-        public override int PercentageDiscount { get { return 10; } }
+        public override int PercentageDiscount
+        {
+            get { return 10; }
+        }
     }
 
     public class GoldCustomer : Customer
@@ -38,6 +41,9 @@
         {
         }
 
-        public override int PercentageDiscount { get { return 25; } }
+        public override int PercentageDiscount
+        {
+            get { return 25; }
+        }
     }
 }
