@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggingNetCoreTests", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelDebugging", "10-Debugging\ParallelDebugging\ParallelDebugging.csproj", "{1FD592B5-E545-4804-B302-FE39424292F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggingDemo", "10-Debugging\DebuggingDemo\DebuggingDemo.csproj", "{7DD31E3C-5105-445D-B755-914863CB06C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{1FD592B5-E545-4804-B302-FE39424292F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD592B5-E545-4804-B302-FE39424292F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD592B5-E545-4804-B302-FE39424292F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD31E3C-5105-445D-B755-914863CB06C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD31E3C-5105-445D-B755-914863CB06C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD31E3C-5105-445D-B755-914863CB06C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD31E3C-5105-445D-B755-914863CB06C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,5 +170,6 @@ Global
 		{A3EECD1F-204F-4F08-9121-C3253BB2A8A6} = {ADC4FCD2-75B8-459C-BD96-0D8F6D33FF14}
 		{7CB58C05-7D81-48DE-87D9-18BEA1DEBD62} = {594D6BBC-99E0-4280-B87E-DEB416CD3131}
 		{1FD592B5-E545-4804-B302-FE39424292F3} = {594D6BBC-99E0-4280-B87E-DEB416CD3131}
+		{7DD31E3C-5105-445D-B755-914863CB06C6} = {594D6BBC-99E0-4280-B87E-DEB416CD3131}
 	EndGlobalSection
 EndGlobal
