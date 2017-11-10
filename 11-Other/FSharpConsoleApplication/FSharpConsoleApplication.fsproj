@@ -55,7 +55,7 @@
     <Compile Include="Fibonacci.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\01-Navigation\Navigation.csproj">
+    <ProjectReference Include="..\..\01-Navigation\Navigation.csproj">
       <Project>{08951b8e-2965-45bc-9b43-6e3c673c7629}</Project>
       <Name>Navigation</Name>
     </ProjectReference>
