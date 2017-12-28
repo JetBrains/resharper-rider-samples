@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1-Navigate_to_something_you_know\1.1-Go_to_everything.txt" />
+    <Compile Include="1-Navigate_to_something_you_know\1.7-Go_to_breakpoint.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.4-Go_to_file.txt" />
     <Compile Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.cs" />
     <Content Include="1-Navigate_to_something_you_know\1.3-Go_to_symbol.txt" />
