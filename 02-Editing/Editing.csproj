@@ -64,7 +64,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FSharpConsoleApplication\FSharpConsoleApplication.fsproj">
+    <ProjectReference Include="..\11-Other\FSharpConsoleApplication\FSharpConsoleApplication.fsproj">
       <Project>{a3eecd1f-204f-4f08-9121-c3253bb2a8a6}</Project>
       <Name>FSharpConsoleApplication</Name>
     </ProjectReference>
