@@ -13,7 +13,7 @@ namespace JetBrains.ReSharper.Koans.Tools
         //    A dialog opens that shows which settings apply to this block of code.
         //
         //    Settings can be changed i nthis dialog, and our code is reformatted as
-        //    an example, makign it easier to see which setting does what.
+        //    an example, making it easier to see which setting does what.
         // start
         public string SayHello(string name, string message)
         {
