@@ -50,6 +50,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring-MoveTarget", "04-Refactoring\Refactoring-MoveTarget\Refactoring-MoveTarget.csproj", "{C3CA581D-9289-443D-8EC5-50158F6FD9CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 Other", "11 Other", "{ADC4FCD2-75B8-459C-BD96-0D8F6D33FF14}"
+	ProjectSection(SolutionItems) = preProject
+		11-Other\01-Interactive_Tutorials.txt = 11-Other\01-Interactive_Tutorials.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "11-Other\GameOfLife\GameOfLife.csproj", "{AC7DC4DA-1413-431F-B280-D22295196B4B}"
 EndProject
