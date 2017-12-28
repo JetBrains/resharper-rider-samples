@@ -9,7 +9,7 @@ namespace DebuggingDemo
     internal static class Program
     {
         // Select DebuggingDemo Run Configuration in drop down in top right toolbar
-        // Add breakpoint to line 26 (`var count = people.Count`)
+        // Add breakpoint to line 28 (`var count = people.Count`)
         // Start debugging
         // Step over, step into (e.g. PrintPeople), step out
         // View values in editor, next to declarations
@@ -19,6 +19,8 @@ namespace DebuggingDemo
         //   Can use lambdas in watch expressions, e.g. people.FirstOrDefault(p => p.Company.Country == "CZ")
         private static void Main(string[] args)
         {
+            // Advanced - Step into (F11) the line `JsonConvert.DeserializeObject<List<Person>>(json);`
+            // See that Rider decompiles third party code and steps into that decompiled code.
             var json = File.ReadAllText("people.json");
             var people = JsonConvert.DeserializeObject<List<Person>>(json);
             
