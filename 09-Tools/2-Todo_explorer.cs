@@ -40,5 +40,22 @@ namespace JetBrains.ReSharper.Koans.Tools
         {
             // PERF: Blah blah blah
         }
+
+        // 9. ReSharper lets us link to external resources in to-do items.
+        //    Create a new To-do pattern with the following characteristics:
+        //    - Name: YouTrack issue
+        //    - Pattern: (?<=\W|^)(?<TAG>[A-Z]+\-\d+)(\W|$)(.*)
+        //    - URL: https://youtrack.jetbrains.com/issue/${TAG}
+        //    - Enable "Match in comments"
+        //
+        //    Once saved, the below to-do comment will provide Ctrl+click navigation
+        //    to an issue in our issue tracker.
+        //
+        //    The regular expression has a capture group "TAG", which can be used in the URL template.
+        //    You could create multiple capture groups and use any of them in the URL template.
+        public void MethodLinkingToIssueTracker()
+        {
+            // Example of issue RSRP-37565
+        }
     }
 }
