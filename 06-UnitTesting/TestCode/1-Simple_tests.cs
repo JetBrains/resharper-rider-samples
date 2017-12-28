@@ -44,7 +44,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
         }
 
         // 7. Ignored tests don't get run, but are still shown in the Unit Test Session window
-        [Test, Ignore]
+        [Test, Ignore("Ignored for no particular reason.")]
         public void IgnoredTest()
         {
             throw new NotImplementedException();
@@ -62,9 +62,9 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
 
         // 9. Run all or some parameterised tests
         //    Change the values, watch tests fail
-        [TestCase(1, 2, Result = 3)]
-        [TestCase(5, 5, Result = 10)]
-        [TestCase(21, 21, Result = 42)]
+        [TestCase(1, 2, ExpectedResult = 3)]
+        [TestCase(5, 5, ExpectedResult = 10)]
+        [TestCase(21, 21, ExpectedResult = 42)]
         public int ParameterisedTestWithImplicitAssert(int x, int y)
         {
             return Add(x, y);
