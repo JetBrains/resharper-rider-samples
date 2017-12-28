@@ -1,8 +1,4 @@
-﻿using System;
-using System.Text;
-
-
-namespace JetBrains.ReSharper.Koans.Tools
+﻿namespace JetBrains.ReSharper.Koans.Tools.Common
 {
     // Code cleanup
     //
@@ -13,14 +9,14 @@ namespace JetBrains.ReSharper.Koans.Tools
     //
     // Silent cleanup:
     // Ctrl+Shift+Alt+F 
-    public class FullCleanup
+    public class ReformatCode
     {
 
 
 
-        // 1. Full cleanup
+        // 1. Reformat code
         //    Invoke Code Cleanup
-        //    Select Full Cleanup profile
+        //    Select Reformat Code profile
         //    Click ok
         //    Note whitespace all cleaned up
         public                    void             BadlySpacedMethod(string   options     )
@@ -41,7 +37,7 @@ namespace JetBrains.ReSharper.Koans.Tools
             MultilineValuesNotMoved(   ) { }
 
 
-        // Note that redundancies are removed (including usings at top of file)
+        // Note that redundant code (e.g. the this. prefix aren't removed)
         private string name = "Stuff";
         public void ReferencingThis()
         {
@@ -52,16 +48,15 @@ namespace JetBrains.ReSharper.Koans.Tools
 
         public void UsesVar()
         {
-            // Note that var usage is made consistent
+            // Note that var usage is unchanged
             var fruit = "banana";
             string vegetable = "potato";
         }
 
 
-        public void ReferencesAreShortened()
+        public void ReferencesAreNotShortened()
         {
             var x = 42;
-            // Note that references are shortened
             System.Diagnostics.Debug.Assert(x == 42);
         }
     }

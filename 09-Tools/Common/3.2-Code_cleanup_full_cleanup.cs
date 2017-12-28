@@ -1,8 +1,4 @@
-﻿using System;
-using System.Text;
-
-
-namespace JetBrains.ReSharper.Koans.Tools
+﻿namespace JetBrains.ReSharper.Koans.Tools.Common
 {
     // Code cleanup
     //
@@ -13,18 +9,16 @@ namespace JetBrains.ReSharper.Koans.Tools
     //
     // Silent cleanup:
     // Ctrl+Shift+Alt+F 
-    public class CustomProfile
+    public class FullCleanup
     {
 
 
 
-        // 1. Custom profile
+        // 1. Full cleanup
         //    Invoke Code Cleanup
-        //    Select "Edit Profiles"
-        //    Click Add
-        //    Select options
-        //    Note that code formatting options are defined elsewhere in options
-        //    The profile declares what formatting options are applied, not what they are
+        //    Select Full Cleanup profile
+        //    Click ok
+        //    Note whitespace all cleaned up
         public                    void             BadlySpacedMethod(string   options     )
         {
             

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JetBrains.ReSharper.Koans.Tools
+namespace JetBrains.ReSharper.Koans.Tools.Common
 {
     // Code format for any language can be configured under
     // ReSharper → Options... → Code Editing

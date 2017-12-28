@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using NUnit.Framework;
 
-namespace JetBrains.ReSharper.Koans.Tools
+namespace JetBrains.ReSharper.Koans.Tools.Common
 {
     // Stack Trace Explorer
     //

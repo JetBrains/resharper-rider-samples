@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JetBrains.ReSharper.Koans.Tools
+namespace JetBrains.ReSharper.Koans.Tools.Common
 {
     // To-do explorer
     //

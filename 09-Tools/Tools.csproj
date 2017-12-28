@@ -46,16 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3.1-Code_cleanup_reformat_code.cs" />
-    <Compile Include="3.2-Code_cleanup_full_cleanup.cs" />
-    <Compile Include="3.3-Code_cleanup_custom_profile.cs" />
-    <Content Include="4-LocateInSolutionExplorer.txt" />
+    <Compile Include="Common\3.1-Code_cleanup_reformat_code.cs" />
+    <Compile Include="Common\3.2-Code_cleanup_full_cleanup.cs" />
+    <Compile Include="Common\3.4-Code_format.cs" />
+    <Compile Include="Common\3.3-Code_cleanup_custom_profile.cs" />
+    <Content Include="Common\4-LocateInSolutionExplorer.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="1-Stack_trace_explorer.cs" />
-    <Compile Include="2-Todo_explorer.cs" />
+    <Compile Include="Common\1-Stack_trace_explorer.cs" />
+    <Compile Include="Common\2-Todo_explorer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Rider\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
