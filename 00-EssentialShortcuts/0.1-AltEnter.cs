@@ -1,4 +1,4 @@
-﻿namespace EssentialShortcuts
+namespace EssentialShortcuts
 {
     // 最重要的快捷键： Alt+Enter
     //
@@ -21,7 +21,8 @@
         {
             // 2. 上下文相关的操作
             //    选中下面这行代码中的arg， 这次左侧显示了榔头图标， 说明可以执行和arg有关的操作
-            //    点击榔头或者按下Alt+Enter, 在弹出菜单中选择"To String.Format invocation"
+            //    点击榔头或者按下Alt+Enter, 在弹出菜单中选择"Convert concatenation to interpolation"
+            //    注: 原来是 "To String.Format invocation", 现在点右侧的箭头也可以弹出
             return "Hello" + arg + "World";
         }
     }
