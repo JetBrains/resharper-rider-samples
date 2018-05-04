@@ -1,17 +1,7 @@
-﻿// Navigate To menu
-//
-// Displays a contextual menu of options you can use to navigate to from
-// your current location
-//
-// Very useful way of navigating without having to learn ALL of the shortcuts!
-//
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
-
-
-// 1. Navigate to related files. E.g. other files containing partial class
-//    Put text caret here →
-//    Navigate to Related Files shows list of other files containing definitions of PartialClass
+﻿
+// 1. 把光标放在这里，执行Navigate To命令 →
+//    按R，显示相关文件（Related Files）
+//    列出了其他包含PartialClass定义的文件
 
 
 namespace JetBrains.ReSharper.Koans.Navigation

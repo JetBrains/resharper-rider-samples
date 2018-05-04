@@ -1,38 +1,40 @@
-﻿Go To Type
+转到类型
 
-Navigate to type by type name
+ReSharper - Navigate - Go to Everything/Type...
+Ctrl+T, /, T, Space (VS)
+注：原来这里写的是Ctrl+T, Ctrl+T，测试下来不成功。
 
-Ctrl+T, Ctrl+T (VS)
-Ctrl+N, Ctrl+N (IntelliJ)
+先打开Go to Everything， 输入框中提示type "/" to filter（输入'/'来过滤搜索的类型)。
+输入"/", 可以看到弹出框中显示各种类型， 其中t代表类型。
+输入"t"， 再输入空格。
 
-Go to type is invoked by first invoking Go to Everything, then hitting the
-keyboard shortcut again. It's a means of narrowing the search to just types
+1. 转到"Persen"类型， 输入Person
 
-1. Navigate to the Person type - type "Person" in popup
+2. 转到"DocumentViewModel" - 输入 "DocumentViewModel"
 
-2. Navigate to the DocumentViewModel type - type "DocumentViewModel" in popup
+3. 同样可以使用首字母缩写 - 输入 "DVM"
 
-3. Use "CamelHumps" to navigate to DocumentViewModel - type "DVM" in popup
+4. 首字母缩写和名字的混合
+   输入 "SVM"
+   显示 "SettingsViewManager" 和 "SettingsViewModel"
+   继续输入 "od" 就可以过滤得到 "SettingsViewModel"
 
-4. Mix "CamelHumps" and naming to navigate to SettingsViewModel
-   Type "SVM" in popup
-   Shows "SettingsViewManager" and "SettingsViewModel"
-   Continue typing to narrow search - "SVMod" filters to "SettingsViewModel"
+5. 通过中间名字的匹配查找 - 输入 "view"， 显示"DocumentViewModel"， "SettingsViewManager" 和 "SettingsViewModel"
+   也可以配合首字母缩写， 比如输入"sviewmo"，可以定位到"SettingsViewModel"
 
-5. Navigate to any view model with middle matching - type "view" in popup
-   Matches the middle of the symbol name - also works with CamelHumps
+6. 使用通配符 - 输入 "D*M"
 
-6. Navigate to DocumentViewModel using wildcard matching - type "D*M" in popup
+7. 转到其他库中的类型
+   输入 "Console"
 
-7. Navigate to library types when type not defined in current project
-   type "Console" in popup
+8. 包含库类型
+   比如要转到System.Data.DataViewManager
+   输 "DVM"， 然后按下Alt+N
 
-8. Include library types in search when type matches
-   Navigate to System.Data.DataViewManager
-   Type "DVM" in popup, then hit Alt+N to include library types
+9. 可以指明命名空间
+   输入"System.Data.DataViewManager"
+   看到出现漏斗请等待一会儿
 
-9. Navigate to type with namespace
-   Type "System.Data.DataViewManager"
+10. 使用空格来快速匹配命名空间
+    输入 "s d dvm" 可以定位到 "System.Data.DataViewManager"
 
-10. Uses spaces to allow quick matching of namespace
-    Type "s d dvm" for "System.Data.DataViewManager"

@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to Derived Symbols
-    //
+    // 转到基符号
+    // ReSharper - Navigate - Base Symbols
     // Alt+Home (VS)
     // Ctrl+U (IntelliJ)
 
@@ -12,18 +12,17 @@ namespace JetBrains.ReSharper.Koans.Navigation
     {
         public void Method()
         {
-            // 1. Put the caret on ICustomer and Go To Base Symbols
-            //    Navigated to ICustomer
+            // 1. 选中 Customer 执行 Go To Base Symbols
+            //    导航到 ICustomer
             Customer customer = GetCustomer();
 
-            // 2. Put the caret on SilverCustomer and Go To Base Symbols
-            //    Navigated to Customer.
-            //    Always navigates one level up the hierarchy, rather than
-            //    Go To Derived Symbols, which can navigate many levels down
+            // 2. 选中 SilverCustomer 执行 Go To Base Symbols
+            //    导航到 Customer.
+            //    总是向上跳转一层, 而不是像Go To Derived Symbols命令, 会显示多层
             var customer2 = new SilverCustomer("id", "Tim");
 
-            // 3. Put the caret on PercentageDiscount and Go To Base Symbols
-            //    Navigated to virtual property Customer.PercentageDiscount
+            // 3. 选中 PercentageDiscount 执行 Go To Base Symbols
+            //    跳转到虚属性 Customer.PercentageDiscount
             Console.WriteLine(customer2.PercentageDiscount);
         }
 

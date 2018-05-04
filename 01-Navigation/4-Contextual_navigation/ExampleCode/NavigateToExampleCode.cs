@@ -8,7 +8,7 @@
         void SayGoodbye();
     }
 
-    // Navigate back (Ctrl+-)
+    // 按Ctrl+-返回
     public class BaseClass
     {
         public virtual void VirtualMethod()
@@ -23,8 +23,8 @@
 
     public static class BaseClassExtensions
     {
-        // Navigate back (Ctrl+-)
-        // Note also works as extension method for DerivedClass
+        // 按Ctrl+-返回
+        // 尽管是BaseClass的扩展函数，但对DerivedClass使用Navigate To Extension Methods也能跳转到这里来
         public static void ExtensionMethodForBaseClass(this BaseClass self)
         {
             // ...
@@ -39,7 +39,7 @@
         }
     }
 
-    // Navigate back (Ctrl+-)
+    // 按Ctrl+-返回
     public class ReallyDerivedClass : DerivedClass
     {
     }

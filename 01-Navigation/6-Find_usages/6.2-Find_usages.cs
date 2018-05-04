@@ -1,21 +1,18 @@
-﻿namespace JetBrains.ReSharper.Koans.Navigation
+namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Find Usages
+    // 查找所有使用
+    // ReSharper - Find - Find Usages
+    // 查找所有使用并且显示在查找结果窗口(Find Results window)
     //
-    // Finds usages and displays in the Find Results window
-    //
-    // Ctrl+K, Ctrl+R (VS)
+    // Shift+F12 (VS)
     // Alt+F7 (IntelliJ)
 
     public class FindUsages
     {
-        // 1. Put the caret on ButtonText and Find Usages
-        //    Note that ReSharper has found read and write usages
-        //    It has also found usages of the type in a XAML control
-        //    And has inferred a dynamic usage in the XAML control where no type is specified
-        // 2. In the Find Results window, check out the right click and toolbar options
-        //    Note the group by options, filtering by usage and merging usages on the same line
-        //    Turn on code preview
+        // 1. 选中 ButtonText 执行 Find Usages
+        //    可以看到 ReSharper 会找出读取和写入的使用
+        //    还会找到在XAML中的使用, 还包括一个没有指定类型但可以动态推断出来的使用
+        // 2. 在查找结果窗口(Find Results window), 你可以依次尝试一下工具栏上的按钮, 还有右键菜单
         public string ButtonText { get; set; }
 
         // Ensures ButtonText is in the correct format

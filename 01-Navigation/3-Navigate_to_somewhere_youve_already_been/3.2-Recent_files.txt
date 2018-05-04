@@ -1,12 +1,10 @@
-﻿Show Recent Files
+显示最近的文件
+ReSharper - Navigate - Recent Files...
+显示最近打开的文件列表, 按照打开的时间排序
 
-Shows list of recently opened files, in order of most recently opened
-
-Very useful when using Visual Studio 2012's Preview Tab. The file might
-not be open, so you can't tab to it, but you can use Recent Files to get
-back there
+可以配合Preview Tab使用, 你可以回到之前在Preview Tab中打开的文件.
 
 Ctrl+, (VS)
 Ctrl+E (IntelliJ)
 
-1. Filter list by typing - middle matching, wildcards and CamelHumps
+1. 可以用中间名字的匹配,通配符,首字母缩写等方式过滤文件

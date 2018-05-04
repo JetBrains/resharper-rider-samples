@@ -2,33 +2,26 @@
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
-    //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
-    //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
-    //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
 
 
-    // 5. When the caret is on a method
+    // 5. 现在试试看对一个方法执行Navigate to
     public class NavigateToMenuOnMethod
     {
-        // a) Member overloads highlights overloads of the method
-        //    Escape clears the highlight
-        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-        //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+        // a) 你可以选中方法名，也可以把光标放在方法体内任意地方
+        //    按M，高亮重载成员（Member overloads）
+        //    按Escape取消高亮
+        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) 可以前后跳转
+        //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ)
         public bool OverloadedMethod()
         {
             return true;
         }
 
-        // b) Function exit(s) highlights return statements
-        //    Escape clears the highlight
-        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-        //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+        // b) 这次必须把光标放在方法名内，而不是双击选中方法，执行Navigate to
+        //    按E，高亮所有的返回语句（Function exit(s)）
+        //    按Escape取消高亮
+        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) 可以前后跳转
+        //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ)
         public bool OverloadedMethod(string arg1)
         {
             if (string.IsNullOrEmpty(arg1))

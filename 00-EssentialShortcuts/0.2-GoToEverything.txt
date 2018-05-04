@@ -1,12 +1,9 @@
-﻿Go To Everything
+任意跳转
 
-Navigate anywhere by name
-
-Combines go to type, symbol and file in one menu.
+ReSharper - Navigate - Go to Everything/Type...
+可以转到任意类型、符号或者文件
 
 Ctrl+T (VS)
 Ctrl+N (IntelliJ)
 
-Escape to cancel
-
-Covered in more detail in next section
+按下Escape取消
