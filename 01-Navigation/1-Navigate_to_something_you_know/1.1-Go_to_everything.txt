@@ -22,17 +22,19 @@ Ctrl+N (IntelliJ)
 
 5. 使用通配符 - 输入"D*M"可以匹配到"DocumentViewModel"
 
-6. 转到其他库中的类型
+6. 输入"Person"会搜索到很多结果, 如"AddPerson", "RemovePerson"等等
+   可以使用精确搜索, 在搜索的文字两遍加引号(""), 这样只会搜索到类型Person, 和一些文本
+
+7. 转到其他库中的类型
    输入 "Console"
 
-7. 包含库类型
+8. 包含库类型
    比如要转到System.Data.DataViewManager
    输 "DVM"， 然后按下Alt+N
 
-8. 可以指明命名空间
+9. 可以指明命名空间
    输入"System.Data.DataViewManager"
    看到出现漏斗请等待一会儿
 
-9. 使用空格来分隔路径 - 输入 "1-n exa" 可以定位到 "1-Navigation\ExampleCode" 这个文件夹
+10. 使用空格来分隔路径 - 输入 "1-n exa" 可以定位到 "1-Navigation\ExampleCode" 这个文件夹
    输入 "s d dvm" 可以定位到 "System.Data.DataViewManager"
-

@@ -27,6 +27,15 @@
     {
         // ...
     }
-    
 
+    public class PersonRepository
+    {
+        public void AddPerson(Person person)
+        {
+        }
+
+        public void RemovePerson(Person person)
+        {
+        }
+    }
 }

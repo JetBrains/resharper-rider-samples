@@ -45,7 +45,7 @@ namespace JetBrains.ReSharper.Koans.Editing
 
     }
 
-    public class GeneateEquality
+    public class GenerateEquality
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
