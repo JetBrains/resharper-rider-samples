@@ -54,7 +54,7 @@ namespace JetBrains.ReSharper.Koans.Editing
                 //    Use Ctrl+Shift+Alt+Up/Down to rearrange within the if statement
                 //    Use Ctrl+Shift+Alt+Left to move out of if statement
                 //    Use Ctrl+Shift+Alt+Up/Down to move above and below if statement
-                //    Use Ctrl+Shift+Alt+Right to move into the if statementS
+                //    Use Ctrl+Shift+Alt+Right to move into the if statement
                 Console.WriteLine("Hello");
                 Console.WriteLine("World");
             }

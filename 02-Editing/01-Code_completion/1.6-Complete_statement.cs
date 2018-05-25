@@ -32,7 +32,7 @@ namespace JetBrains.ReSharper.Koans.Editing
 
         public void CompleteComplexStatment()
         {
-            // 3. Complete if statement
+            // 3. Complete complex statement
             //    Uncomment the uncompleted if statement below
             //    Place the caret anywhere in the statement
             //    Invoke Complete Statement
