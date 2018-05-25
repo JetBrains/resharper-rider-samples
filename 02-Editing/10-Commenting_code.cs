@@ -12,7 +12,7 @@ namespace JetBrains.ReSharper.Koans.Editing
     // Ctrl+Shift+/ (VS + IntelliJ)
 
     // 1. Toggle comment on single line
-    //    Place caret on line below, select Ctrl+D
+    //    Place caret on line below, invoke Toggle line comment
     using System.Collections;
 
     // 2. Toggle comment on multiple lines
