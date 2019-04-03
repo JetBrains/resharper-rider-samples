@@ -2,7 +2,7 @@
 
 Navigate to any symbol - type, method, property, variable
 
-Ctrl+Shift+Alt+T (VS)
+Shift+Alt+T (VS)
 Ctrl+Shift+Alt+N (IntelliJ)
 
 1. Navigate to Person.Name - type "Person" in popup
