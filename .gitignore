@@ -5,6 +5,7 @@
 **/.idea/**/tasks.xml
 **/.idea/shelf/*
 **/.idea/dictionaries
+**/.idea/httpRequests/
 
 # Sensitive or high-churn files
 **/.idea/**/dataSources/
