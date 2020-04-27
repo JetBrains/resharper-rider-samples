@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows.Forms;
 using NUnit.Framework;
 
 namespace JetBrains.ReSharper.Koans.Tools.Common
@@ -26,7 +25,7 @@ namespace JetBrains.ReSharper.Koans.Tools.Common
             }
             catch (Exception e)
             {
-                Clipboard.SetText("An error occurred while running the test" + Environment.NewLine + Environment.NewLine + e);
+                TextCopy.Clipboard.SetText("An error occurred while running the test" + Environment.NewLine + Environment.NewLine + e);
                 Console.WriteLine("Exception copied to clipboard");
                 throw;
             }
