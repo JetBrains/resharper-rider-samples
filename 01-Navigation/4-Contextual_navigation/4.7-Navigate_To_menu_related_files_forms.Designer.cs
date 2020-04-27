@@ -1,4 +1,6 @@
-﻿namespace JetBrains.ReSharper.Koans.Navigation
+﻿using System.Drawing;
+
+namespace JetBrains.ReSharper.Koans.Navigation
 {
     partial class Form1
     {
