@@ -1,75 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BDFA8849-9AFC-4DAC-9DBF-C99E19F1122E}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JetBrains.ReSharper.Koans.Refactoring</RootNamespace>
-    <AssemblyName>JetBrains.ReSharper.Koans.Refactoring</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="01-Refactor_This_menu.cs" />
-    <Compile Include="04-Move.cs" />
-    <Compile Include="05-Change_signature.cs" />
-    <Compile Include="08-Introduce_and_inline_field.cs" />
-    <Compile Include="07-Introduce_and_inline_parameter.cs" />
-    <Compile Include="06-Introduce_and_inline_variable.cs" />
-    <Compile Include="09-Encapsulate_field.cs" />
-    <Compile Include="11-Convert_methods_and_indexers.cs" />
-    <Compile Include="10-Convert_methods_and_properties.cs" />
-    <Compile Include="12-Convert_property_to_auto_property.cs" />
-    <Compile Include="13-Convert_constructor_to_factory_method.cs" />
-    <Compile Include="15-Convert_abstract_class_and_interface.cs" />
-    <Compile Include="14-Convert_static_and_extension_methods.cs" />
-    <Compile Include="ExampleCode\RenameInAnotherFile.cs" />
-    <Compile Include="16-Extract_class_from_parameters.cs" />
-    <Compile Include="18-Extract_superclass.cs" />
-    <Compile Include="17-Extract_interface.cs" />
-    <Compile Include="19-Extract_class.cs" />
-    <Compile Include="20-Extract_and_inline_method.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="02-Rename.cs" />
-    <Compile Include="03-Safe_delete.cs" />
-    <Compile Include="21-Pull_up_and_push_down.cs" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+
 </Project>
