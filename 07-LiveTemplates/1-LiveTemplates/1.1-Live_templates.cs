@@ -51,7 +51,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
         //    Put the cursor inside the brackets of new Guid(), add quotes and start typing "nguid"
         //      e.g. new Guid("nguid");
         //    Hit tab or select the item from the code completion list
-        //    ReSharper creates a new guid and offers formatting optionss
+        //    ReSharper creates a new guid and offers formatting options
         private Guid guid = new Guid();
         private Guid guid2 = new Guid("nguid"); // Place cursor between d and " and hit tab to expand
 
@@ -91,5 +91,5 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
 
     // (^ here)
 
-    // No code shouldd be added beyond this line!
+    // No code should be added beyond this line!
 }

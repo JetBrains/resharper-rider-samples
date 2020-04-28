@@ -12,7 +12,7 @@ namespace JetBrains.ReSharper.Koans.Tools.Common
         //    Press Alt+Enter, select Format selection → Configure
         //    A dialog opens that shows which settings apply to this block of code.
         //
-        //    Settings can be changed i nthis dialog, and our code is reformatted as
+        //    Settings can be changed in this dialog, and our code is reformatted as
         //    an example, making it easier to see which setting does what.
         // start
         public string SayHello(string name, string message)

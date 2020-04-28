@@ -179,7 +179,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         // 8a. Cancel apply rename refactor prompt with Escape
         //     Place text caret on AutoProperty
         //     MANUALLY change the property name (do not invoke refactoring)
-        //     Note the dotted line around the propert name
+        //     Note the dotted line around the property name
         //     Hit Escape to cancel the dotted line
         public string Name { get; set; }
     }

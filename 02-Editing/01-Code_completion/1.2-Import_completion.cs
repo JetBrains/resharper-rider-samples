@@ -34,7 +34,7 @@
             //    Invoke Import Completion
             //    Import Completion suggests Provider (in JetBrains.ReSharper.Koans.Editing.Services)
             //    Import Completion ALSO has fewer candidates in the list
-            //var provider = new Provid
+            //var provider = new Provider
         }
     }
 }
