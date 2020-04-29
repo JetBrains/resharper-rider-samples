@@ -5,9 +5,9 @@
 //
 // Very useful way of navigating without having to learn ALL of the shortcuts!
 //
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
-
+// <shortcut id="Navigate To...">Alt+`</shortcut>
+//
+// TODO: Not sure this is relevant anymore
 
 // 1. Place text caret here →
 //    a) Navigate to Windows Explorer. Opens explorer with current file selected

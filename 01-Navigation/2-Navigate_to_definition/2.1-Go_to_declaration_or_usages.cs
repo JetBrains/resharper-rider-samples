@@ -3,19 +3,17 @@ using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go To Definition
+    // Go to Declaration or Usages
     //
     // Navigates to the definition of a symbol
     //
-    // Ctrl+Click
-    // Ctrl+B (VS)
-    // Ctrl+B (IntelliJ)
-
+    // <shortcut id="Go to Declaration or Usages">F12 or CTRL + Click</shortcut>
+    //
     public class GoToDefinition
     {
         public void Method(string name, int age)
         {
-            // 1. Ctrl+Click on "Person"
+            // 1. <shortcut id="Go to Declaration or Usages">F12 or CTRL + Click</shortcut> on "Person"
             // 2. Use the keyboard shortcut
             var person = new Person("Hadi", 53);
 
@@ -34,7 +32,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
             System.Console.WriteLine();
 
             // 7. Go to Definition of a namespace
-            //    Ctrl+Click or use the keyboard shortcut on "Navigation"
+            //    <shortcut id="Go to Declaration or Usages">F12 or CTRL + Click</shortcut> on "Navigation"
             var type = typeof(JetBrains.ReSharper.Koans.Navigation.GoToDefinition);
         }
     }

@@ -9,8 +9,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //
     // Very useful way of navigating without having to learn ALL of the shortcuts!
     //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
+    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    //
 
 
     // 1. Navigate to related files. E.g. related designer files

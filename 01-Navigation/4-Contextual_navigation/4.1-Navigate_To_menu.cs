@@ -5,8 +5,8 @@
 //
 // Very useful way of navigating without having to learn ALL of the shortcuts!
 //
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
+// <shortcut id="Navigate To...">Alt+`</shortcut>
+//
 
 
 // 1. Works on all symbols, including using statements

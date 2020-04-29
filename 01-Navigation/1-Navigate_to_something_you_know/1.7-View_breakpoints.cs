@@ -1,12 +1,12 @@
 ﻿namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to Breakpoint
+    // View Breakpoints
     //
     // Navigate to breakpoints in solution.
     //
-    // Ctrl+Alt+F9 (VS and IntelliJ)
+    // <shortcut id="View Breakpoints...">Ctrl+Alt+B</shortcut>
 
-    public class NavigateToBreakpoint
+    public class ViewBreakpoints
     {
         public void Foo()
         {
@@ -19,12 +19,7 @@
         }
 
         // 3. Go to Breakpoint
-        //    Use the keyboard shortcut Ctrl+Alt+F9
+        //    Use the keyboard shortcut <shortcut id="View Breakpoints...">Ctrl+Alt+B</shortcut>
         //    See that both of the breakpoints we created are listed, hit enter to navigate.
-        //
-        // 4. Go to Breakpoint - Find results
-        //    Use the keyboard shortcut Ctrl+Alt+F9
-        //    Then press Shift+Enter to open the Find results tool window.
-        //    See breakpoints listed in separate tool window. Use context menu to enable/disable a breakpoint.
     }
 }

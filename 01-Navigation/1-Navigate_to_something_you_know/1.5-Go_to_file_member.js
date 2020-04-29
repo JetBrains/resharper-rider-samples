@@ -2,8 +2,7 @@
 //
 // Navigate to any members defined in the current file
 //
-// Alt+\ (VS)
-// Ctrl+F12 (IntelliJ)
+// <shortcut id="File Member">Alt+\ (VS)</shortcut>
 //
 // 1. Navigate to "example" or "other"
 //

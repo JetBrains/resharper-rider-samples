@@ -7,8 +7,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //
     // Displays outline of file
     //
-    // Ctrl+Alt+F (VS)
-    // Ctrl+F11 (IntelliJ)
+    // <shortcut id="Show Structure window">Ctrl+Alt+F (VS)</shortcut>
+    //
     //
     // 1. Double click to navigate
     // 2. Select "Track caret in editor" and move around the editor
@@ -24,9 +24,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
         }
 
         public string Name { get; private set; }
-
-        // 6. In the file window, click the "x" in the box representing the region
-        //    this removes the region
+        
         #region Implementation of IComponent
 
         public void Dispose()

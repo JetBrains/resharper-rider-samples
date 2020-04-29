@@ -4,8 +4,7 @@
     //
     // Navigate to any members defined in the current file
     //
-    // Alt+\ (VS)
-    // Ctrl+F12 (IntelliJ)
+    // <shortcut id="File Member">Alt+\ (VS)</shortcut>
     //
     // 1. Navigate to type by name, CamelHumps, middle matching or wildcard
     //    Type "GoToFileMemberExample"
