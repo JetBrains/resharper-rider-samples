@@ -15,7 +15,7 @@ namespace JetBrains.ReSharper.Koans.Editing
 
         public void ExtendAndShrinkSelection()
         {
-            // 1. Place the caret inside "importanValue" and expand selection
+            // 1. Place the caret inside "importantValue" and expand selection
             //    Expand selection again to select the whole line
             //    Expand selection again to select the body of the method
             //    Expand selection again to select the whole method

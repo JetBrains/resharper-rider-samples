@@ -30,7 +30,7 @@ namespace JetBrains.ReSharper.Koans.Editing
             //if (true
         }
 
-        public void CompleteComplexStatment()
+        public void CompleteComplexStatement()
         {
             // 3. Complete complex statement
             //    Uncomment the uncompleted if statement below

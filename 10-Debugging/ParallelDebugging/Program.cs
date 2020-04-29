@@ -13,7 +13,7 @@ namespace ParallelDebugging
         // * Switch threads in drop down in Debug tool window
         // * See how execution point and `value` is updated when switching
         // * Switch from Frames pane to Threads pane - call stacks now grouped by Thread
-        // * Swith to Parallel Stacks view. This shows a diagram of common call stacks per thread
+        // * Switch to Parallel Stacks view. This shows a diagram of common call stacks per thread
         //   E.g. 10 threads up to `DoWork`, then will split off, some threads in `DoWorkEven`, some in `DoWorkOdd`
         //   Then more in `DoWorkFinal`. Hover over number of number of threads to see which threads
         private static void DoWorkFinal(int value)

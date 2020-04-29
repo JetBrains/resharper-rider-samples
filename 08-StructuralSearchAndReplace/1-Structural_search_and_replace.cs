@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
+namespace JetBrains.ReSharper.Koans.StructuralSearchAndReplace
 {
     // Structural Search And Replace
     //
@@ -28,7 +28,7 @@ namespace JetBrains.ReSharper.Koans.StructuralSeachAndReplace
         //    a) Go to ReSharper → Find → Search with Pattern
         //    b) Change the pattern to $type$.Today
         //    c) Click Add Placeholder → Extract from pattern. ReSharper will create an expression
-        //       placeholder called "type" 
+        //       placeholder called "type"
         //    d) Double click the "type" placeholder to edit it
         //    e) Type System.DateTime in the "Expression type", or use the dropdown to select from
         //       a tree, or use CamelHumps, etc. Click OK. Notice the $type$ in the editor is no

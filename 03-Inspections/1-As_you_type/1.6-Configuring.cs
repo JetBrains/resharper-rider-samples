@@ -32,9 +32,9 @@ namespace JetBrains.ReSharper.Koans.Inspections._1_As_you_type
 
             // 2a. Disable highlights with #pragma
             //     Alt+Enter on the Foo highlight below
-            //     Expand the "Compiler warning 'CS0612: Use of obsoleet symbol'" option
+            //     Expand the "Compiler warning 'CS0612: Use of obsolete symbol'" option
             //     Select Disable with #pragma, or expand menu for more options
-            //     ReSharper adds #pragma statment and the warning is suppressed
+            //     ReSharper adds #pragma statement and the warning is suppressed
             Console.WriteLine(Foo);
         }
 
