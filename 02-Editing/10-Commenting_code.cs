@@ -4,12 +4,12 @@ namespace JetBrains.ReSharper.Koans.Editing
 {
     // Toggle line comment
     //
-    // Ctrl+Alt+/ (VS)
-    // Ctrl+/ (IntelliJ)
+    // <shortcut id="Comment/uncomment with Line Comment">Ctrl+Alt+/</shortcut> (VS)
+    //
 
     // Toggle block comment
     //
-    // Ctrl+Shift+/ (VS + IntelliJ)
+    // <shortcut id="Comment/uncomment with Block Comment">Ctrl+Shift+/</shortcut> (VS + IntelliJ)
 
     // 1. Toggle comment on single line
     //    Place caret on line below, invoke Toggle line comment

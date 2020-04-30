@@ -4,8 +4,8 @@
     //
     // Narrows candidates to those that best suit the current context
     //
-    // Ctrl+Alt+Space (VS)
-    // Ctrl+Shift+Space (IntelliJ)
+    // <shortcut id="Smart Completion">Ctrl+Alt+Space (VS)</shortcut>
+    //
 
     public class SmartCompletion
     {

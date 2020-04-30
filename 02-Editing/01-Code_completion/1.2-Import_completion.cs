@@ -7,8 +7,8 @@
     // Automatic Completion also does Import Completion. Using Import Completion alone
     // reduces the candidates in the list
     //
-    // Shift+Alt+Space (VS)
-    // Ctrl+Alt+Space (IntelliJ)
+    // <shortcut id="Second Basic Completion">Shift+Alt+Space</shortcut> (VS)
+    //
 
     namespace Services
     {

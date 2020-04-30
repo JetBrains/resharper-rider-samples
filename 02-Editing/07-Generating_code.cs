@@ -6,9 +6,9 @@ namespace JetBrains.ReSharper.Koans.Editing
     //
     // Displays a contextual menu of options for generating code available at the current location
     //
-    // Alt+Insert (in text editor)
+    // <shortcut id="Generate...">Alt+Insert</shortcut> (in text editor)
     //
-    // (Alt+Insert on Solution Explorer invokes Generate menu for File Templates,
+    // (The same shortcut on Solution Explorer invokes Generate menu for File Templates,
     //  see Live Templates section)
 
     public class InsertConstructor
@@ -88,7 +88,7 @@ namespace JetBrains.ReSharper.Koans.Editing
 
         // 5.1 Generate variable
         //     Uncomment the Console.WriteLine statement message will be undefined
-        //     Alt+Enter on message to get option to create local variable
+        //     <shortcut id="Show context actions">Alt+Enter</shortcut> on message to get option to create local variable
         //     Specify type, hit tab and caret is moved to allow for setting value
         public void GenerateVariable()
         {
@@ -107,7 +107,7 @@ namespace JetBrains.ReSharper.Koans.Editing
 
         // 5.3 Generate class (great for TDD!)
         //     Uncomment the following statements. The class will be undefined
-        //     Alt+Enter on Processor to get option to create class
+        //     <shortcut id="Show context actions">Alt+Enter</shortcut> on Processor to get option to create class
         //     ReSharper will create class + constructor
         //     Tab throw options 
         public void GenerateClass()
@@ -124,7 +124,7 @@ namespace JetBrains.ReSharper.Koans.Editing
         {
             // 6. Generate switch labels
             //    Place text caret inside switch statement
-            //    Alt+Enter and select Generate switch labels
+            //    <shortcut id="Show context actions">Alt+Enter</shortcut> and select Generate switch labels
             switch (day)
             {
 

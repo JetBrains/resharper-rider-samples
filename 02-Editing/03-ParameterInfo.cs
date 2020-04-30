@@ -6,9 +6,9 @@ namespace JetBrains.ReSharper.Koans.Editing
     //
     // Shows expected parameter types and names for method calls and overloads
     //
-    // Ctrl+K, P (VS)
-    // Ctrl+P (IntelliJ)
-    // Cancel to close
+    // <shortcut id="Parameter Info">Ctrl+Shift+Space (VS)</shortcut>
+    //
+    // Escape to close
     //
     // Configure behavior in ReSharper → Options → Environment → IntelliSense → Parameter Info
     public class ParameterInfo

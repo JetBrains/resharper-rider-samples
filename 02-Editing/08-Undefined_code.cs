@@ -8,8 +8,8 @@ namespace JetBrains.ReSharper.Koans.Editing
         {
             // 1. Create from usage
             //    Uncomment these lines
-            //    Alt+Enter on Calculator and create from usage
-            //    Alt+Enter on Add and create from usage - select return type, parameter type usage, implement method
+            //    <shortcut id="Show context actions">Alt+Enter</shortcut> on Calculator and create from usage
+            //    <shortcut id="Show context actions">Alt+Enter</shortcut> on Add and create from usage - select return type, parameter type usage, implement method
 
             //var calculator = new Calculator();
             //if (calculator.Add(a, b) > 100)
@@ -23,7 +23,7 @@ namespace JetBrains.ReSharper.Koans.Editing
             // 2. Change All Local
             //    Update all usages of an undefined symbol in the current method
             //    Uncomment broken code
-            //    Alt+Enter on undefined symbol
+            //    <shortcut id="Show context actions">Alt+Enter</shortcut> on undefined symbol
             //    Select Change all local 'value'
             //    ReSharper suggests alternatives that fit - result from local method, and NewValue field
             //    Accepting change only affects this method
@@ -42,7 +42,7 @@ namespace JetBrains.ReSharper.Koans.Editing
             // 2. Change All
             //    Update all usages of an undefined symbol across methods
             //    Uncomment broken code below, and in ChangeAll2
-            //    Alt+Enter on undefined symbol
+            //    <shortcut id="Show context actions">Alt+Enter</shortcut> on undefined symbol
             //    Select Change all 'value'
             //    ReSharper suggests alternatives that fit - NewValue field, but not localValue
             //      (it's not accessible from ChangeAll2)

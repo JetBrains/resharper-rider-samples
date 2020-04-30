@@ -6,8 +6,8 @@ namespace JetBrains.ReSharper.Koans.Editing
     //
     // Replace selection with text that includes current selection
     //
-    // Ctrl+E, U (VS)
-    // Ctrl+Alt+J (IntelliJ)
+    // <shortcut id="Surround With">Ctrl+E, U (VS)</shortcut>
+    //
     // Alt+Enter
     //
     // See also Live Templates

@@ -13,7 +13,7 @@ namespace JetBrains.ReSharper.Koans.Editing
     // Import = code completion from other namespaces
     // Smart = filtered code completion for the current context (e.g. only string values for a string parameter)
     //
-    // Ctrl+Space / Automatic
+    // <shortcut id="Basic Completion">Ctrl+Space</shortcut> / Automatic
 
     public class AutomaticCompletion
     {
