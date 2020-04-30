@@ -7,13 +7,13 @@ namespace JetBrains.ReSharper.Koans.Inspections
 {
     // Navigate between highlights
     //
-    // Alt+PageUp and Alt+PageDn (VS)
+    // <shortcut id="Next Highlight">Alt+PageUp</shortcut> and <shortcut id="Previous Highlight">Alt+PageDn</shortcut> (VS)
     // F12 and Shift+F12 (IntelliJ)
     //
     // Navigate between errors
     //
-    // Shift+Alt+PageUp and ShiftAlt+PageDown (VS)
-    // Alt+F12 and Shift+Alt+F12 (IntelliJ)
+    // <shortcut id="Next Error">Shift+Alt+PageUp</shortcut> and <shortcut id="Previous Error">Shift+Alt+PageDn</shortcut> (VS)
+    //
 
     public class Navigation
     {

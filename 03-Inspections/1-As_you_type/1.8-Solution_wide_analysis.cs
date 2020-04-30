@@ -11,8 +11,8 @@ namespace JetBrains.ReSharper.Koans.Inspections
     //
     // Navigate between highlights in files:
     //
-    // Shift+Alt+PageUp and Shift+Alt+PageDown (VS)
-    // Alt+F12 and Shift+Alt+F12 (IntelliJ)
+    // <shortcut id="Next Error">Shift+Alt+PageUp</shortcut> and <shortcut id="Previous Error">Shift+Alt+PageDn</shortcut> (VS)
+    //
 
     public class SolutionWideAnalysis
     {

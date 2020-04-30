@@ -10,7 +10,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     {
         public void MultipleIssues()
         {
-            // 1. Alt+Enter on the first List<string> highlight
+            // 1. <shortcut id="Show context actions">Alt+Enter</shortcut> on the first List<string> highlight
             //    Expand the "Inspection 'Use preferred var style'" submenu
             //    Select "Find all issues of this type in scope"
             //    Specify the scope in the dialog - project, solution or custom

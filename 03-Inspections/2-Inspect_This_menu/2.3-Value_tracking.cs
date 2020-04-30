@@ -6,7 +6,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     //
     // Follow a value between calls
     //
-    // Ctrl+Shift+Alt+A (VS/IntelliJ)
+    // <shortcut id="Inspect this...">Ctrl+Shift+Alt+A</shortcut> (VS/IntelliJ)
     public class ValueTracking
     {
         // 1. Find where the "value" parameter is eventually used

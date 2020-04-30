@@ -6,7 +6,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     //
     // View incoming and outgoing calls for methods
     //
-    // Ctrl+Shift+Alt+A (VS/IntelliJ)
+    // <shortcut id="Inspect this...">Ctrl+Shift+Alt+A</shortcut> (VS/IntelliJ)
 
     public class CallTracking
     {

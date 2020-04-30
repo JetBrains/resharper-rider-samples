@@ -5,7 +5,7 @@ namespace JetBrains.ReSharper.Koans.Inspections
     //
     // Inspect class hierarchies
     //
-    // Ctrl+Shift+Alt+A (VS/IntelliJ)
+    // <shortcut id="Inspect this...">Ctrl+Shift+Alt+A</shortcut> (VS/IntelliJ)
 
 
     // 1. Display hierarchies of IComponent
