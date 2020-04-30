@@ -8,19 +8,19 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
     // All keyboard shortcuts are listed in the ReSharper → Unit Tests menu
     //
     // Run unit tests in the current cursor context:
-    //   Ctrl+U, R (VS)
-    //   Ctrl+T, R (IntelliJ)
+    //   <shortcut id="Run Unit Tests">Ctrl+U, R (VS)</shortcut>
+    //
     // Run the current unit test session:
-    //   Ctrl+U, Y (VS)
-    //   Ctrl+T, T (IntelliJ)
+    //   <shortcut id="Run Current Session">Ctrl+U, Y (VS)</shortcut>
+    // 
     // Repeat previous run:
-    //   Ctrl+U, U (VS)
+    // <shortcut id="Repeat Previous Run">Ctrl+U, U (VS)</shortcut>
     // Debug tests:
-    //   Ctrl+U, D (VS)
+    // <shortcut id="Debug Unit Tests">Ctrl+U, D (VS)</shortcut>
 
 
     // 1. Run all tests by clicking the gutter icon
-    // 2. Run all tests by alt+enter and Run All
+    // 2. Run all tests by <shortcut id="Show context actions">Alt+Enter</shortcut> and Run All
     // 3. Run all tests with different keyboard shortcuts
     //    Run all in solution, run current session
     // 4. Put the caret outside the class, inside the class and inside methods
@@ -39,7 +39,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
         {
             // 5. Double click the failing test in the Unit Test Session window
             //    or use the stack trace to navigate here and fix the test
-            // 6. Run just this test, with Alt+Enter on method name, or with keyboard shortcuts
+            // 6. Run just this test, with <shortcut id="Show context actions">Alt+Enter</shortcut> on method name, or with keyboard shortcuts
             Assert.AreEqual(12, 23);
         }
 
@@ -76,8 +76,8 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
         }
 
         // 10. Parameterised tests, using a named test case source
-        //     a) Go to Definition (Ctrl+Click) of DivideCases
-        //     b) Invoke Code Completion (Ctrl+Space) with the caret inside DivideCases
+        //     a) Go to Definition (<shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut>) of DivideCases
+        //     b) Invoke Code Completion (<shortcut id="Basic Completion">Ctrl+Space</shortcut>) with the caret inside DivideCases
         //     c) Use the rename refactoring to change the name of the data source and update the string literal
         //     d) Edit the name, see ReSharper flag the unknown data source as an error
         [Test, TestCaseSource("DivideCases")]
@@ -95,7 +95,7 @@ namespace JetBrains.ReSharper.Koans.UnitTesting
         };
 
         // 12. Debugging tests
-        //     Set a breakpoint and debug the test (Alt+Enter, keyboard shortcuts)
+        //     Set a breakpoint and debug the test (<shortcut id="Show context actions">Alt+Enter</shortcut>, keyboard shortcuts)
         [Test]
         public void DebuggingTest()
         {
