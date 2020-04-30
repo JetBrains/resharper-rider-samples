@@ -8,16 +8,16 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     //
     // Creates a new method based on a selected code fragment
     //
-    // Ctrl+R, M (VS)
-    // Ctrl+Alt+M (IntelliJ)
+    // <shortcut id="Extract Method...">Ctrl+R, M (VS)</shortcut>
+    //
 
     // Inline Method
     //
     // Replaces the call site of a method call with the contents of the method,
     // optionally removing the original method definition
     //
-    // Ctrl+R, I (VS)
-    // Ctrl+Alt+N (IntelliJ)
+    // <shortcut id="Inline...">Ctrl+R, I (VS)</shortcut>
+    //
 
     public class ExtractMethod
     {

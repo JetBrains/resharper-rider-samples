@@ -3,9 +3,9 @@
     // Convert Property to Auto Property
     //
     // Refactoring has no keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
     //
-    // Also available as Quick Fix via Alt+Enter
+    // Also available as Quick Fix via <shortcut id="Show context actions">Alt+Enter</shortcut>
 
     public class ConvertPropertyToAutoProperty
     {
@@ -25,7 +25,7 @@
         // 2. Convert to Auto Property with Alt+Enter
         //    Note shown as suggestion
         //    Place text caret on property definition
-        //    Alt+Enter and select Convert to auto-property
+        //    <shortcut id="Show context actions">Alt+Enter</shortcut> and select Convert to auto-property
         public string PropertyWithBackingStore2
         {
             get { return backingStore2; }
@@ -35,7 +35,7 @@
         // 2. Convert to read-only Auto Property with Alt+Enter
         //    Note shown as hint
         //    Place text caret on property definition
-        //    Alt+Enter and select Convert to auto-property
+        //    <shortcut id="Show context actions">Alt+Enter</shortcut> and select Convert to auto-property
         public string PropertyWithBackingStore3
         {
             get { return backingStore3; }

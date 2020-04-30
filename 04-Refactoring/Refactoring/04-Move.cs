@@ -4,8 +4,8 @@
     //
     // Move a type to another file, folder or namespace
     //
-    // Ctrl+R, O (VS)
-    // F6 (IntelliJ)
+    // <shortcut id="Move...">Ctrl+R, O (VS)</shortcut>
+    //
 
     // 1. Move to another file
     //    Place text caret on type definition

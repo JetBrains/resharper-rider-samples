@@ -9,7 +9,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         // Extracts an interface based on the current class
         //
         // No keyboard shortcut. Invoke via Refactor This menu
-        // Ctrl+Shift+R
+        // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
         // 1. Extract interface
         //    Place text caret on type definition
