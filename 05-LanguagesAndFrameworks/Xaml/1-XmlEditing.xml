@@ -6,34 +6,34 @@
   <foo></foo>
 
   <!-- 2. Tag manipulation
-          Alt+Enter on tag name, select "Collapse empty tag"
-          Alt+Enter on tag name, select "Expand empty tag" 
-          Alt+Enter on tag name, select "Replace tag" 
-          Alt+Enter on tag name, select "Remove tag" -->
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on tag name, select "Collapse empty tag"
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on tag name, select "Expand empty tag" 
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on tag name, select "Replace tag" 
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on tag name, select "Remove tag" -->
   <bar></bar>
 
   <!-- 3. Promote child tag
-          Alt+Enter on foo tag, select "Remove tag and promote child" -->
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on foo tag, select "Remove tag and promote child" -->
   <foo>
     <bar></bar>
   </foo>
   
   <!-- 4. Convert tag and content to attribute
-          Alt+Enter on bar tag, select "To attribute" -->
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on bar tag, select "To attribute" -->
   <foo>
     <bar>Value</bar>
   </foo>
 
   <!-- 5. Convert attribute to nested element
-          Alt+Enter on attribute, select "To nested element" -->
+         <shortcut id="Show context actions">Alt+Enter</shortcut> on attribute, select "To nested element" -->
   <foo var="value" />
 
   <!-- 6. Convert text value to CDATA
-          Alt+Enter on Value, select "Text to CDATA" -->
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on Value, select "Text to CDATA" -->
   <foo>Value</foo>
   
   <!-- 7. Replace all attributes
-          Alt+Enter on attribute, select "Replace all attributes"
+          <shortcut id="Show context actions">Alt+Enter</shortcut> on attribute, select "Replace all attributes"
           Enter new name for all baz attributes in foo elements -->
   <foo baz="value" />
   <foo baz="value" />
@@ -43,10 +43,9 @@
           Place caret in various places, repeatedly expand and shrink selection
           Selects attribute values, attribute, element, parent elements
           
-          Ctrl+Alt+Right and Ctrl+Alt+Left (VS)
-          Ctrl+W and Shift+Ctrl+W (IntelliJ)
+          <shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>          
           
-          Select block - Ctrl+Shift+[ -->
+          Select block - <shortcut id="Select Containing Declaration">Ctrl+Shift+[</shortcut> -->
   <foo bar="value">
     <baz quux="doh" />
     <baz quux="doh" />
@@ -58,7 +57,10 @@
           Place caret on element to reorder element
           Reordering element left/right moves element in/out parent
           
-          Ctrl+Shift+Alt+Left/Right/Up/Down -->
+          <shortcut id="Move Element Left">Left  - Ctrl+Shift+Alt+Left</shortcut>  
+          <shortcut id="Move Element Right">Right - Ctrl+Shift+Alt+Right</shortcut> 
+          <shortcut id="Move Statement Up">Up    - Ctrl+Shift+Alt+Up</shortcut>    
+          <shortcut id="Move Statement Down">Down  - Ctrl+Shift+Alt+Down</shortcut>   -->
   <foo bar="value" bar1="value1" bar2="value2">
     <baz quux="doh" quux2="doh2" quux3="doh3" />
     <baz quux="doh" quux2="doh2" quux3="doh3" />
@@ -67,21 +69,20 @@
   
   <!-- 10. Toggle current line comment
   
-           Ctrl+Alt+/ (VS)
-           Ctrl+/ (IntelliJ) -->
+           <shortcut id="Comment/uncomment with Line Comment">Ctrl+Alt+/</shortcut> (VS)
+            -->
   <foo></foo>
   
   <!-- 11. Insert block comment
            Inserts block comment at text caret, or around selection
            
-           Ctrl+Shift+/ (VS + IntelliJ) -->
+           <shortcut id="Comment/uncomment with Line Comment">Ctrl+Alt+/</shortcut>  (VS + IntelliJ) -->
   <foo></foo>
   
   <!-- 12. Surround with
            Select element, invoke surround with, surround with tag
            
-           Ctrl+E, U (VS)
-           Ctrl+Alt+J (IntelliJ)
-           Alt+Enter -->
+           <shortcut id="Surround With">Ctrl+E, U (VS)</shortcut>
+           <shortcut id="Show context actions">Alt+Enter</shortcut> -->
   <foo></foo>
 </root>

@@ -13,13 +13,13 @@ namespace JetBrains.ReSharper.Koans.RegularExpressions
         {
             // 1. Start typing in empty regex string
             //     Add open bracket, square bracket or escape char see code completion
-            // 2. Invoke code completion (Ctrl+Space) in various places in expression
+            // 2. Invoke code completion (<shortcut id="Basic Completion">Ctrl+Space</shortcut>) in various places in expression
             var match = Regex.Match("abc", @"(?<Word>[A-Za-z]+)(\s|\t)+(?# Comment)", RegexOptions.ExplicitCapture);
         }
 
         public static void ValidateExpression()
         {
-            // 3. Place caret on expression and Alt+Enter, select "Validate regular expression"
+            // 3. Place caret on expression and <shortcut id="Show context actions">Alt+Enter</shortcut>, select "Validate regular expression"
             //    Enter test words, see that they're captured
             //    See that regex requires a trailing space to capture the last word
             //    Change the "+" before the comment to "*"

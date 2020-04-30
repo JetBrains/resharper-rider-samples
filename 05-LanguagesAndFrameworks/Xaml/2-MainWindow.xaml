@@ -6,9 +6,7 @@
     <!-- 1. XML Manipulation also applies to XAML - see XmlEditing.xml -->
     
     
-    <!-- 2. Investigate File Structure Window
-            Ctrl+Alt+F (VS)
-            Ctrl+F11 (IntelliJ) -->
+    <!-- 2. Investigate File Structure Window -->
 
     
     <Window.Resources>
@@ -25,7 +23,7 @@
     <StackPanel HorizontalAlignment="Center">
         
         <!-- 5. Navigate to resource usage
-                Ctrl+Click on resource name
+                <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> on resource name
                 Invoke Find Usages on resource name or definition -->
         <TextBlock Background="{StaticResource Color1}" Foreground="{StaticResource Color2}">Hello world</TextBlock>
         
@@ -35,19 +33,19 @@
 
         <!-- 7. Double completion to use resource element
                 Uncomment invalid code below
-                Invoke double completion on Color1 below (Ctrl+Space x 2) -->
+                Invoke double completion on Color1 below (<shortcut id="Basic Completion">Ctrl+Space</shortcut> x 2) -->
         <!--<TextBlock Background="Color1" Foreground="{StaticResource Color2}" />-->
 
         
         <!-- 8. Create from usage
                 Uncomment invalid code below (Toggle line comment)
-                Alt+Enter on invalid OnClick and create handler 
+                <shortcut id="Show context actions">Alt+Enter</shortcut> on invalid OnClick and create handler 
                 Start typing in IsEnabledChanged attribute value, select create handler -->
         <!--<Button Click="OnClick" IsEnabledChanged=""></Button>-->
         
         <!-- 9. Rearrange resources
                 Put text caret on Style below
-                Rearrange elements (Ctrl+Shift+Alt+Left/Right)
+                Rearrange elements (<shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>)
                 Note Style is moved to new .Resources parent element -->
         <DockPanel>
             <Grid>

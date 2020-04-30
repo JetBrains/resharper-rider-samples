@@ -10,7 +10,7 @@
 
         <!-- 1. Extract XAML Style refactoring
                 Place text caret on StackPanel below
-                Invoke Refactor This (Ctrl+Shift+R)
+                Invoke Refactor This <shortcut id="Refactor This...">Ctrl+Shift+R (VS)</shortcut>
                 Select "Extract XAML Style"
                 Select items to extract to style -->
         <StackPanel VerticalAlignment="Bottom"
@@ -25,7 +25,7 @@
         
         <!-- 2. Extract XAML Resource refactoring
                 Place text caret on "abc" below
-                Invoke Refactor This menu (Ctrl+Shift+R)
+                Invoke Refactor This menu (<shortcut id="Refactor This...">Ctrl+Shift+R (VS)</shortcut>)
                 Select Extract XAML Resource
                 Select all 3 parameters, or just one
                 Provide name, then create resource -->
@@ -37,7 +37,7 @@
         
         <!-- 3. Inline XAML resource
                 Place text caret on XyzText in a binding usage
-                Invoke Refactor This menu (Ctrl+Shift+R)
+                Invoke Refactor This menu (<shortcut id="Refactor This...">Ctrl+Shift+R (VS)</shortcut>)
                 Select Inline XAML Resource
                 Optionally select Inline all usages
                 Accept -->

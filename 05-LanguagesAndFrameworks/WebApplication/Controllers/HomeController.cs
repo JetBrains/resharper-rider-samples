@@ -21,12 +21,12 @@ namespace WebApplication.Controllers
         // 1. Navigate to view
         public IActionResult Index(int? id)
         {
-            // Ctrl+Click on View
+            // <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> on View
             // Navigate to Index.cshtml, or definition of View method
             if (id == null)
                 return View();
 
-            // Ctrl+Click on string literal argument
+            // <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> on string literal argument
             return View("Index");
         }
         
@@ -34,14 +34,14 @@ namespace WebApplication.Controllers
         public IActionResult Details(int? id)
         {
             // View is marked as error, but code compiles
-            // Ctrl+Click navigates straight to definition of View method
-            // Alt+Enter to create view as .cshtml, .aspx, with layout, via VS wizard, etc.
+            // <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> navigates straight to definition of View method
+            // <shortcut id="Show context actions">Alt+Enter</shortcut> to create view as .cshtml, .aspx, with layout, via VS wizard, etc.
             if (id == null)
                 return View();
 
             // View is marked as error, but code compiles
-            // Ctrl+Click navigates straight to definition of View method
-            // Alt+Enter to create view as .cshtml, .aspx, with layout, via VS wizard, etc.
+            // <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> navigates straight to definition of View method
+            // <shortcut id="Show context actions">Alt+Enter</shortcut> to create view as .cshtml, .aspx, with layout, via VS wizard, etc.
             return View("MoreDetails");
         }
         
@@ -49,7 +49,7 @@ namespace WebApplication.Controllers
         public IActionResult DoThing()
         {
             // Place text caret inside string literal
-            // Invoke completion (Ctrl+Space)
+            // Invoke completion (<shortcut id="Basic Completion">Ctrl+Space</shortcut>)
             return View("");
         }
         
@@ -58,16 +58,16 @@ namespace WebApplication.Controllers
         public ActionResult Create(SampleModel model)
         {
             // a. Place text caret inside string literal for actionName
-            //    Invoke completion (Ctrl+Space) - suggests actions from this controller
+            //    Invoke completion (<shortcut id="Basic Completion">Ctrl+Space</shortcut>) - suggests actions from this controller
             if (model == null)
             {
-                // b. Ctrl+Click on RedirectToAction method
+                // b. <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut>on RedirectToAction method
                 //    Navigates to method or controller
                 return RedirectToAction(actionName: "");
             }
 
             // c. Place text caret inside string literal for actionName
-            //    Invoke completion (Ctrl+Space) - no suggestions
+            //    Invoke completion (<shortcut id="Basic Completion">Ctrl+Space</shortcut>) - no suggestions
             //    Place text caret inside string literal for controllerName
             //    Invoke completion - suggests controllers
             //    Place text caret inside string literal for actionName
@@ -75,7 +75,7 @@ namespace WebApplication.Controllers
             return RedirectToAction(actionName: "", controllerName: "");
 
             // d. Navigate to action or controller
-            //    Ctrl+Click on string literal to navigate
+            //    <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> on string literal to navigate
         }
 
         public IActionResult Privacy()
