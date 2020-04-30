@@ -4,15 +4,15 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
 {
     // Surround with
     //
-    // Ctrl+E, U (VS)
-    // Ctrl+Alt+J (IntelliJ)
-    // Alt+Enter when text is selected
+    // <shortcut id="Surround With">Ctrl+E, U (VS)</shortcut>
+    //
+    // <shortcut id="Show context actions">Alt+Enter</shortcut> when text is selected
     //
     public class SurroundTemplates
     {
         // 1. Wrap code in a try/catch
         //    Select the method call and the Console.WriteLine
-        //    Invoke Surround with, or hit Alt+Enter
+        //    Invoke Surround with, or hit <shortcut id="Show context actions">Alt+Enter</shortcut>
         //    Select try/catch
         //    Edit the type of exception you want to catch, e.g. InvalidOperationException
         //    Tab to the name of the exception, and change if you want

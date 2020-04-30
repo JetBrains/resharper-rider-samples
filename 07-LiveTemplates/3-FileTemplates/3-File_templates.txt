@@ -4,7 +4,7 @@ Generate a new file, based on a live template
 
 Generate From File
 
-Ctrl+Alt+Ins (VS + IntelliJ)
+<shortcut id="Generate From File">Ctrl+Alt+Ins</shortcut> (VS + IntelliJ)
 
 Generate (when focus is on Solution Explorer)
 

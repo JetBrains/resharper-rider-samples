@@ -6,7 +6,7 @@ namespace JetBrains.ReSharper.Koans.Tools.Common
     //
     // Highlights "to do" comments in code, and displays them in the To do Items window
     //
-    // Ctrl+Alt+D (VS)
+    // <shortcut id="Show TODO window">Ctrl+Alt+D (VS)</shortcut>
     // (no keyboard shortcut defined in IntelliJ - use the ReSharper → Tools menu)
 
     public class ToDoExplorer

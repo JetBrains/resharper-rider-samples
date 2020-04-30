@@ -4,11 +4,11 @@
     //
     // Cleanup the code according to your style
     //
-    // Ctrl+E, Ctrl+C (VS)
-    // Ctrl+Alt+F (IntelliJ)
+    // <shortcut id="Code Cleanup...">Ctrl+E, Ctrl+C (VS)</shortcut>
+    // 
     //
     // Silent cleanup:
-    // Ctrl+Shift+Alt+F 
+    //  <shortcut id="Silent Code Cleanup">Ctrl+E, Ctrl+F</shortcut> 
     public class CustomProfile
     {
 

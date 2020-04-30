@@ -3,7 +3,7 @@
 A local terminal is available on any platform supported by Rider.
 
 1. Open the local terminal by selecting _View \| Tool Windows \| Terminal_.
-   Ctrl+Alt+1 (Visual Studio) or ^⌘1 (Rider Mac OS X)
+   <shortcut id="Terminal">Ctrl+Alt+1 (Visual Studio) or ^⌘1 (Rider Mac OS X)</shortcut>
 2. Run some commands: `cd ..`, `echo Hello`, ...
 3. The IDE supports multiple simultaneous sessions. Open a new terminal session clicking the _+_ button in the toolbar.
 4. Go back in history: up/down arrows let us replay previous commands.

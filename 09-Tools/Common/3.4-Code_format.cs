@@ -9,7 +9,7 @@ namespace JetBrains.ReSharper.Koans.Tools.Common
     public class CodeFormat
     {
         // 1. Select code from // start to // end
-        //    Press Alt+Enter, select Format selection → Configure
+        //    Press <shortcut id="Show context actions">Alt+Enter</shortcut>, select Format selection → Configure
         //    A dialog opens that shows which settings apply to this block of code.
         //
         //    Settings can be changed in this dialog, and our code is reformatted as
