@@ -7,12 +7,10 @@
 //
 // <shortcut id="Navigate To...">Alt+`</shortcut>
 //
-// TODO: Not sure this is relevant anymore
 
-// 1. Place text caret here →
-//    a) Navigate to Windows Explorer. Opens explorer with current file selected
-//    b) Navigate to Command Prompt. Opens command prompt in current directory
-//    c) Locate in Solution Explorer. Opens solution explorer with current file selected
+// Press <shortcut id="Locate in Solution/Assembly Explorer">Shift+Alt+L</shortcut>
+// to locate this file in Solution Explorer.
+// Opens solution explorer with current file selected
 
 using System;
 using JetBrains.ReSharper.Koans.Navigation;
