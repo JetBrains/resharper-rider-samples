@@ -36,6 +36,23 @@ The exercises are:
 * `08-StructuralSearchAndReplace` - learn how to use ReSharper and Rider's very powerful search and replace functionality that is based on code patterns rather than text.
 * `09-Tools` - useful tools, such as code cleanup, stack trace explorer and the To Do explorer.
 
+## Shortcuts And Actions
+   
+Through out this guided experience, you will see "shortcut" tags. 
+These tags include the official name of each action and can be found
+using the the `Find Action...` feature of your IDE. Reference your
+preferences to find out what that shortcut is, but here are a few known
+shortcut combinations: 
+
+- ReSharper Keymap on Windows: `Ctrl + Shift + A`
+- Visual Studio Keymap on Windows: `Ctrl + Shift + A`
+- Visual Studio Keymap on macOS: `Command (⌘) + Shift (⇧) + A`
+
+The Keymap reference guide is also available online :
+
+- Rider: https://www.jetbrains.com/help/rider/Reference_Keymap_Rider.html
+- ReSharper: https://www.jetbrains.com/help/resharper/Reference__Keyboard_Shortcuts.html
+
 ## Open Source
 
 The workshop is Open Source, licensed under the Apache 2 license. If you would like to contribute to the workshop materials, please feel free to fork the repo and send us a pull request. Or if you have a comment, question, or suggestion for improvements, please [raise an issue](https://github.com/JetBrains/resharper-workshop/issues).
