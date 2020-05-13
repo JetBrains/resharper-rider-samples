@@ -4,7 +4,7 @@
     //
     // Returns the caret to the last navigation point
     //
-    // Ctrl+- (minus)
+    // <shortcut id="Back">Ctrl+- (minus)</shortcut>
     //
     public class NavigateBack
     {
@@ -12,7 +12,7 @@
         {
             var navigateTo = new NavigateTo();
 
-            // 1. Navigate to NavigateTo.Destination by Ctrl+Click or Go To Definition
+            // 1. Navigate to NavigateTo.Destination by <shortcut id="Go to Declaration or Usages">F12 or CTRL + Click</shortcut>
             navigateTo.Destination();
         }
     }

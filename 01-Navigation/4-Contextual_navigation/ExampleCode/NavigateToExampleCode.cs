@@ -8,7 +8,7 @@
         void SayGoodbye();
     }
 
-    // Navigate back (Ctrl+-)
+    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
     public class BaseClass
     {
         public virtual void VirtualMethod()
@@ -23,14 +23,14 @@
 
     public static class BaseClassExtensions
     {
-        // Navigate back (Ctrl+-)
+        // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
         // Note also works as extension method for DerivedClass
         public static void ExtensionMethodForBaseClass(this BaseClass self)
         {
             // ...
         }
 
-        // Navigate back (Ctrl+-)
+        // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
         // Note also works when navigating from BaseClass
         public static DerivedClass MethodExposingDerivedClassAsReturnValue()
         {
@@ -39,7 +39,7 @@
         }
     }
 
-    // Navigate back (Ctrl+-)
+    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
     public class ReallyDerivedClass : DerivedClass
     {
     }

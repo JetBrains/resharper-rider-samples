@@ -5,14 +5,12 @@
 //
 // Very useful way of navigating without having to learn ALL of the shortcuts!
 //
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
+// <shortcut id="Navigate To...">Alt+`</shortcut>
+//
 
-
-// 1. Place text caret here →
-//    a) Navigate to Windows Explorer. Opens explorer with current file selected
-//    b) Navigate to Command Prompt. Opens command prompt in current directory
-//    c) Locate in Solution Explorer. Opens solution explorer with current file selected
+// Press <shortcut id="Locate in Solution/Assembly Explorer">Shift+Alt+L</shortcut>
+// to locate this file in Solution Explorer.
+// Opens solution explorer with current file selected
 
 using System;
 using JetBrains.ReSharper.Koans.Navigation;

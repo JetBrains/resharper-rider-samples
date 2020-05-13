@@ -4,8 +4,8 @@
     //
     // Update a method signature, adding, removing or reordering parameters
     //
-    // Ctrl+R, S (VS)
-    // Ctrl+F6 (IntelliJ)
+    // <shortcut id="Change Signature...">Ctrl+R, S (VS)</shortcut>
+    //
 
     public class ChangeSignature
     {
@@ -44,9 +44,10 @@
         }
 
         // 3. Apply Change Signature refactoring, after change
-        //    MANUALLY reorder the parameters (Ctrl+Shift+Alt+Left/Right)
+        //    MANUALLY reorder the parameters
+        //    (<shortcut id="Move Element Left">Ctrl+Shift+Alt+Left</shortcut> or <shortcut id="Move Element Right">Ctrl+Shift+Alt+Right</shortcut>)
         //    ReSharper highlights signature with dotted line
-        //    Alt+Enter and select Apply Change Signature Refactoring
+        //    <shortcut id="Show context actions">Alt+Enter</shortcut> and select Apply Change Signature Refactoring
         //    ReSharper displays dialog with visualisation of the change
         public void ReorderMethod(string name, int age)
         {

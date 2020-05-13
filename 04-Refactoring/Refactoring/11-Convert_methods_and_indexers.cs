@@ -6,14 +6,14 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     // Convert Method to Indexer
     //
     // No shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     // Convert Indexer to Method(s)
     //
     // Converts an indexer property to a getter and/or setter method(s)
     //
     // No shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     public class ConvertMethodToIndexer
     {

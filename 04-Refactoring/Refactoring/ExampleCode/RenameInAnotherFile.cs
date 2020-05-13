@@ -1,6 +1,6 @@
 ﻿namespace JetBrains.ReSharper.Koans.Refactoring.ExampleCode
 {
-    // Navigate back (Ctrl+-)
+    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
     public class RenameInAnotherFile
     {
         public static void StaticMethod()

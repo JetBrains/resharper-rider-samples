@@ -3,10 +3,10 @@ using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to Derived Symbols
+    // Go to Derived Symbols (Go to Implementation(s))
     //
-    // Alt+End (VS)
-    // Ctrl+Alt+B (IntelliJ)
+    // <shortcut id="Go to Implementation(s)">Alt+End (VS)</shortcut>
+    //
 
     public class GoToDerivedSymbols
     {

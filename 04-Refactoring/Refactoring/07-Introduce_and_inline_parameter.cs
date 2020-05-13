@@ -6,22 +6,22 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     //
     // Create a parameter in the current method from selection
     //
-    // Ctrl+R, P (VS)
-    // Ctrl+Alt+V (IntelliJ)
+    // <shortcut id="Introduce Parameter...">Ctrl+R, P (VS)</shortcut>
+    //
 
     // Inline Parameter
     //
     // Replaces parameter usage with the value from the call site
     //
-    // Ctrl+R, I (VS)
-    // Ctrl+Alt+N (IntelliJ)
+    // <shortcut id="Inline...">Ctrl+R, I (VS)</shortcut>
+    //
 
     public class IntroduceAndInlineParameter
     {
         public void OutputSum(int a, int b)
         {
             // 1. Introduce parameter
-            //    Select "a+b" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
+            //    Select "a+b" (Use expand selection <shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>)
             //    Invoke Introduce Parameter
             //    Specify name "sum"
             //    Parameter is added, and original value is calculated at call site
@@ -37,7 +37,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         public void OutputSum2(int a, int b)
         {
             // 2. Introduce parameter from multiple usages
-            //    Select one of the "a+b" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
+            //    Select one of the "a+b" (Use expand selection<shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>)
             //    Invoke Introduce Parameter
             //    ReSharper highlights all usages, prompts for one usage or all
             //    Select all, they all get replaced
@@ -53,7 +53,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         }
 
         // 3. Inline parameter
-        //    Select parameter "a" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
+        //    Select parameter "a" (Use expand selection <shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>)
         //    Invoke Inline Parameter
         //    Select the value to be substituted for the parameter. Value comes from usage
         //    Parameter is removed, all usages in the method are replaced with the passed value, call site is update
@@ -68,7 +68,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         }
 
         // 4. Inline parameter with multiple usages
-        //    Select parameter "a" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
+        //    Select parameter "a" (Use expand selection <shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>)
         //    Invoke Inline Parameter
         //    Select the value to be substituted for the parameter. Value comes from usage
         //    Parameter is removed, all usages in the method are replaced with the chosen value, call site is update

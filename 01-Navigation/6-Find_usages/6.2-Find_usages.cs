@@ -4,8 +4,8 @@
     //
     // Finds usages and displays in the Find Results window
     //
-    // Ctrl+K, Ctrl+R (VS)
-    // Alt+F7 (IntelliJ)
+    // <shortcut id="Find Usages">Shift+F12</shortcut>
+    //
 
     public class FindUsages
     {

@@ -7,11 +7,10 @@
     //
     // Very useful way of navigating without having to learn ALL of the shortcuts!
     //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
+    // <shortcut id="Navigate To…">Alt+` (VS)</shortcut>
     //
     // 1. Place text caret on class name, invoke menu
-    // 2. Alt+Enter on class name, start typing (e.g. "Navigate To", "Extension methods")
+    // 2. <shortcut id="Show context actions">Alt+Enter</shortcut>on class name, start typing (e.g. "Navigate To", "Extension methods")
     //
     // (Most options not useful with this example. Covered in more detail in next section)
     public class NavigateTo
@@ -25,11 +24,11 @@
     //
     // Very useful for invoking refactorings without requiring to know ALL shortcuts
     //
-    // Ctrl+Shift+R (VS + IntelliJ)
+    // <shortcut id="Refactor This...">Ctrl+Shift+R (VS + IntelliJ)</shortcut>
     //
     // 3. Place text caret on class name, invoke menu
     //    Select rename, rename class
-    // 4. Alt+Enter on class name, start typing (e.g. "Refactor This", "Rename")
+    // 4. <shortcut id="Show context actions">Alt+Enter</shortcut> on class name, start typing (e.g. "Refactor This", "Rename")
     //
     // Covered in more detail in next section
     public class RefactorThis
@@ -41,7 +40,7 @@
     //
     // Displays a contextual menu of options for generating code available at the current location
     //
-    // Alt+Insert (in text editor)
+    // <shortcut id="Generate...">Alt+Insert (in text editor)</shortcut>
     //
     // Covered in more detail in the Editing section
     public class GenerateCode
@@ -55,10 +54,10 @@
     //
     // Very useful for invoking value analysis without learning ALL shortcuts!
     //
-    // Ctrl+Shift+Alt+A (VS + IntelliJ)
+    // <shortcut id="Inspect This...">Ctrl+Shift+Alt+A (VS + IntelliJ)</shortcut>
     //
     // 4. Place text caret on class name, invoke menu
-    // 5. Alt+Enter on class name, start typing (e.g. "Inspect This", "Hierarchies")
+    // 5. <shortcut id="Show context actions">Alt+Enter</shortcut> on class name, start typing (e.g. "Inspect This", "Hierarchies")
     //
     // (Most options not useful with this example. Covered in more detail in later section)
     public class InspectThis

@@ -4,7 +4,7 @@
     //
     // Convert a field to a property
     //
-    // Ctrl+R, E
+    // <shortcut id="Encapsulate Field...">Ctrl+R, E</shortcut>
 
     public class EncapsulateField
     {

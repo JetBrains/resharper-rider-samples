@@ -6,12 +6,12 @@ namespace JetBrains.ReSharper.Koans.Editing
     {
         // Extend/Shrink selection
         //
-        // Ctrl+Alt+Right and Ctrl+Alt+Left (VS)
-        // Ctrl+W and Shift+Ctrl+W
+        // <shortcut id="Extend Selection">Ctrl+Alt+Right</shortcut> and <shortcut id="Shrink Selection">Ctrl+Alt+Left (VS)</shortcut>
         //
-        // Select block
         //
-        // Ctrl+Shift+[
+        // Select Containing Declaration
+        //
+        // <shortcut id="Select Containing Declaration">Ctrl+Shift+[</shortcut>
 
         public void ExtendAndShrinkSelection()
         {
@@ -42,7 +42,7 @@ namespace JetBrains.ReSharper.Koans.Editing
         // 4. Go to ReSharper → Options → Environment → Editor → Editor Behavior
         //    Tick CamelHumps on
         //    Place the caret inside the method name and Extend and Shrink selection
-        //    (Also, with CamelHumps on, try Ctrl+Left and Ctrl+Right navigation inside the method name)
+        //    (Also, with CamelHumps on, try <shortcut id="Move Caret to Previous Word">Ctrl+Left</shortcut> and <shortcut id="Move Caret to Next Word">Ctrl+Right</shortcut> navigation inside the method name)
         public void ExtendAndShrinkSelectionWithCamelHumps()
         {
             var importantValue = 32;

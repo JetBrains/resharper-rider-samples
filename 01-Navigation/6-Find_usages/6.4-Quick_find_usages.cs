@@ -4,8 +4,8 @@
     //
     // Displays popup menu of usages in current file
     //
-    // Alt+Shift+F12 (VS)
-    // Ctrl+Alt+F7 (IntelliJ)
+    // <shortcut id="Show Usages">Alt+Shift+F12 (VS)</shortcut>
+    //
 
     public class QuickFindUsages
     {

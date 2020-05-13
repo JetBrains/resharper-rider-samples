@@ -9,7 +9,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         // Extract members to act as a new base class to the current class
         //
         // No keyboard shortcut. Invoke via Refactor This menu
-        // Ctrl+Shift+R
+        // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
         // 1. Extract superclass
         //    Place text caret on type definition

@@ -3,6 +3,8 @@
 namespace JetBrains.ReSharper.Koans.Navigation
 {
     // Find Usages advanced
+    // 
+    // TODO: May not be relevant anymore (it seems to all be advanced)
     //
     // Displays a dialog with search options
     //

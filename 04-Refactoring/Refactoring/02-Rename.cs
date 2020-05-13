@@ -7,8 +7,8 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     //
     // Renames an element and all usages of it
     //
-    // Ctrl+R, R (VS)
-    // F2 (IntelliJ)
+    // <shortcut id="Rename">Ctrl+R, R (VS)</shortcut>
+    //
 
     public class RenameType
     {
@@ -61,7 +61,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     }
 
     // 3. Undo local rename
-    //    If rename is in single file, normal undo (Ctrl+Z) will rename back
+    //    If rename is in single file, normal undo (<shortcut id="undo">Ctrl+Z</shortcut>) will rename back
     public class UndoLocalRename
     {
         const string Message = "hello world";
@@ -73,7 +73,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     }
 
     // 4. Undo rename across files
-    //    By default, ReSharper does not open modified files, so Ctrl+Z does not work
+    //    By default, ReSharper does not open modified files, so <shortcut id="undo">Ctrl+Z</shortcut> does not work
     //    Either make ReSharper open the files, or simply rename back
     public class UndoRenameAcrossFiles
     {
@@ -84,7 +84,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
             //     On first page, check "To enable undo, open all files with changes after editing"
             //     Rename symbol
             //     The other file is opened, and marked modified
-            //     Ctrl+Z will undo the change across all files
+            //     <shortcut id="undo">Ctrl+Z</shortcut>will undo the change across all files
             RenameInYetAnotherFile.StaticMethod();
         }
 
@@ -96,8 +96,8 @@ namespace JetBrains.ReSharper.Koans.Refactoring
             //     On first page, UNCHECK "To enable undo, open all files with changes after editing"
             //     Rename symbol
             //     The other file is not opened, but modified
-            //     Ctrl+Z will undo the local change, but produce uncompilable code
-            //     Redo the local change (Ctrl+Y)
+            //     <shortcut id="undo">Ctrl+Z</shortcut> will undo the local change, but produce uncompilable code
+            //     Redo the local change (<shortcut id="Redo">Ctrl+Y</shortcut>)
             //     Perform rename refactoring back to original name
             RenameInAnotherAnotherFile.StaticMethod();
         }

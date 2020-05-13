@@ -2,12 +2,12 @@
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Show Recent Edits
+    // Recently Changed Files
     //
     // Shows a popup menu of recent edits. Shows code blocks, not files
     //
-    // Ctrl+Shift+, (VS)
-    // Ctrl+Shift+Alt+Backspace (IntelliJ)
+    // <shortcut id="Recently Changed Files">Ctrl+Shift+, (VS)</shortcut>
+    // 
 
     public class RecentEdits
     {

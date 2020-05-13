@@ -5,18 +5,18 @@
 
     <Window.Resources>
         <!-- 1. Unused resource
-                Alt+Enter to remove-->
+                <shortcut id="Show context actions">Alt+Enter</shortcut> to remove-->
         <SolidColorBrush x:Key="UnusedResource" Color="Gold" />
 
         <!-- 2. Naming standards
-                Resource doesn't match naming standards. Alt+Enter to fix -->
+                Resource doesn't match naming standards. <shortcut id="Show context actions">Alt+Enter</shortcut> to fix -->
         <SolidColorBrush x:Key="color3" Color="Red" />
     </Window.Resources>
 
     <StackPanel>
         
         <!-- 3. Redundant qualifiers
-                Alt+Enter to remove -->
+                <shortcut id="Show context actions">Alt+Enter</shortcut> to remove -->
         <TextBlock FrameworkElement.Tag="Boo" Background="{StaticResource color3}"></TextBlock>
 
         <StackPanel>
@@ -29,13 +29,13 @@
                 <Style BasedOn="{StaticResource BaseStyle}" TargetType="TextBlock">
                     <!-- 4. Redundant style setter
                             Note gutter error in left margin
-                            Alt+Enter to remove -->
+                            <shortcut id="Show context actions">Alt+Enter</shortcut> to remove -->
                     <Setter Property="VerticalAlignment" Value="Stretch" />
                 </Style>
             </StackPanel.Resources>
 
             <!-- 5. Redundant explicit styles
-                    Alt+Enter to remove -->
+                    <shortcut id="Show context actions">Alt+Enter</shortcut> to remove -->
             <TextBlock Style="{StaticResource BaseStyle}"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Stretch" />
@@ -45,7 +45,7 @@
         <Grid>
             <Grid.RowDefinitions>
                 <!-- 6a. Grid row definitions
-                          Alt+Enter to add row definition above or below, or remove -->
+                          <shortcut id="Show context actions">Alt+Enter</shortcut> to add row definition above or below, or remove -->
                 <RowDefinition />
 
                 <!-- 6b. Code completion of attributes + values
@@ -54,7 +54,7 @@
             </Grid.RowDefinitions>
 
             <!-- 6c. Grid inspections
-                     Alt+Enter on Grid.Row and Grid.Column to add missing definitions -->
+                     <shortcut id="Show context actions">Alt+Enter</shortcut> on Grid.Row and Grid.Column to add missing definitions -->
             <StackPanel Grid.Row="2"></StackPanel>
             <StackPanel Grid.Column="2"></StackPanel>
         </Grid>

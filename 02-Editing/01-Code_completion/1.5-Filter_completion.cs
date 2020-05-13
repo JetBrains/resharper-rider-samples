@@ -7,7 +7,7 @@
     //
     // Available in automatic, basic, import and smart completion
     //
-    // Ctrl+Space (basic completion)
+    // <shortcut id="Basic Completion">Ctrl+Space</shortcut> (basic completion)
 
     public class FilterCompletion
     {

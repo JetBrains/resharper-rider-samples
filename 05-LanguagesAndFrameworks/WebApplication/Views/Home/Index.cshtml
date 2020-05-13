@@ -1,14 +1,14 @@
 ﻿@{
-    // 1. Invoke C# code completion (Ctrl+Space)
+    // 1. Invoke C# code completion (<shortcut id="Basic Completion">Ctrl+Space</shortcut>)
     //this.
 
-    // 2. Navigate to definition of ViewBag (Ctrl+Click)
+    // 2. Navigate to definition of ViewBag (<shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut>)
     //    (Note ViewBag is dynamic, so cannot navigate to Title)
     ViewBag.Title = "Home Page";
 
     // 3. Navigate to _Layout.cshtml
-    //    Ctrl+Click _Layout.cshtml
-    //    Ctrl+Click Views to open folder in solution explorer
+    //    <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> _Layout.cshtml
+    //    <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> Views to open folder in solution explorer
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -17,6 +17,6 @@
 
     <!-- 3. Support action name in string literal
     Invoke code completion on actionName string literal
-    Ctrl+Click on completed actionName string literal -->
+    <shortcut id="Go to Declaration or Usages">Ctrl+Click</shortcut> on completed actionName string literal -->
     <p>@Html.ActionLink(linkText: "Edit", actionName: "")</p>
 </div>

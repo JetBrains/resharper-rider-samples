@@ -3,12 +3,12 @@
     // Convert Extension Method to Plain Static
     //
     // No keyboard shortcut. Invoke via Refactor This
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     // Convert Static Method to Extension Method
     //
     // No keyboard shortcut. Invoke via Refactor This
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     public static class ConvertStaticAndExtensionMethods
     {

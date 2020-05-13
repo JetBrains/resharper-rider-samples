@@ -8,7 +8,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     // Moves members from a derived type to a base type
     //
     // No keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     // Push Members Down
     //
@@ -16,7 +16,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     // Moves members from a base type to a derived type
     //
     // No keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     namespace PullUp
     {

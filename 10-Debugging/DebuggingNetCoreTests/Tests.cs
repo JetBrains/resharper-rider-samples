@@ -5,15 +5,12 @@ namespace DebuggingNetCoreTests
     // Simple debugging of tests
     // 
     // Add a breakpoint in a test (Click in gutter)
-    // Click the gutter icon or use Alt+Enter on the class or method name
+    // Click the gutter icon or use <shortcut id="Show context actions">Alt+Enter</shortcut> on the class or method name
     // and select Debug or Debug All
     //
     // The test session is added as a temporary Run Configuration
     // Use the Run Configuration drop down in the top right of the window
     // to select the new test Run Configuration
-    //
-    // Run (Shift+F10 or Ctrl+R) will run all of the tests in the test session
-    // Debug (F5 or Ctrl+D) will debug the test session
     public class CalculatorTests
     {
         [Fact]

@@ -6,7 +6,7 @@ namespace JetBrains.ReSharper.Koans.Editing
     //
     // Finish the current statement and move the caret to the next position ready for editing
     //
-    // Ctrl+Shift+Enter (VS + IntelliJ)
+    // <shortcut id="Complete Current Statement">Ctrl+Shift+Enter</shortcut> (VS + IntelliJ)
 
     public class CompleteStatement
     {

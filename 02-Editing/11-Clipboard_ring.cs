@@ -7,7 +7,7 @@ namespace JetBrains.ReSharper.Koans.Editing
     // Tracks the last 20 copies to the clipboard
     //
     // ReSharper → Edit → Paste (No shortcut defined in VS)
-    // Ctrl+Shift+V (IntelliJ)
+    // <shortcut id="Clipboard Ring">Ctrl+Shift+V</shortcut> (IntelliJ)
 
     public class ClipboardRing
     {

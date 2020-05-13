@@ -5,12 +5,12 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     // Convert Abstract Class to Interface
     //
     // No keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     // Convert Interface to Abstract Class
     //
     // No keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
 
     // 1. Convert abstract class to interface

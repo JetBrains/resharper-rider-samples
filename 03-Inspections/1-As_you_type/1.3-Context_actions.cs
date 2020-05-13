@@ -4,7 +4,7 @@
     //
     // Similar to quick fixes, but tied to a code block, not a highlight
     //
-    // Alt+Enter whenever hammer gutter icon is visible
+    // <shortcut id="Show context actions">Alt+Enter</shortcut> whenever hammer gutter icon is visible
     //
     // NOTE: ReSharper has HUNDREDS of context actions. This file provides a very small sample
 
@@ -12,7 +12,7 @@
     {
         // 1. Place caret on public below
         //    Note the hovering "hammer" icon. This indicates a context action is available
-        //    Alt+Enter and select "To Private" to make the method private
+        //    <shortcut id="Show context actions">Alt+Enter</shortcut> and select "To Private" to make the method private
         public void MakePublicMethodPrivate()
         {
         }
@@ -20,7 +20,7 @@
         // 2. Apply context action
         //    Place text caret on "arg"
         //    Note the hammer action - a context action is available (no squiggly!)
-        //    Hit Alt+Enter, select "To String.Format invocation"
+        //    Hit <shortcut id="Show context actions">Alt+Enter</shortcut>, select "To String.Format invocation"
         public string ConcatenatingString(string arg)
         {
             return "Hello" + arg + "World";

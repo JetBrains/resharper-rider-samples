@@ -5,7 +5,7 @@
     // Creates a static factory method, to call constructor. Makes constructor private.
     //
     // Has no keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     public class ConvertConstructorToFactoryMethod
     {

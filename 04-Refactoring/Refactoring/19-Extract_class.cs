@@ -11,7 +11,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         // an instance of the new class
         //
         // No keyboard shortcut. Invoke via Refactor This menu
-        // Ctrl+Shift+R
+        // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
         public class Person
         {

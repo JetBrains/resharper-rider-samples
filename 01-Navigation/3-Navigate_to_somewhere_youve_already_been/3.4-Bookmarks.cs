@@ -2,11 +2,13 @@
 {
     // Bookmarks
     //
+    // TODO: evaluate the shortcuts here
+    // 
     // Set, unset and navigate to bookmarks
     //
-    // Ctrl+Shift+<num> to toggle a numbered bookmark
-    // Ctrl+<num> to navigate to a numbered bookmark
-    // Ctrl+` to show a popup menu of bookmarks
+    // <shortcut id="Toggle Bookmark with Mnemonic">Ctrl+F11</shortcut> to toggle a numbered bookmark
+    // <shortcut id="">Ctrl+[0-9]</shortcut> to navigate to a numbered bookmark
+    // <shortcut id="Show Bookmarks">Ctrl+`</shortcut> to show a popup menu of bookmarks
     //
     // 1. Navigate to MethodOne (using Go To File Member!) and set bookmark one
     //    Ctrl+Shift+1 - not the bookmark icon in the editor gutter

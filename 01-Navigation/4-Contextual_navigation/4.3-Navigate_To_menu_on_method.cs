@@ -9,8 +9,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //
     // Very useful way of navigating without having to learn ALL of the shortcuts!
     //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
+    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    //
 
 
     // 5. When the caret is on a method
@@ -18,8 +18,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     {
         // a) Member overloads highlights overloads of the method
         //    Escape clears the highlight
-        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-        //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+        //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+        //
         public bool OverloadedMethod()
         {
             return true;
@@ -27,8 +27,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
         // b) Function exit(s) highlights return statements
         //    Escape clears the highlight
-        //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-        //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+        //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+        //
         public bool OverloadedMethod(string arg1)
         {
             if (string.IsNullOrEmpty(arg1))

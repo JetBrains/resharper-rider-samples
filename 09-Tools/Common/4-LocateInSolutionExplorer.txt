@@ -2,4 +2,4 @@
 
 Opens Solution Explorer with current file selected
 
-Shift+Alt+L (VS + IntelliJ)
+<shortcut id="Locate/Select in Solution View">Shift+Alt+L (VS + IntelliJ)</shortcut>

@@ -5,7 +5,7 @@
     // Creates a class based on the parameters to a method, and creates it at call sites
     //
     // No keyboard shortcut. Invoke via Refactor This menu
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     public class ExtractClassFromParameters
     {

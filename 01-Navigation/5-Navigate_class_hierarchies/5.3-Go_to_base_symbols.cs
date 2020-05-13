@@ -5,14 +5,14 @@ namespace JetBrains.ReSharper.Koans.Navigation
 {
     // Go to Derived Symbols
     //
-    // Alt+Home (VS)
-    // Ctrl+U (IntelliJ)
+    // <shortcut id="Go to Super Method">Alt+Home (VS)</shortcut>
+    //
 
     public class GoToBaseSymbols
     {
         public void Method()
         {
-            // 1. Put the caret on ICustomer and Go To Base Symbols
+            // 1. Put the caret on Customer and Go To Base Symbols
             //    Navigated to ICustomer
             Customer customer = GetCustomer();
 

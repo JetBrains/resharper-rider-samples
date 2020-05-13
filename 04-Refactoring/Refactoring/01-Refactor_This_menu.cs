@@ -6,7 +6,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     //
     // Display a contextual menu of refactorings available at the current location
     //
-    // Ctrl+Shift+R
+    // <shortcut id="Refactor This...">Ctrl+Shift+R</shortcut>
 
     // 1. Refactor This on type definition, method, property, field, parameter, variable, etc.
     //    Note different options on each code element

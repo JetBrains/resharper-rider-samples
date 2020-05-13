@@ -4,8 +4,8 @@ namespace JetBrains.ReSharper.Koans.Editing
 {
     // Show Quick Documentation
     //
-    // Ctrl+Shift+F1 (VS)
-    // Ctrl+Q (IntelliJ)
+    // <shortcut id="Quick Documentation">Ctrl+Shift+F1 (VS)</shortcut>
+    //
     // Escape to close
 
     public class XmlDocumentation

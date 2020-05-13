@@ -2,8 +2,8 @@
 {
     // Highlight Usages in File
     //
-    // Shift+Alt+F11 (VS)
-    // Ctrl+Alt+F7 (IntelliJ)
+    // <shortcut id="Find Usages">Shift+Alt+F11 (VS)</shortcut>
+    //
 
     public class HighlightUsagesInFile
     {
@@ -17,8 +17,8 @@
             //    Note the highlights in the stripe on the right of the editor
             //    These highlights are clickable, and have tooltips
             //    Escape clears the highlight
-            //    Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-            //    Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+            //    <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+            //
             var newValue = original + delta;
 
             if (newValue < MinValue)

@@ -11,8 +11,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //
     // Very useful way of navigating without having to learn ALL of the shortcuts!
     //
-    // Alt+` (VS)
-    // Ctrl+Shift+G (IntelliJ)
+    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    //
 
 
     // 1. When the caret is on a type definition (DerivedClass)
@@ -34,8 +34,9 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //    c) Implementation navigates to the implementations of BaseClass - deriving symbols
     //    d) Overriding members highlights all members that override from BaseClass
     //       Escape clears the highlight
-    //       Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-    //       Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+    //
+    //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+    //
     public class DerivedClass2
         : BaseClass // <- Text caret on BaseClass
     {
@@ -54,8 +55,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //    a) as above (find usages, base symbols, declarations, implementations, etc.)
     //    b) Implementing Members highlights all members of the interface
     //       Escape clears the highlight
-    //       Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS) to navigate between
-    //       Ctrl+Alt+Up/Ctrl+Alt+Down (IntelliJ) to navigate between
+    //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+    //
     public class SimpleClass
         : ISimpleInterface  // <- Text caret on ISimpleInterface
     {

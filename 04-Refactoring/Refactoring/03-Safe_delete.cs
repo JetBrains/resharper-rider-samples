@@ -6,8 +6,8 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     //
     // Only delete code element if it's not being used
     //
-    // Ctrl+R, D (VS)
-    // Alt+Delete (IntelliJ)
+    // <shortcut id="Safe Delete...">Ctrl+R, D (VS)</shortcut>
+    //
 
     public class ClassWithUsedAndUnusedField
     {
