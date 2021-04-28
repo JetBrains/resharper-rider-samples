@@ -35,7 +35,7 @@ namespace JetBrains.ReSharper.Koans.LiveTemplates
         //      the name of the variable for the current object
         //    Note that ReSharper suggests local objects that can be enumerated, i.e. names and jobs
         //    Hit tab to move between hotspots (shift+tab to move back)
-        //    Note that Resharper suggests type information, and where possible names for the variable
+        //    Note that ReSharper suggests type information, and where possible names for the variable
         public void UseLiveTemplatesToIterateCollection(IEnumerable<string> jobs)
         {
             var names = new List<string>();

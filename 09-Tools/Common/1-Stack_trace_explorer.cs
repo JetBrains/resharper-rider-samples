@@ -25,7 +25,8 @@ namespace JetBrains.ReSharper.Koans.Tools.Common
             }
             catch (Exception e)
             {
-                TextCopy.Clipboard.SetText("An error occurred while running the test" + Environment.NewLine + Environment.NewLine + e);
+                var clipboard = new TextCopy.Clipboard();
+                clipboard.SetText("An error occurred while running the test" + Environment.NewLine + Environment.NewLine + e);
                 Console.WriteLine("Exception copied to clipboard");
                 throw;
             }
