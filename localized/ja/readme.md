@@ -1,12 +1,12 @@
-# ReSharper/Rider Workshop
+# ReSharper/Rider の演習 (Workshop)
 
-(to be localized)
+この場所では、 [ReSharper](https://jetbrains.com/resharper) や [Rider](https://jetbrains.com/rider) で利用することが出来る多くの機能や、生産性を上げる方法を学ぶことが出来ます。
 
-In these materials, you'll learn about many of the features and productivity enhancements available in [ReSharper](https://jetbrains.com/resharper) and [Rider](https://jetbrains.com/rider).
+ステップ・バイ・ステップ の演習として用意してあり、navigation (コードの移動・探索)、 editing (編集)、 inspections (静的解析などの検査)、 refactoring (リファクタリング) などです。 ReSharper や Rider の全ての機能を網羅しているわけではありませんが、初心者から玄人までを対象に、数多くの役立つテクニック (TIPSとトリック) を掲載しています。
 
-It provides step by step exercises for navigation, editing, inspections, refactoring and more. While it doesn't cover EVERY feature in ReSharper and Rider (we like to have some surprises), it does give many, many useful tips and tricks to both beginners and long time users.
+また、各演習では、ReSharper や Rider をより効率的に (高速に) 操作出来るキーボードショートカットを紹介します。 全てのショートカットを一度に確認したい場合は、チートシートを活用してください。 JetBrains のウェブサイトからダウンロードできます。 (Rider や ReSharper の [Help] > [Keymap Reference] からウェブサイトの該当ページにジャンプ出来ます。)
 
-Each exercise also introduces the keyboard shortcuts that can be used to work with ReSharper and Rider more efficiently. Should you want to see all the shortcuts in one place, you can download a keyboard shortcut cheat sheet from our website.
+オフィシャルのリンク先をいくつか掲載しておきます。
 
 * [JetBrains ReSharper documentation web site](https://www.jetbrains.com/resharper/documentation/)
   * [Visual Studio keyboard scheme](https://www.jetbrains.com/resharper/docs/ReSharper90DefaultKeymap_VS_scheme.pdf)
@@ -15,44 +15,47 @@ Each exercise also introduces the keyboard shortcuts that can be used to work wi
   * [Visual Studio keyboard scheme](https://www.jetbrains.com/help/rider/Reference_Keymap_VS.html)
   * [Rider scheme](https://www.jetbrains.com/help/rider/Reference_Keymap_Rider.html)
 
-The workshop is self-paced, meaning you can work your way through the exercises on your own, at your own speed. You can skip sections you're already familiar with (although you might miss some useful tips!), and can work on the exercises in any order.
+この演習は自分のペースで進めることが出来ます。既に理解している部分は読み飛ばしても構いませんし、どのような順序でも練習に取り組むことができます。
+(でも、役に立つヒントを見逃さないでくださいね(^^))
 
-## Getting started
 
-Simply get a copy of the repo (clone or download straight) and open the `resharper-rider-samples.sln` in Visual Studio or Rider. It is recommended to build the solution at least once before starting, as this will restore various NuGet packages used by some of the exercises (many exercises do not require compiling, such as navigation and editing, but others require compiling code, or referencing third party assemblies, such as unit testing and ASP.NET MVC support)
+## この演習を始める方法
 
-The exercises are structured into numbered solution folders. Each folder contains one or more projects, and the exercises themselves are usually described in comments inside the source to these projects. Simply open the files and work through the exercises at your own pace.
+Visual Studio (with ReSharper) 、または Rider で `resharper-rider-samples.sln` を開くだけで練習が始められます。自分が作業する環境に、このリポジトリをコピーしましょう (clone 、または直接ダウンロード)。
 
-The exercises are:
+一番最初に、ソリューション ( `resharper-rider-samples.sln` 全体 ) をビルドすることを推奨します。一部の演習で使用している、様々な NuGet パッケージが自動的に準備されます。(Navigation や Edit など、コンパイルを必要としない演習も数多くありますが、 UnitTest や ASP.NET MVC のサポートなど、コードのコンパイルやサードパーティー製アセンブリの参照を必要とするものはNuGet パッケージが準備されていないと期待通り動作しません。)
 
-* `00-EssentialShortcuts` - introduces the handful of keyboard shortcuts you need to know in order to get started with ReSharper. These shortcuts invoke the "entry points" to the majority of ReSharper and Rider functionality.
-* `01-Navigation` - demonstrates the various ways of navigating around your codebase, looking at Go To, Find Usages, navigating class hierarchies and more.
-* `02-Editing` - exercises for editing your code, including code completion, completing statements, rearranging code, etc.
-* `03-Inspections` - an introduction to the many code inspections that ReSharper and Rider provide, seeing how they can find potential issues with your code, and how to fix them, and manage them. Also looks at the very powerful value tracking analysis feature.
-* `04-Refactoring` - exercises to see how ReSharper and Rider supportsrefactoring your code base, from simple renames to introducing and inlining variables, to extracting classes, moving members up and down type hierarchies and more.
-* `05-LanguagesAndFrameworks` - a large part of ReSharper and Rider functionality applies to all languages that ReSharper supports. However, ReSharper and Rider also provides specific support for certain frameworks and languages, such as asp.net MVC, XAML or regular expressions.
-* `06-UnitTesting` - exercises to show how ReSharper and Rider support unit testing
-* `07-LiveTemplates` - looks at the powerful text snippet expansion, with interactive macros and editable hotspots. Also looks at creating files and surrounding selected text based on templates.
-* `08-StructuralSearchAndReplace` - learn how to use ReSharper and Rider's very powerful search and replace functionality that is based on code patterns rather than text.
-* `09-Tools` - useful tools, such as code cleanup, stack trace explorer and the To Do explorer.
+演習は、番号の付いたフォルダで構成されています。各フォルダには１つ、または複数のプロジェクトが含まれており、通常、演習の説明はこれらのプロジェクトのソース内コメントに記載されています。好きなファイルを開いて、自分のペースで練習に取り組むことができます。
 
-## Shortcuts And Actions
-   
-Through out this guided experience, you will see "shortcut" tags. 
-These tags include the official name of each action and can be found
-using the the `Find Action...` feature of your IDE. Reference your
-preferences to find out what that shortcut is, but here are a few known
-shortcut combinations: 
+演習の種類は以下の通りです:
+
+* `00-EssentialShortcuts` - 使い始める時に知っておくべきキーボードショートカットを紹介します。これらのショートカットを使うと、 ReSharper と Rider のほとんどの機能を呼び出すことが出来ます。
+* `01-Navigation` - コードを移動・探索するための様々な方法を紹介します。 Go To (指定対象へのジャンプ) 、 Find Usages (利用箇所の探索) 、Navigating class hierarchies (クラスの継承関係をたどる) などです。
+* `02-Editing` - コードを編集するための演習です。強力なコード補完機能、再配置機能 (ある選択ブロックの位置を入れ替えたりする機能) などです。
+* `03-Inspections` - ReSharper と Rider が提供する数多くのコード検査 (静的解析機能) について紹介します。コードの潜在的な問題をどのように発見・修正し、管理出来るか、を見ていきます。また、非常に強力な Value Tracking 機能 (ある変数がどこで、どのように更新されて行くか解析する機能) についても紹介します。
+* `04-Refactoring` - リファクタリング機能を紹介します。単純な名前の変更や変数のインライン化、クラスの抽出、クラス階層の間でメンバー実装を移動したりすることが出来ます。
+* `05-LanguagesAndFrameworks` - ReSharper と Rider が提供する機能の大部分は、サポートする全ての言語フォーマットで動作します。一方で、ASP.NET MVC、XAMLや正規表現など、特定のフレームワークや言語に特化したサポートも提供しています。
+* `06-UnitTesting` - UnitTestの演習です。ReSharper と Rider がどのように UnitTest をサポートするかを示します。
+* `07-LiveTemplates` - 極めて強力なスニペット補完機能を紹介します。LiveTemplates という機能は、テンプレートに基づいてファイルやコード断片を作成した上で、個別編集したいホットスポットに対して、対話形式で編集することが出来ます。
+* `08-StructuralSearchAndReplace` - 強力な検索・置換機能を学びます。ReSharper と Rider は単純なテキスト方式だけではなく、コードパターンに基づいた、非常に強力な検索・置換機能を持っています。
+* `09-Tools` - 便利ツールの紹介です。Code Cleanup (コードのお掃除) 、Stack Trace Explorer (スタックトレース・エクスプローラー) 、 To Do Explorer (TODOエクスプローラー) です。
+
+
+## ショートカットキーと機能
+
+`Find Action...` の機能を使うと、たくさんあるショートカットキーに割り当てられた機能を見つけ出すことが出来ます。ショートカットキーの設定はいくつかの代表的な設定があります。自分がどの設定を使っているか、InstallしたReSharper や Rider の Preferences (設定) を確認してください。
+
+`Find Action...` の機能を呼び出す代表的なショートカットキーは以下の通りです:
 
 - ReSharper Keymap on Windows: `Ctrl + Shift + A`
 - Visual Studio Keymap on Windows: `Ctrl + Shift + A`
 - Visual Studio Keymap on macOS: `Command (⌘) + Shift (⇧) + A`
 
-The Keymap reference guide is also available online :
+キーマップのリファレンスガイドはオンラインで参照できます:
 
 - Rider: https://www.jetbrains.com/help/rider/Reference_Keymap_Rider.html
 - ReSharper: https://www.jetbrains.com/help/resharper/Reference__Keyboard_Shortcuts.html
 
-## Open Source
+## Open Source - オープンソース
 
-The workshop is Open Source, licensed under the Apache 2 license. If you would like to contribute to the workshop materials, please feel free to fork the repo and send us a pull request. Or if you have a comment, question, or suggestion for improvements, please [raise an issue](https://github.com/JetBrains/resharper-workshop/issues).
+この演習は Apache 2 ライセンスに基づくオープンソースです。演習の資料改善に貢献したいと考えてくださる方は、このリポジトリを fork し、 Pull Request を送ってください。また、コメント、質問、改善提案などがある場合は、 [問題提議](https://github.com/JetBrains/resharper-workshop/issues) を歓迎します。
