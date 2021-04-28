@@ -1,5 +1,8 @@
 [![official project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
+[Localized versions](./localized) are available for some languages:
+- [Japanese (日本語)](./localized/ja)
+
 # ReSharper/Rider Workshop
 
 In these materials, you'll learn about many of the features and productivity enhancements available in [ReSharper](https://jetbrains.com/resharper) and [Rider](https://jetbrains.com/rider).
