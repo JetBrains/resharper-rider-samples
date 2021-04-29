@@ -1,0 +1,14 @@
+﻿ReSharper Interactive Tutorials
+-------------------------------
+
+Next to the current workshop you are exploring, ReSharper comes with a set of interactive
+tutorials that can help you learn about the various functionality of the product.
+
+These tutorials can be found under the menu: ReSharper → Help → Tutorials...
+1. Choose a tutorial and click *Run*.
+2. Follow the steps suggested.
+
+Tutorials are updated on a regular basis. With each new ReSharper release, you will find
+a new tutorial that overviews the latest features.
+
+So every time you update your ReSharper instance, make sure to check out ReSharper → Help → Tutorials...
