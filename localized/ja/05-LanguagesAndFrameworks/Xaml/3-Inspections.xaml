@@ -1,0 +1,63 @@
+﻿<Window x:Class="Xaml.Inspections"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+        <!-- 1. Unused resource
+                <shortcut id="Show context actions">Alt+Enter</shortcut> to remove-->
+        <SolidColorBrush x:Key="UnusedResource" Color="Gold" />
+
+        <!-- 2. Naming standards
+                Resource doesn't match naming standards. <shortcut id="Show context actions">Alt+Enter</shortcut> to fix -->
+        <SolidColorBrush x:Key="color3" Color="Red" />
+    </Window.Resources>
+
+    <StackPanel>
+        
+        <!-- 3. Redundant qualifiers
+                <shortcut id="Show context actions">Alt+Enter</shortcut> to remove -->
+        <TextBlock FrameworkElement.Tag="Boo" Background="{StaticResource color3}"></TextBlock>
+
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style x:Key="BaseStyle" TargetType="TextBlock">
+                    <Setter Property="VerticalAlignment" Value="Stretch" />
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                </Style>
+
+                <Style BasedOn="{StaticResource BaseStyle}" TargetType="TextBlock">
+                    <!-- 4. Redundant style setter
+                            Note gutter error in left margin
+                            <shortcut id="Show context actions">Alt+Enter</shortcut> to remove -->
+                    <Setter Property="VerticalAlignment" Value="Stretch" />
+                </Style>
+            </StackPanel.Resources>
+
+            <!-- 5. Redundant explicit styles
+                    <shortcut id="Show context actions">Alt+Enter</shortcut> to remove -->
+            <TextBlock Style="{StaticResource BaseStyle}"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Stretch" />
+        </StackPanel>
+
+        <!-- 6. Grid inspections, quick fixes and context actions -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <!-- 6a. Grid row definitions
+                          <shortcut id="Show context actions">Alt+Enter</shortcut> to add row definition above or below, or remove -->
+                <RowDefinition />
+
+                <!-- 6b. Code completion of attributes + values
+                         Add Height="Auto" attribute -->
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <!-- 6c. Grid inspections
+                     <shortcut id="Show context actions">Alt+Enter</shortcut> on Grid.Row and Grid.Column to add missing definitions -->
+            <StackPanel Grid.Row="2"></StackPanel>
+            <StackPanel Grid.Column="2"></StackPanel>
+        </Grid>
+
+    </StackPanel>
+</Window>

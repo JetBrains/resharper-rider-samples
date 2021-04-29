@@ -1,0 +1,5 @@
+﻿Locate In Solution Explorer
+
+Opens Solution Explorer with current file selected
+
+<shortcut id="Locate/Select in Solution View">Shift+Alt+L (VS + IntelliJ)</shortcut>
