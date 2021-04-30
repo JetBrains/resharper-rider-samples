@@ -1,65 +1,72 @@
 ﻿namespace EssentialShortcuts
 {
-    // Navigate To menu
+    // Navigate To メニューを使ってみます。
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // 現在の場所から移動したい時に利用できるコンテキストメニューを表示します。
+    // これ１つ覚えておけば目的ごとの個別ショートカットを憶える必要がない便利なナビゲーション機能です。
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // <shortcut id="Navigate To...">Ctrl+Shift+G (Rider Default Keymap)</shortcut>
+    // <shortcut id="Navigate To...">Alt+` (Rider VisualStudio Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To…">Alt+` (VS)</shortcut>
+    // 下の例で試してみましょう。２つの方法があります。
+    // クラス名にキャレットを置き、
+    // 1. 上で示したショートカットで 'Navigate to...' を起動します。
+    // 2. <shortcut id="Show context actions">Alt+Enter</shortcut> を押し、'Navigate To' とタイプします。
     //
-    // 1. Place text caret on class name, invoke menu
-    // 2. <shortcut id="Show context actions">Alt+Enter</shortcut>on class name, start typing (e.g. "Navigate To", "Extension methods")
+    // いずれの場合も表示されたコンテキストメニューで任意のワードをタイプすると、その内容で機能がフィルターできます。
+    // 例えば、 'Navigate to...' を起動したコンテキストメニューで 'Extension methods' とタイプしてみてください。
     //
-    // (Most options not useful with this example. Covered in more detail in next section)
+    // (ここで表示されるほとんどの選択肢はこの演習例では意味をなしません。後のセクションで詳しく説明します。)
     public class NavigateTo
     {
     }
 
 
-    // Refactor This menu
+    // Refactor This メニューを使ってみます。
     //
-    // Displays a contextual menu of options for refactoring available at the current location
+    // 現在の場所で利用可能なリファクタリングのメニューを表示します。
+    // これも１つ覚えておけば目的ごとの個別ショートカットを憶える必要がない便利な機能です。
     //
-    // Very useful for invoking refactorings without requiring to know ALL shortcuts
+    // <shortcut id="Refactor This...">Ctrl+Alt+Shift+T (Rider Default Keymap)</shortcut>
+    // <shortcut id="Refactor This...">Ctrl+Shift+R (Rider VisualStudio Keymap)</shortcut>
     //
-    // <shortcut id="Refactor This...">Ctrl+Shift+R (VS + IntelliJ)</shortcut>
+    // クラス名にキャレットを置き、
+    // 3. 上で示したショートカットで 'Refactor This' を起動します。
+    //    rename を選択し、クラス名を rename してみましょう。
+    // 4. <shortcut id="Show context actions">Alt+Enter</shortcut> を押し、'Refactor This' とタイプします。
+    //    続けて 'Rename' とタイプして rename してみましょう。
     //
-    // 3. Place text caret on class name, invoke menu
-    //    Select rename, rename class
-    // 4. <shortcut id="Show context actions">Alt+Enter</shortcut> on class name, start typing (e.g. "Refactor This", "Rename")
-    //
-    // Covered in more detail in next section
+    // (詳細は次のセクションで説明します。)
     public class RefactorThis
     {
     }
 
 
-    // Generate Code menu
+    // Generate Code メニューを使ってみます。
     //
-    // Displays a contextual menu of options for generating code available at the current location
+    // 現在の場所で利用可能なコード生成のメニューを表示します。
     //
-    // <shortcut id="Generate...">Alt+Insert (in text editor)</shortcut>
+    // <shortcut id="Generate...">Alt+Insert (in text editor / Rider Default Keymap)</shortcut>
+    // <shortcut id="Generate...">Ctrl+N (in text editor / Rider VisualStudio Keymap)</shortcut>
     //
-    // Covered in more detail in the Editing section
+    // (詳細は Editing のセクションで説明します。)
     public class GenerateCode
     {
     }
 
-    // Inspect This menu
+    // Inspect This メニューを使ってみます。
     //
-    // Displays a contextual menu of options for analysing code and control flow
-    // at the current location
+    // 現在の場所で利用可能なコード解析とコントロールフローを分析するためのメニューを表示します。
+    // これ１つ覚えておけば変数解析の個別ショートカットを憶える必要がない便利な機能です。
     //
-    // Very useful for invoking value analysis without learning ALL shortcuts!
+    // <shortcut id="Inspect This...">Ctrl+Shift+Alt+A (Common)</shortcut>
     //
-    // <shortcut id="Inspect This...">Ctrl+Shift+Alt+A (VS + IntelliJ)</shortcut>
+    // クラス名にキャレットを置き、
+    // 5. 上で示したショートカットで 'Inspect This...' を起動します。
+    // 6. <shortcut id="Show context actions">Alt+Enter</shortcut> を押し、 'Inspect This' とタイプします。
+    //    続けて 'TypeHierarchy' とタイプして 継承関係を確認してみましょう。
     //
-    // 4. Place text caret on class name, invoke menu
-    // 5. <shortcut id="Show context actions">Alt+Enter</shortcut> on class name, start typing (e.g. "Inspect This", "Hierarchies")
-    //
-    // (Most options not useful with this example. Covered in more detail in later section)
+    // (ここで表示されるほとんどの選択肢はこの演習例では意味をなしません。後のセクションで詳しく説明します。)
     public class InspectThis
     {
     }
