@@ -39,19 +39,31 @@ The exercises are:
 * `08-StructuralSearchAndReplace` - learn how to use ReSharper and Rider's very powerful search and replace functionality that is based on code patterns rather than text.
 * `09-Tools` - useful tools, such as code cleanup, stack trace explorer and the To Do explorer.
 
+# Learn essential shortcuts
+
+In this workshop, you can learn the essential functions provided by ReSharper and Rider that you need to master.
+These essential functions can be easily and directly accessed with shortcuts.
+
+There are many shortcut keys, but if you have trouble, you can search for them.
+We recommend that you print out the cheat sheet described below and mark it with a marker, as it will show you how to find them when you have trouble.
+
 ## Shortcuts And Actions
-   
-Through out this guided experience, you will see "shortcut" tags. 
-These tags include the official name of each action and can be found
-using the the `Find Action...` feature of your IDE. Reference your
-preferences to find out what that shortcut is, but here are a few known
+
+Through out this guided experience, you will see "shortcut" tags. These tags include the official name of each action and can be found
+using the the `Find Action...` feature of your IDE. Reference your preferences to find out what that shortcut is, but here are a few known
 shortcut combinations: 
 
 - ReSharper Keymap on Windows: `Ctrl + Shift + A`
 - Visual Studio Keymap on Windows: `Ctrl + Shift + A`
 - Visual Studio Keymap on macOS: `Command (⌘) + Shift (⇧) + A`
 
-The Keymap reference guide is also available online :
+There are cheat sheets for shortcut keys:
+
+- Help \| Keymap Reference
+
+It is recommended that you go to above, select the cheat sheet for your chosen Keymap, print it out, and keep it deskside.
+
+Also the Keymap reference guide is also available online :
 
 - Rider: https://www.jetbrains.com/help/rider/Reference_Keymap_Rider.html
 - ReSharper: https://www.jetbrains.com/help/resharper/Reference__Keyboard_Shortcuts.html
