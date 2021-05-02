@@ -39,7 +39,7 @@ The exercises are:
 * `08-StructuralSearchAndReplace` - learn how to use ReSharper and Rider's very powerful search and replace functionality that is based on code patterns rather than text.
 * `09-Tools` - useful tools, such as code cleanup, stack trace explorer and the To Do explorer.
 
-# Learn essential shortcuts
+## Learn essential shortcuts
 
 In this workshop, you can learn the essential functions provided by ReSharper and Rider that you need to master.
 These essential functions can be easily and directly accessed with shortcuts.
@@ -57,9 +57,7 @@ shortcut combinations:
 - Visual Studio Keymap on Windows: `Ctrl + Shift + A`
 - Visual Studio Keymap on macOS: `Command (⌘) + Shift (⇧) + A`
 
-There are cheat sheets for shortcut keys:
-
-- Help \| Keymap Reference
+There are cheat sheets for shortcut keys in the menu: **Help \| Keymap Reference**.
 
 It is recommended that you go to above, select the cheat sheet for your chosen Keymap, print it out, and keep it deskside.
 
