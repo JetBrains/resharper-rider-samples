@@ -1,25 +1,31 @@
 ﻿namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // View Breakpoints
+    // ブレイクポイントの表示
     //
-    // Navigate to breakpoints in solution.
+    // Solution 内の ブレイクポイント を探索します。
     //
-    // <shortcut id="View Breakpoints...">Ctrl+Alt+B</shortcut>
+    // ブレイクポイントの表示
+    // <shortcut id="View Breakpoints...">Ctrl+Alt+B    (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="View Breakpoints...">Ctrl+Shift+F8 (Rider Default IntelliJ Keymap)</shortcut>
+    //
+    // ブレイクポイント設定(トグル)
+    // <shortcut id="Toggle line breakpoint">F9      (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Toggle line breakpoint">Ctrl+F8 (Rider Default IntelliJ Keymap)</shortcut>
 
     public class ViewBreakpoints
     {
         public void Foo()
         {
-			// 1. Place a breakpoint at the start of this method
+			// 1. このメソッドの開始地点にブレイクポイントを設定してください (上の行にキャレットを置きましょう)
         }
 
         public void Bar()
         {
-			// 2. Place a breakpoint at the start of this method
+			// 2. このメソッドの開始地点にブレイクポイントを設定してください (上の行にキャレットを置きましょう)
         }
 
-        // 3. Go to Breakpoint
-        //    Use the keyboard shortcut <shortcut id="View Breakpoints...">Ctrl+Alt+B</shortcut>
-        //    See that both of the breakpoints we created are listed, hit enter to navigate.
+        // 3. ブレイクポイントに移動してみます。
+        //    前述のショートカットを使って "View Breakpoints..." を起動します。
+        //    追加したブレイクポイントがリストされていることを確認したら、Enter を押して移動してみてください。
     }
 }
