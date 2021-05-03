@@ -1,12 +1,13 @@
 ﻿<!--
-  Go to File Member in xml files
-  
-  <shortcut id="File Member">Alt+\ (VS)</shortcut>
+  XMLファイルのメンバーを検索します
 
-  1. Filter for element - type "person" in popup
-  2. Special support for attributes called "name"
-     Change the "named" attribute to "name"
-     Show popup, can now filter by "Dave" or "Angela"
+  <shortcut id="File Member">Alt+\    (ReSharper VisualStudio Keymap)</shortcut>
+  <shortcut id="File Member">Ctrl+F12 (Rider Default IntelliJ Keymap)</shortcut>
+
+  1. element でフィルターします - "person" とポップアップにタイプします
+  2. "name" という attributes の特別サポート (特別扱い) を確認します
+     下のサンプルコードの "named" という attribute を "name" に変更します。
+     ポップアップを表示すると、 "Dave" や "Angela" でフィルターできるようになっています。
 -->
 <people>
   <person named="Dave" age="32" />

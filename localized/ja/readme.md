@@ -1,5 +1,11 @@
 # ReSharper/Rider の演習 (Workshop)
 
+> 順次翻訳作業中です
+> 
+> 日本語版はOfficial英語版の以下バージョンを元にしています。
+> 
+> 2021-04-28 80c5afcd6a971b03be02392b9cf96be1a6147581
+
 この場所では、 [ReSharper](https://jetbrains.com/resharper) や [Rider](https://jetbrains.com/rider) で利用することが出来る多くの機能や、生産性を上げる方法を学ぶことが出来ます。
 
 ステップ・バイ・ステップ の演習として用意してあり、navigation (コードの移動・探索)、 editing (編集)、 inspections (静的解析などの検査)、 refactoring (リファクタリング) などです。 ReSharper や Rider の全ての機能を網羅しているわけではありませんが、初心者から玄人までを対象に、数多くの役立つテクニック (TIPSとトリック) を掲載しています。

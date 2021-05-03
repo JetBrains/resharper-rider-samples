@@ -1,25 +1,27 @@
 ﻿namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to File Member
+    // ファイルメンバーへの移動
     //
-    // Navigate to any members defined in the current file
+    // 現在のファイルで定義されているメンバーに移動します。
     //
-    // <shortcut id="File Member">Alt+\ (VS)</shortcut>
+    // <shortcut id="File Member">Alt+\    (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="File Member">Ctrl+F12 (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // 1. Navigate to type by name, CamelHumps, middle matching or wildcard
-    //    Type "GoToFileMemberExample"
-    //    Type "GTFME"
-    //    Type "FileMember"
-    //    Type "GoTo*Example"
+    // 1. 名前、CamelHumps (略語入力)、中間一致やワイルドカードで移動します。
+    //    以下のようなキーワードをタイプして結果を確認してみましょう。
+    //      "GoToFileMemberExample"
+    //      "GTFME"
+    //      "FileMember"
+    //      "GoTo*Example"
     //
-    // 2. Navigate to class member by name
-    //    Type "foo" to navigate to GoToFileMemberExample.Foo
+    // 2. 名前で Class メンバーに移動します。
+    //    "foo" とタイプして、 "GoToFileMemberExample.Foo" に移動しましょう。
     //
-    // 3. Navigate to constructor
-    //    Type "new" or "ctor"
+    // 3. コンストラクターに移動します。
+    //    "new" 、または "ctor" とタイプします。
     //
-    // 4. Navigate to members by visibility
-    //    Type "public" or "private"
+    // 4. 可視属性 (Visibility - public / private) で移動します。
+    //    "public" 、または "private" とタイプします。
 
 
     // ----------
