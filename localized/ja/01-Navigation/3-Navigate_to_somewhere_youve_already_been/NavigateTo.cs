@@ -4,7 +4,9 @@
     {
         public void Destination()
         {
-            // Now navigate back, using Visual Studio's <shortcut id="Back">Ctrl+- (minus)</shortcut>
+            // さぁ、戻ってみましょう。
+            // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+            // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
         }
     }
 }
