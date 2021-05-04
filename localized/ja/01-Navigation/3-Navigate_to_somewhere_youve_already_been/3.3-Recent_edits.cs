@@ -4,15 +4,14 @@ namespace JetBrains.ReSharper.Koans.Navigation
 {
     // 最近編集した場所にに移動する方法を試してみます。
     //
-    //TODO: ReSharperで最近の編集表示機能 (View Recent Edits) が動作しない (ReSharper 2021.1 on VisualStudio2019)
-    //TODO: rename file name 3.3-Recently_changed_files.cs -> 3.3-Recent_edits.cs
+    //TODO: ReSharperで最近の編集表示機能 (View Recent Edits) ショートカットキーに割り当たらず動作しない (ReSharper 2021.1 on VisualStudio2019)
     //
     // 最近の編集箇所と内容をポップアップメニューで表示出来ます。
     // ファイルではなくコードブロックが表示出来ます。
     //
     // <shortcut id="View Recent Edits">Ctrl+Shift+, (ReSharper VisualStudio Keymap)</shortcut>
     // <shortcut id="Recent Locations" >Ctrl+Shift+E (Rider Default IntelliJ Keymap)</shortcut>
-    // 
+    //
 
     public class RecentEdits
     {
@@ -29,7 +28,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
         {
             // 1. firstName を返す GetName を実装してください。
             //    コメントを外して Exception の行はコメントアウトしてください。
-            // return firstName; 
+            // return firstName;
             throw new NotImplementedException();
         }
 
