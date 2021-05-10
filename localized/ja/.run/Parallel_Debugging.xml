@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Parallel Debugging" type="DotNetProject" factoryName=".NET Project">
+    <option name="EXE_PATH" value="$PROJECT_DIR$/10-Debugging/ParallelDebugging/bin/Debug/ParallelDebugging.exe" />
+    <option name="PROGRAM_PARAMETERS" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10-Debugging/ParallelDebugging/bin/Debug" />
+    <option name="PASS_PARENT_ENVS" value="1" />
+    <envs />
+    <option name="USE_MONO" value="0" />
+    <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    <option name="PROJECT_PATH" value="$PROJECT_DIR$/10-Debugging/ParallelDebugging/ParallelDebugging.csproj" />
+    <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+    <option name="PROJECT_KIND" value="Console" />
+    <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
+    <method />
+  </configuration>
+</component>
