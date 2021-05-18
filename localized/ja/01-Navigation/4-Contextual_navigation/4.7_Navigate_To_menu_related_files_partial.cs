@@ -1,18 +1,18 @@
-﻿// Navigate To menu
+﻿// 移動メニュー (Navigate to) を使ってみます。 - Related files Partial
 //
-// Displays a contextual menu of options you can use to navigate to from
-// your current location
+// 現在の場所から移動する便利な方法です。
+// 基本的な仕組みは 基本編 4.1-Navigate_To_menu.cs を参照してください。
 //
-// Very useful way of navigating without having to learn ALL of the shortcuts!
+// Navigate to の操作方法
+// <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+// <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
 //
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
+// 対象の上にキャレットを置き、実行してみましょう。
+//
 
-
-// 1. Navigate to related files. E.g. other files containing partial class
-//    Put text caret here →
-//    Navigate to Related Files shows list of other files containing definitions of PartialClass
-
+// 1. Related files への移動方法を試してみましょう(例: partial class を含む他のファイル)。
+//    ここにキャレットを置いてください →
+//    Related Files... を選択すると、同じ partial class を含む他のファイルリストを表示します。
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {

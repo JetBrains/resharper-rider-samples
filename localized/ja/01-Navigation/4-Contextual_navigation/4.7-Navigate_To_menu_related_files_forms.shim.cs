@@ -1,12 +1,20 @@
 using System.Collections.Generic;
 using System.Drawing;
 
-// THIS CLASS IS A SHIM TO ALLOW
-// THE SAMPLE TO COMPILE CROSS-PLATFORM
-// IT DOES NOT CONTAIN ANY FUNCTIONALITY
+// このファイルに演習はありません。
+//
+// このクラスは、サンプルをクロスプラットフォームでコンパイルするための SHIM です。
+// このクラスに意味はありません(何の機能も含まれていません)。
+//
+// shim : Application Compatibility は、
+// 例えば、Windows XP でしかサポートされていない機能を、
+// Windows 10 で動かすような仕組みです。
+//
+// Understanding Shims
+// https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/dd837644(v=ws.10)
 namespace System.Windows.Forms
 {
-    public abstract class Form 
+    public abstract class Form
     {
         protected void SuspendLayout()
         {
