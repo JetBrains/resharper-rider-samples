@@ -2,20 +2,21 @@
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
+    // 移動メニュー (Navigate to) を使ってみます。 - Related Files Forms
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // 現在の場所から移動する便利な方法です。
+    // 基本的な仕組みは 基本編 4.1-Navigate_To_menu.cs を参照してください。
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // Navigate to の操作方法
+    // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    // 対象の上にキャレットを置き、実行してみましょう。
     //
 
-
-    // 1. Navigate to related files. E.g. related designer files
-    //    Put text caret here →
-    //    Navigate to Related Files shows list of other files containing definitions of Form1
+    // 1. Related files への移動方法を試してみましょう(例: Related designer files)。
+    //    ここにキャレットを置いてください →
+    //    Related Files... を選択すると、Form1 の定義を含む他のファイルリストを表示します。
 
     public partial class Form1 : Form
     {
@@ -25,4 +26,3 @@ namespace JetBrains.ReSharper.Koans.Navigation
         }
     }
 }
-

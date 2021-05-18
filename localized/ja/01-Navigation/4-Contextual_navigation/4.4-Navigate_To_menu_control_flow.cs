@@ -3,18 +3,20 @@ using System.Collections.Generic;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
+    // 移動メニュー (Navigate to) を使ってみます。 - Control Flow Target
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // 現在の場所から移動する便利な方法です。
+    // 基本的な仕組みは 基本編 4.1-Navigate_To_menu.cs を参照してください。
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // Navigate to の操作方法
+    // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    // 対象の上にキャレットを置き、実行してみましょう。
     //
 
-
-    // 1. When caret is on a control flow keyword
+    // 1. キャレットが制御キーワード (Control Flow Keyword) 上にある場合の動作を試してみましょう。
+    //    ReSharper や Rider はコードの流れも解釈し、次の実行位置を教えてくれます。
     public class NavigateToControlFlowKeyword
     {
         public void ControlFlowWithForStatement()
@@ -23,18 +25,18 @@ namespace JetBrains.ReSharper.Koans.Navigation
             {
                 var child = Children[i];
 
-                // a) Place the caret on "continue". Navigate To → Control Flow Target
-                //    takes the caret to the i++ in the for declaration
+                // a) "continue" にキャレットを置き、 Navigate to → Control Flow Target と選択します。
+                //    for 構文の i++ のところにキャレットが移動しましたか？
                 if (ShouldSkipChild(child))
                     continue;
 
-                // b) Place the caret on "break". Navigate To → Control Flow Target
-                //    takes the caret to the next statement after the loop
+                // b) "break" にキャレットを置き、 Navigate to → Control Flow Target と選択します。
+                //    for ループを抜けた次の実行ラインにキャレットが移動しましたか？
                 if (ShouldStop(child))
                     break;
 
-                // c) Place the caret on "return". Navigate To → Control Flow Target
-                //    takes the caret to the closing brace of the function
+                // c) "return" にキャレットを置き、 Navigate to → Control Flow Target と選択します。
+                //    当該関数のスコープであるブレースの末尾 "}" にキャレットが移動しましたか？
                 if (ShouldQuit(child))
                     return;
             }
@@ -47,16 +49,16 @@ namespace JetBrains.ReSharper.Koans.Navigation
             switch (size)
             {
                 case Size.Large:
-                    // d) Place the caret on "break". Navigate To → Control Flow Target
-                    //    takes the caret to the first statement after the switch
+                    // d) "break" にキャレットを置き、 Navigate to → Control Flow Target と選択します。
+                    //    switchを抜けた次の実行ラインにキャレットが移動しましたか？
                     break;
                 case Size.Medium:
-                    // e) Place the caret on "return". Navigate To → Control Flow Target
-                    //    takes the caret to the closing brace of the function
+                    // e) "return" にキャレットを置き、 Navigate to → Control Flow Target と選択します。
+                    //    当該関数のスコープであるブレースの末尾 "}" にキャレットが移動しましたか？
                     return;
                 case Size.Small:
-                    // e) Place the caret on "throw". Navigate To → Control Flow Target
-                    //    takes the caret to the closing brace of the function
+                    // e) "throw" にキャレットを置き、 Navigate to → Control Flow Target と選択します。
+                    //    当該関数のスコープであるブレースの末尾 "}" にキャレットが移動しましたか？
                     throw new ArgumentOutOfRangeException("size");
             }
 

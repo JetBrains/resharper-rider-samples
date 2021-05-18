@@ -8,7 +8,9 @@
         void SayGoodbye();
     }
 
-    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
+    // 戻る
+    // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
     public class BaseClass
     {
         public virtual void VirtualMethod()
@@ -23,15 +25,21 @@
 
     public static class BaseClassExtensions
     {
-        // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
-        // Note also works as extension method for DerivedClass
+        // 戻る
+        // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+        // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
+        //
+        // 注目: 派生クラスの拡張メソッドに対しても機能します
         public static void ExtensionMethodForBaseClass(this BaseClass self)
         {
             // ...
         }
 
-        // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
-        // Note also works when navigating from BaseClass
+        // 戻る
+        // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+        // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
+        //
+        // 注目: 基底クラスから移動してきた場合でも動作します
         public static DerivedClass MethodExposingDerivedClassAsReturnValue()
         {
             // ...
@@ -39,7 +47,9 @@
         }
     }
 
-    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
+    // 戻る
+    // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
     public class ReallyDerivedClass : DerivedClass
     {
     }

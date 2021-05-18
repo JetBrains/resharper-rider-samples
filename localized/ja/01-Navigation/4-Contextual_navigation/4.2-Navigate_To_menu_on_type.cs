@@ -4,41 +4,61 @@ using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
+    // 移動メニュー (Navigate to) を使ってみます。 - Menu on Type
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // 現在の場所から移動する便利な方法です。
+    // 基本的な仕組みは 基本編 4.1-Navigate_To_menu.cs を参照してください。
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // Navigate to の操作方法
+    // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    // 対象の上にキャレットを置き、実行してみましょう。
     //
 
-
-    // 1. When the caret is on a type definition (DerivedClass)
-    //    (Find Usages, related files covered later)
-    //    a) Go to Base Symbols + Derived Symbols
-    //    b) Extension methods
-    //    c) Object Browser, Windows Explorer, Command Prompt
-    //    d) Locate in Solution Explorer
-    //    d) Referenced Code finds all code referenced by the type, e.g. BaseClass
-    public class DerivedClass   // <- Text caret on DerivedClass
+    // 1. 型定義 (継承クラス) にキャレットがある場合、以下のような候補が表示されます。
+    //    それぞれ試してみましょう。
+    //      - Declaration           : 宣言に移動します
+    //      - Implementation        : 実装に移動します
+    //      - Base Symbols          : 基底クラスに移動します
+    //      - Find Usages of Symbol : (*1)
+    //      - Related Files...      : (*1)
+    //      - Usages of Symbol      : (*1)
+    //      - Derived Symbols       : 派生クラスに移動します
+    //      - Extension methods     : 拡張メソッドに移動します
+    //      - Consuming APIs        : 自身をパラメーターで受け取る箇所に移動します
+    //      - Exposing APIs         : 自身を戻り値として返す箇所に移動します
+    //      - Referenced Code       : 型が参照されるすべてのコードを見つけます (例: BaseClass)。
+    //      - Locate in Solution Explorer   : (Only ReSharper) Solution Explorer で現在のファイルに移動します
+    //
+    //    (*1) Find Usages of Symbol, Usages of Symbol, Related files は後の演習で詳細に説明します。
+    public class DerivedClass   // <- DerivedClass を選択してキャレットを置き、試してみてください
         : BaseClass
     {
     }
 
 
-    // 2. When the caret is on a base class (BaseClass)
-    //    a) As above (find usages, base symbols, etc.)
-    //    b) Declaration navigates to the declaration of BaseClass
-    //    c) Implementation navigates to the implementations of BaseClass - deriving symbols
-    //    d) Overriding members highlights all members that override from BaseClass
-    //       Escape clears the highlight
+    // 2. 型定義 (基底クラス) にキャレットがある場合も同様の候補が表示されます。
+    //    このクラスの場合、 override したメソッド定義があるので、
+    //    ReSharper や Rider は正しく認識して候補に表示します。
+    //      - Overriding members    : 全ての override されているメソッドをハイライト表示します
+    //                                Escape を押すとハイライトはクリアされます
     //
-    //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+    // (参考) 候補間の移動方法
+    //
+    // TODO: Rider のショートカットはデフォルトで未定義(設定なし)であり、独自に設定しなければ動作しない
+    // [Settings] > [Keymap] > [Main Manu] > [Edit] > [Find Usages]
+    //  - Next Highlited Usage
+    //  - Previous Highlited Usage
+    //
+    //   <shortcut id="Go to Next/Previous">Ctrl+Alt+PageUp/Ctrl+Alt+PageDown (ReSharper VisualStudio Keymap)</shortcut>
+    //   <shortcut id="Find Next/Previous"> F3 / Shift+F3                     (Rider Default IntelliJ Keymap)</shortcut>
+    //
+    //   (ReSharper) https://www.jetbrains.com/help/resharper/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
+    //   (Rider)     https://www.jetbrains.com/help/rider/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
     //
     public class DerivedClass2
-        : BaseClass // <- Text caret on BaseClass
+        : BaseClass // <- BaseClass を選択してキャレットを置き、試してみてください
     {
         public override void VirtualMethod()
         {
@@ -51,14 +71,26 @@ namespace JetBrains.ReSharper.Koans.Navigation
     }
 
 
-    // 3. When the caret is on an implemented interface (ISimpleInterface)
-    //    a) as above (find usages, base symbols, declarations, implementations, etc.)
-    //    b) Implementing Members highlights all members of the interface
-    //       Escape clears the highlight
-    //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+    // 3. 実装時のインターフェース型 (ここでは ISimpleInterface ) にキャレットがある場合も同様の候補が表示されます。
+    //    ReSharper や Rider は Interface であることを正しく認識して候補に表示します。
+    //      - Implementing Members  : Interface で定義されている全てのメンバーをハイライト表示します
+    //                                Escape を押すとハイライトはクリアされます
+    //
+    // (参考) 候補間の移動方法
+    //
+    // TODO: Rider のショートカットはデフォルトで未定義(設定なし)であり、独自に設定しなければ動作しない
+    // [Settings] > [Keymap] > [Main Manu] > [Edit] > [Find Usages]
+    //  - Next Highlited Usage
+    //  - Previous Highlited Usage
+    //
+    //   <shortcut id="Go to Next/Previous">Ctrl+Alt+PageUp/Ctrl+Alt+PageDown (ReSharper VisualStudio Keymap)</shortcut>
+    //   <shortcut id="Find Next/Previous"> F3 / Shift+F3                     (Rider Default IntelliJ Keymap)</shortcut>
+    //
+    //   (ReSharper) https://www.jetbrains.com/help/resharper/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
+    //   (Rider)     https://www.jetbrains.com/help/rider/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
     //
     public class SimpleClass
-        : ISimpleInterface  // <- Text caret on ISimpleInterface
+        : ISimpleInterface  // <- ISimpleInterface を選択してキャレットを置き、試してみてください
     {
         public void SayHello()
         {
@@ -72,13 +104,15 @@ namespace JetBrains.ReSharper.Koans.Navigation
     }
 
 
-    // 4. When the caret is on an implementing interface defined in another assembly
-    //    a) Doing Go To Derived Symbols on IComponent will only show SimpleComponent
-    //    b) Navigate to Declaration of IComponent and then doing Go To Derived Symbols
-    //       widens the scope, and includes all referenced assemblies, showing many more
-    //       derived types
+    // 4. 他のアセンブリで定義された実装インターフェース (ここでは IComponent)
+    //    にキャレットがある場合も同様の候補が表示されます。
+    //    ここでのポイントは、
+    //      - Derived Symbols で派生クラスを探すとこのSolutionに関係したものだけがフィルターして表示されます
+    //      - Declaration で宣言に移動した後で、 IComponent に対して Derived Symbols を実行すると、
+    //        全ての参照アセンブリを含み、もっと多くの派生型を探すことが出来ます。
+    //
     public class SimpleComponent
-        : System.ComponentModel.IComponent  // <- Text caret on IComponent
+        : System.ComponentModel.IComponent  // <- IComponent を選択してキャレットを置き、試してみてください
     {
         #region Implementation details
 

@@ -1,16 +1,21 @@
-﻿// Navigate To menu
+﻿// 移動メニュー (Navigate to) を使ってみます。 - tools
 //
-// Displays a contextual menu of options you can use to navigate to from
-// your current location
+// 現在の場所から移動する便利な方法です。
+// 基本的な仕組みは 基本編 4.1-Navigate_To_menu.cs を参照してください。
 //
-// Very useful way of navigating without having to learn ALL of the shortcuts!
+// Navigate to の操作方法
+// <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+// <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
 //
-// <shortcut id="Navigate To...">Alt+`</shortcut>
+// 対象の上にキャレットを置き、実行してみましょう。
 //
 
-// Press <shortcut id="Locate in Solution/Assembly Explorer">Shift+Alt+L</shortcut>
-// to locate this file in Solution Explorer.
-// Opens solution explorer with current file selected
+// 1. エクスプローラーで開いているファイルの場所を表示します。
+//
+// 詳細は 4.8-Navigate_To_menu_file_nearby.md を参照してください。
+//
+// <shortcut id="Locate in Solution Explorer">Shift+Alt+L (ReSharper VisualStudio Keymap)</shortcut>
+// <shortcut id="Select Opened File">         Alt+F1, 1   (Rider Default IntelliJ Keymap)</shortcut>
 
 using System;
 using JetBrains.ReSharper.Koans.Navigation;
