@@ -3,27 +3,30 @@ using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to Derived Symbols
+    // Go to Base Symbols
     //
-    // <shortcut id="Go to Super Method">Alt+Home (VS)</shortcut>
+    // <shortcut id="Go to base symbols">Alt+Home   (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Go to base symbols">Ctrl+U     (Rider Default IntelliJ Keymap)</shortcut>
     //
 
     public class GoToBaseSymbols
     {
         public void Method()
         {
-            // 1. Put the caret on Customer and Go To Base Symbols
-            //    Navigated to ICustomer
+            // 1. Customer を選択してキャレットを置き、この機能を試してみましょう。
+            //    ICustomer に移動できましたか？
             Customer customer = GetCustomer();
 
-            // 2. Put the caret on SilverCustomer and Go To Base Symbols
-            //    Navigated to Customer.
-            //    Always navigates one level up the hierarchy, rather than
-            //    Go To Derived Symbols, which can navigate many levels down
+            // 2. SilverCustomer を選択してキャレットを置き、この機能を試してみましょう。
+            //    Customer に移動できましたか？
+            //    ”Go to derived symbols” と異なり、常に１つ上の継承レベルに移動しますが、
+            //    何段階も先の階層に移動することもできます。
+            //
             var customer2 = new SilverCustomer("id", "Tim");
 
-            // 3. Put the caret on PercentageDiscount and Go To Base Symbols
-            //    Navigated to virtual property Customer.PercentageDiscount
+            // 3. PercentageDiscount を選択してキャレットを置き、この機能を試してみましょう。
+            //    基底クラスの仮想プロパティが候補に表示されます。
+            //
             Console.WriteLine(customer2.PercentageDiscount);
         }
 
