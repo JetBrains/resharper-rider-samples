@@ -3,31 +3,56 @@ using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Go to Derived Symbols (Go to Implementation(s))
+    // Go to Derived Symbols (ReSharper) / Implementation(s) (Rider)
     //
-    // <shortcut id="Go to Implementation(s)">Alt+End (VS)</shortcut>
+    // <shortcut id="Go to derived symbols">Alt+End                      (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Implementation(s)">    Ctrl+Alt+B or Ctrl+Alt+Click (Rider Default IntelliJ Keymap)</shortcut>
     //
 
     public class GoToDerivedSymbols
     {
         public void Method()
         {
-            // 1. Put the caret on ICustomer and Go To Derived Symbols
-            //    Get the choice of Customer, SilverCustomer and GoldCustomer
-            //    Customer is bold because it's a direct implementation of ICustomer
-            //    SilverCustomer and GoldCustomer are indirect implementations
-            //    (because they derive from Customer)
-            // 2. Put the caret on ICustomer and Go To Implementation
-            //    Filter by typing, middle matching, wildcards and CamelHumps
+            // 1. ICustomer を選択してキャレットを置き、この機能を試してみましょう。
+            //      ReSharper: Go to derived symbols
+            //      Rider    : Implementation(s)
+            //
+            //    Customer, SilverCustomer, GoldCustomer が候補に表示されましたか？
+            //    Customer は ICustomer の直接の実装であるので、太字で表示されます。
+            //    SilverCustomer と GoldCustomer は間接的な実装です ( Customer を経由して派生しているため )。
+            //
             ICustomer customer = GetCustomer();
 
-            // 3. Put the caret on the Customer and Go To Derived Symbols
-            //    Shows GoldCustomer and SilverCustomer (note difference with
-            //    Go To Implementation)
+            // 2. 再び ICustomer を選択してキャレットを置き、この機能を開いてみてください。
+            //      ReSharper: Go to derived symbols
+            //      Rider    : Implementation(s)
+            //
+            //    リストのポップアップ画面が出たら、タイプしてフィルターしてみましょう。
+            //    中間一致、ワイルドカードや CamelHumps (略語入力) を使ってみましょう。
+            //
+            //      ex.
+            //         CamelHumps (略語入力)
+            //          gc -> GoldCustomer
+            //                ~   ~
+            //          sc -> SilverCustomer
+            //                ~     ~
+            //
+
+            // 3. 今度は Customer を選択してキャレットを置き、この機能を開いてみてください。
+            //      ReSharper: Go to derived symbols
+            //      Rider    : Implementation(s)
+            //
+            //    GoldCustomer と SilverCustomer が表示されましたか？
+            //    ( Implementation(s) との挙動の違いに注目してください )
+            //
             var customer2 = new Customer("id", "Daisy");
 
-            // 4. Put the caret on PercentageDiscount and Go To Derived Symbols
-            //    Shown overrides of virtual property in SilverCustomer and GoldCustomer
+            // 4. PercentageDiscount を選択してキャレットを置き、この機能を開いてみてください。
+            //      ReSharper: Go to derived symbols
+            //      Rider    : Implementation(s)
+            //
+            //    SilverCustomer および GoldCustomer の オーバーライド・メソッドが候補に表示されます。
+            //
             Console.WriteLine(customer2.PercentageDiscount);
         }
 
