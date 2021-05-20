@@ -4,9 +4,17 @@ using System.Drawing;
 // THIS CLASS IS A SHIM TO ALLOW
 // THE SAMPLE TO COMPILE CROSS-PLATFORM
 // IT DOES NOT CONTAIN ANY FUNCTIONALITY
+//
+// shim : Application Compatibility is a mechanism
+// that allows features that are only supported
+// in Windows XP to work in Windows 10, for example.
+//
+// Understanding Shims
+// https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/dd837644(v=ws.10)
+//
 namespace System.Windows.Forms
 {
-    public abstract class Form 
+    public abstract class Form
     {
         protected void SuspendLayout()
         {
