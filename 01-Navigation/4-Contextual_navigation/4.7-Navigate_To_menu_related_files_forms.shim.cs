@@ -5,11 +5,14 @@ using System.Drawing;
 // THE SAMPLE TO COMPILE CROSS-PLATFORM
 // IT DOES NOT CONTAIN ANY FUNCTIONALITY
 //
-// shim : Application Compatibility is a mechanism
+// Shim: Application Compatibility is a mechanism
 // that allows features that are only supported
 // in Windows XP to work in Windows 10, for example.
 //
-// Understanding Shims
+// In this case, the shim has some methods we expect,
+// without having a working implementation.
+//
+// Understanding Shims:
 // https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/dd837644(v=ws.10)
 //
 namespace System.Windows.Forms
