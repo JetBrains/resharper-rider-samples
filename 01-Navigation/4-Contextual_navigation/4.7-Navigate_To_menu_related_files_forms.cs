@@ -2,20 +2,21 @@
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
+    // Navigate To menu - Type of Symbol
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // This is a convenient way to navigate from the current location.
+    // See "4.1-Navigate_To_menu.cs" for the basic mechanism.
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // How to use Navigate to
+    // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    // Put the caret on the target and use the keyboard shortcut.
     //
-
 
     // 1. Navigate to related files. E.g. related designer files
     //    Put text caret here →
-    //    Navigate to Related Files shows list of other files containing definitions of Form1
+    //    Related Files... shows list of other files containing definitions of Form1
 
     public partial class Form1 : Form
     {
@@ -25,4 +26,3 @@ namespace JetBrains.ReSharper.Koans.Navigation
         }
     }
 }
-

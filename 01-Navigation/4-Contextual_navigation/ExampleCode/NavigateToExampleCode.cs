@@ -8,7 +8,9 @@
         void SayGoodbye();
     }
 
-    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
+    // Navigate back
+    // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
     public class BaseClass
     {
         public virtual void VirtualMethod()
@@ -23,14 +25,18 @@
 
     public static class BaseClassExtensions
     {
-        // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
+        // Navigate back
+        // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+        // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
         // Note also works as extension method for DerivedClass
         public static void ExtensionMethodForBaseClass(this BaseClass self)
         {
             // ...
         }
 
-        // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
+        // Navigate back
+        // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+        // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
         // Note also works when navigating from BaseClass
         public static DerivedClass MethodExposingDerivedClassAsReturnValue()
         {
@@ -39,7 +45,9 @@
         }
     }
 
-    // Navigate back <shortcut id="Back">Ctrl+- (minus)</shortcut>
+    // Navigate back
+    // <shortcut id="Navigate back">Ctrl+- (minus) (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate back">Ctrl+Alt+Left  (Rider Default IntelliJ Keymap)</shortcut>
     public class ReallyDerivedClass : DerivedClass
     {
     }

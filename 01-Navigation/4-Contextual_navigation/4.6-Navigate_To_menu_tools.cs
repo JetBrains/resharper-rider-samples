@@ -1,16 +1,22 @@
-﻿// Navigate To menu
+﻿// Navigate To menu - tools
 //
-// Displays a contextual menu of options you can use to navigate to from
-// your current location
+// This is a convenient way to navigate from the current location.
+// See "4.1-Navigate_To_menu.cs" for the basic mechanism.
 //
-// Very useful way of navigating without having to learn ALL of the shortcuts!
+// How to use Navigate to
+// <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+// <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
 //
-// <shortcut id="Navigate To...">Alt+`</shortcut>
+// Put the caret on the target and use the keyboard shortcut.
 //
 
-// Press <shortcut id="Locate in Solution/Assembly Explorer">Shift+Alt+L</shortcut>
-// to locate this file in Solution Explorer.
-// Opens solution explorer with current file selected
+// 1. Displays the location of the open file in Solution Explorer
+//
+//    See "4.8-Navigate_To_menu_file_nearby.md" for the basic mechanism.
+//
+// <shortcut id="Locate in Solution Explorer">Shift+Alt+L (ReSharper VisualStudio Keymap)</shortcut>
+// <shortcut id="Select Opened File">         Alt+F1, 1   (Rider Default IntelliJ Keymap)</shortcut>
+//
 
 using System;
 using JetBrains.ReSharper.Koans.Navigation;

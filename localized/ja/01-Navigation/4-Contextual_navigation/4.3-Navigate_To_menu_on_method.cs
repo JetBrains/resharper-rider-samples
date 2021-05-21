@@ -23,7 +23,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
         //
         // (参考) 候補間の移動方法
         //
-        // TODO: Rider のショートカットはデフォルトで未定義(設定なし)であり、独自に設定しなければ動作しない
+        // NOTE: Rider のショートカットはデフォルトで未定義(設定なし)であり、独自に設定しなければ動作しない
         // [Settings] > [Keymap] > [Main Manu] > [Edit] > [Find Usages]
         //  - Next Highlited Usage
         //  - Previous Highlited Usage
@@ -45,7 +45,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
         //
         // (参考) 候補間の移動方法
         //
-        // TODO: Rider のショートカットはデフォルトで未定義(設定なし)であり、独自に設定しなければ動作しない
+        // NOTE: Rider のショートカットはデフォルトで未定義(設定なし)であり、独自に設定しなければ動作しない
         // [Settings] > [Keymap] > [Main Manu] > [Edit] > [Find Usages]
         //  - Next Highlited Usage
         //  - Previous Highlited Usage

@@ -1,18 +1,18 @@
-﻿// Navigate To menu
+﻿// Navigate To menu - Related files Partial
 //
-// Displays a contextual menu of options you can use to navigate to from
-// your current location
+// This is a convenient way to navigate from the current location.
+// See "4.1-Navigate_To_menu.cs" for the basic mechanism.
 //
-// Very useful way of navigating without having to learn ALL of the shortcuts!
+// How to use Navigate to
+// <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+// <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
 //
-// Alt+` (VS)
-// Ctrl+Shift+G (IntelliJ)
-
+// Put the caret on the target and use the keyboard shortcut.
+//
 
 // 1. Navigate to related files. E.g. other files containing partial class
 //    Put text caret here →
-//    Navigate to Related Files shows list of other files containing definitions of PartialClass
-
+//    Related Files... shows list of other files containing definitions of PartialClass
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {

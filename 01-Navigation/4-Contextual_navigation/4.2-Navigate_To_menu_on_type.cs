@@ -4,24 +4,36 @@ using JetBrains.ReSharper.Koans.Navigation.ExampleCode;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
+    // Navigate To menu - Menu on Type
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // This is a convenient way to navigate from the current location.
+    // See "4.1-Navigate_To_menu.cs" for the basic mechanism.
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // How to use Navigate to
+    // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    // Put the caret on the target and use the keyboard shortcut.
     //
-
 
     // 1. When the caret is on a type definition (DerivedClass)
-    //    (Find Usages, related files covered later)
-    //    a) Go to Base Symbols + Derived Symbols
-    //    b) Extension methods
-    //    c) Object Browser, Windows Explorer, Command Prompt
-    //    d) Locate in Solution Explorer
-    //    d) Referenced Code finds all code referenced by the type, e.g. BaseClass
+    //    The following candidates will be displayed.
+    //      - Declaration           : Navigate to Declaration
+    //      - Implementation        : Navigate to Implementation
+    //      - Base Symbols          : Navigate to Base Class
+    //      - Find Usages of Symbol : (*1)
+    //      - Related Files...      : (*1)
+    //      - Usages of Symbol      : (*1)
+    //      - Derived Symbols       : Navigate to Derived Class
+    //      - Extension methods     : Navigate to Extension methods
+    //      - Consuming APIs        : Navigate to method(s) taking this type as a parameter
+    //      - Exposing APIs         : Navigate to method(s) returning this type
+    //      - Referenced Code       : Find all the code where the type is referenced ( e.g. BaseClass )
+    //      - Locate in Solution Explorer   : (Only ReSharper) Navigate to current file in Solution Explorer
+    //
+    //    (*1) Find Usages of Symbol, Usages of Symbol, and Related files
+    //         will be explained in detail later in this workshop.
+    //
     public class DerivedClass   // <- Text caret on DerivedClass
         : BaseClass
     {
@@ -29,13 +41,27 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
 
     // 2. When the caret is on a base class (BaseClass)
-    //    a) As above (find usages, base symbols, etc.)
-    //    b) Declaration navigates to the declaration of BaseClass
-    //    c) Implementation navigates to the implementations of BaseClass - deriving symbols
-    //    d) Overriding members highlights all members that override from BaseClass
-    //       Escape clears the highlight
+    //    The candidates will be displayed again.
     //
-    //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+    //    In the case of this class,
+    //    since it has overridden method definitions,
+    //    ReSharper and Rider will correctly recognize it
+    //    and display it as a candidate.
+    //      - Overriding members    : Highlight all overridden methods
+    //                                Escape clears the highlight
+    //
+    // (Reference) How to move between candidates
+    //
+    // NOTE: Rider shortcuts are undefined by default (no configuration) and must be configured to work.
+    // Settings | Keymap | Main Menu | Edit | Find Usages
+    //  - Next Highlighted Usage
+    //  - Previous Highlighted Usage
+    //
+    //   <shortcut id="Go to Next/Previous">Ctrl+Alt+PageUp/Ctrl+Alt+PageDown (ReSharper VisualStudio Keymap)</shortcut>
+    //   <shortcut id="Find Next/Previous"> F3 / Shift+F3                     (Rider Default IntelliJ Keymap)</shortcut>
+    //
+    //   (ReSharper) https://www.jetbrains.com/help/resharper/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
+    //   (Rider)     https://www.jetbrains.com/help/rider/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
     //
     public class DerivedClass2
         : BaseClass // <- Text caret on BaseClass
@@ -52,10 +78,25 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
 
     // 3. When the caret is on an implemented interface (ISimpleInterface)
-    //    a) as above (find usages, base symbols, declarations, implementations, etc.)
-    //    b) Implementing Members highlights all members of the interface
-    //       Escape clears the highlight
-    //   <shortcut id="Find Next / Move to Next Occurrence">Ctrl+Alt+PgUp/Ctrl+Alt+PgDown (VS)</shortcut> to navigate between
+    //    The candidates will be displayed again.
+    //
+    //    ReSharper and Rider will correctly recognize
+    //    that it is an Interface and display it as a candidate.
+    //      - Implementing members  : Highlight all Interface methods
+    //                                Escape clears the highlight
+    //
+    // (Reference) How to move between candidates
+    //
+    // NOTE: Rider shortcuts are undefined by default (no configuration) and must be configured to work.
+    // Settings | Keymap | Main Menu | Edit | Find Usages
+    //  - Next Highlighted Usage
+    //  - Previous Highlighted Usage
+    //
+    //   <shortcut id="Go to Next/Previous">Ctrl+Alt+PageUp/Ctrl+Alt+PageDown (ReSharper VisualStudio Keymap)</shortcut>
+    //   <shortcut id="Find Next/Previous"> F3 / Shift+F3                     (Rider Default IntelliJ Keymap)</shortcut>
+    //
+    //   (ReSharper) https://www.jetbrains.com/help/resharper/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
+    //   (Rider)     https://www.jetbrains.com/help/rider/Navigation_and_Search__Navigate_from_Here__Overriding_Members.html
     //
     public class SimpleClass
         : ISimpleInterface  // <- Text caret on ISimpleInterface
@@ -73,10 +114,14 @@ namespace JetBrains.ReSharper.Koans.Navigation
 
 
     // 4. When the caret is on an implementing interface defined in another assembly
+    //    The candidates will be displayed again.
+    //
+    //    The key points here are as follows:
     //    a) Doing Go To Derived Symbols on IComponent will only show SimpleComponent
     //    b) Navigate to Declaration of IComponent and then doing Go To Derived Symbols
     //       widens the scope, and includes all referenced assemblies, showing many more
     //       derived types
+    //
     public class SimpleComponent
         : System.ComponentModel.IComponent  // <- Text caret on IComponent
     {

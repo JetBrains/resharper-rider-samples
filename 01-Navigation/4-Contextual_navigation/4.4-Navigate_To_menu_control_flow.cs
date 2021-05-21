@@ -3,18 +3,21 @@ using System.Collections.Generic;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
-    // Navigate To menu
+    // Navigate to menu - Control Flow Target
     //
-    // Displays a contextual menu of options you can use to navigate to from
-    // your current location
+    // This is a convenient way to navigate from the current location.
+    // See "4.1-Navigate_To_menu.cs" for the basic mechanism.
     //
-    // Very useful way of navigating without having to learn ALL of the shortcuts!
+    // How to use Navigate to
+    // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
+    // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
     //
-    // <shortcut id="Navigate To...">Alt+`</shortcut>
+    // Put the caret on the target and use the keyboard shortcut.
     //
-
 
     // 1. When caret is on a control flow keyword
+    //    ReSharper and Rider can interpret the flow of the code
+    //    and tell you where to navigate next.
     public class NavigateToControlFlowKeyword
     {
         public void ControlFlowWithForStatement()
@@ -23,17 +26,17 @@ namespace JetBrains.ReSharper.Koans.Navigation
             {
                 var child = Children[i];
 
-                // a) Place the caret on "continue". Navigate To → Control Flow Target
+                // a) Place the caret on "continue". Navigate to → Control Flow Target
                 //    takes the caret to the i++ in the for declaration
                 if (ShouldSkipChild(child))
                     continue;
 
-                // b) Place the caret on "break". Navigate To → Control Flow Target
+                // b) Place the caret on "break". Navigate to → Control Flow Target
                 //    takes the caret to the next statement after the loop
                 if (ShouldStop(child))
                     break;
 
-                // c) Place the caret on "return". Navigate To → Control Flow Target
+                // c) Place the caret on "return". Navigate to → Control Flow Target
                 //    takes the caret to the closing brace of the function
                 if (ShouldQuit(child))
                     return;
@@ -47,15 +50,15 @@ namespace JetBrains.ReSharper.Koans.Navigation
             switch (size)
             {
                 case Size.Large:
-                    // d) Place the caret on "break". Navigate To → Control Flow Target
+                    // d) Place the caret on "break". Navigate to → Control Flow Target
                     //    takes the caret to the first statement after the switch
                     break;
                 case Size.Medium:
-                    // e) Place the caret on "return". Navigate To → Control Flow Target
+                    // e) Place the caret on "return". Navigate to → Control Flow Target
                     //    takes the caret to the closing brace of the function
                     return;
                 case Size.Small:
-                    // e) Place the caret on "throw". Navigate To → Control Flow Target
+                    // e) Place the caret on "throw". Navigate to → Control Flow Target
                     //    takes the caret to the closing brace of the function
                     throw new ArgumentOutOfRangeException("size");
             }
