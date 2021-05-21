@@ -26,8 +26,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //      - Usages of Symbol      : (*1)
     //      - Derived Symbols       : Navigate to Derived Class
     //      - Extension methods     : Navigate to Extension methods
-    //      - Consuming APIs        : Navigate to the method that is taking itself as a parameter
-    //      - Exposing APIs         : Navigate to the method that returns itself as the return value
+    //      - Consuming APIs        : Navigate to method(s) taking this type as a parameter
+    //      - Exposing APIs         : Navigate to method(s) returning this type
     //      - Referenced Code       : Find all the code where the type is referenced ( e.g. BaseClass )
     //      - Locate in Solution Explorer   : (Only ReSharper) Navigate to current file in Solution Explorer
     //
