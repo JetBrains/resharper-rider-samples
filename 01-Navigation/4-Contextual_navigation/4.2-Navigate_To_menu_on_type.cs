@@ -89,8 +89,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //
     // NOTE: Rider shortcuts are undefined by default (no configuration) and must be configured to work.
     // Settings | Keymap | Main Menu | Edit | Find Usages
-    //  - Next Highlited Usage
-    //  - Previous Highlited Usage
+    //  - Next Highlighted Usage
+    //  - Previous Highlighted Usage
     //
     //   <shortcut id="Go to Next/Previous">Ctrl+Alt+PageUp/Ctrl+Alt+PageDown (ReSharper VisualStudio Keymap)</shortcut>
     //   <shortcut id="Find Next/Previous"> F3 / Shift+F3                     (Rider Default IntelliJ Keymap)</shortcut>
