@@ -32,7 +32,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //      - Locate in Solution Explorer   : (Only ReSharper) Navigate to current file in Solution Explorer
     //
     //    (*1) Find Usages of Symbol, Usages of Symbol, and Related files
-    //         will be explained in detail in later workshop.
+    //         will be explained in detail later in this workshop.
     //
     public class DerivedClass   // <- Text caret on DerivedClass
         : BaseClass
