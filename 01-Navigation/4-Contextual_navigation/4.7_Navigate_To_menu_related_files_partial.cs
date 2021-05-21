@@ -7,7 +7,7 @@
 // <shortcut id="Navigate to">Alt+`        (ReSharper VisualStudio Keymap)</shortcut>
 // <shortcut id="Navigate to">Ctrl+Shift+G (Rider Default IntelliJ Keymap)</shortcut>
 //
-// Put the caret on the target and let's run it.
+// Put the caret on the target and use the keyboard shortcut.
 //
 
 // 1. Navigate to related files. E.g. other files containing partial class
