@@ -53,7 +53,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     // (Reference) How to move between candidates
     //
     // NOTE: Rider shortcuts are undefined by default (no configuration) and must be configured to work.
-    // [Settings] > [Keymap] > [Main Manu] > [Edit] > [Find Usages]
+    // Settings | Keymap | Main Menu | Edit | Find Usages
     //  - Next Highlited Usage
     //  - Previous Highlited Usage
     //
