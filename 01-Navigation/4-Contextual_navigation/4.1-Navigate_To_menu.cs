@@ -22,12 +22,11 @@
 // For the Rider Default IntelliJ Keymap, remember it as Go!
 // (the "G"o in Ctrl+Shift+"G").
 //
-// Strike this key on the target will list some actions to move from there.
-// This includes the display functions for moving,
-// such as listing the definition and use points.
+// After pressing this key on the target, you will see some actions to move from there.
+// You can navigate to definition, find usages, and more.
 //
-// If you feel free to strike this key as if you were inquiring about a tool,
-// you will naturally expand the scope of your use.
+// Try this keystroke any time while developing:
+// you will naturally learn more about navigating with ReSharper and Rider
 //
 
 
