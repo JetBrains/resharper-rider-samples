@@ -16,8 +16,8 @@ namespace JetBrains.ReSharper.Koans.Navigation
     //
 
     // 1. When caret is on a control flow keyword
-    //    ReSharper and Rider can also interpret the flow of the code
-    //    and tell you where to execute next.
+    //    ReSharper and Rider can interpret the flow of the code
+    //    and tell you where to navigate next.
     public class NavigateToControlFlowKeyword
     {
         public void ControlFlowWithForStatement()
